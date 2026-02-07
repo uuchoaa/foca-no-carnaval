@@ -115,11 +115,23 @@ async function createWindow() {
       console.error('[MAIN] ✗ Pipeline failed:', result.error);
     }
     
-    // Keep window open for inspection
-    console.log('[MAIN] Pipeline complete. Close window to exit.');
+    // Close windows and exit
+    console.log('[MAIN] Pipeline complete. Closing...');
+    setTimeout(() => {
+      if (logWindow && !logWindow.isDestroyed()) {
+        logWindow.close();
+      }
+      if (mainWindow && !mainWindow.isDestroyed()) {
+        mainWindow.close();
+      }
+      app.quit();
+    }, 2000);
     
   } catch (error) {
     console.error('[MAIN] Pipeline error:', error);
+    setTimeout(() => {
+      app.quit();
+    }, 2000);
   }
 
   // Emitted when the window is closed

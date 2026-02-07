@@ -10,7 +10,11 @@
       "removeSVG": true,
       "removeIframes": true,
       "removeHidden": true,
-      "additionalSelectors": ["header", "footer", ".eventos-filter"]
+      "additionalSelectors": [
+        "header",
+        "footer",
+        ".eventos-filter"
+      ]
     }
   },
   "pipeline": [
@@ -25,5 +29,15 @@
       "type": "reader",
       "module": "readers/extract-events.js"
     }
-  ]
+  ],
+  "metadata": {
+    "tokens": 55077,
+    "characters": 220328,
+    "snapshotDate": "2026-02-07T21:00:22.606Z",
+    "estimatedCost": {
+      "gpt4": 1.65231,
+      "gpt35": 0.0826155,
+      "claude": 0.440616
+    }
+  }
 }

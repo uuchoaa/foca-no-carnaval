@@ -2,8 +2,7 @@
  * Interaction: Load all events by clicking "Carregar mais eventos" button
  * This interaction repeatedly clicks the "load more" button until it's no longer present
  */
-
-module.exports = function loadAllEvents(document, done) {
+function loadAllEvents(document, done) {
   console.log('[INTERACTION] Starting load-all-events...');
   
   let clickCount = 0;
@@ -17,8 +16,19 @@ module.exports = function loadAllEvents(document, done) {
     for (let button of buttons) {
       const text = button.textContent.trim();
       if (text.includes('Carregar mais eventos') || text.includes('carregar mais eventos')) {
-        loadMoreButton = button;
-        break;
+        // Check if button is visible
+        const rect = button.getBoundingClientRect();
+        const style = window.getComputedStyle(button);
+        const isVisible = rect.width > 0 && 
+                         rect.height > 0 && 
+                         style.display !== 'none' && 
+                         style.visibility !== 'hidden' &&
+                         style.opacity !== '0';
+        
+        if (isVisible) {
+          loadMoreButton = button;
+          break;
+        }
       }
     }
 
@@ -36,7 +46,7 @@ module.exports = function loadAllEvents(document, done) {
       if (clickCount >= maxClicks) {
         console.log(`[INTERACTION] Reached maximum clicks (${maxClicks})`);
       } else {
-        console.log('[INTERACTION] "Carregar mais eventos" button not found. All events loaded!');
+        console.log('[INTERACTION] "Carregar mais eventos" button not found or not visible. All events loaded!');
       }
       console.log(`[INTERACTION] Total clicks: ${clickCount}`);
       console.log('[INTERACTION] Interaction completed successfully');
@@ -49,3 +59,14 @@ module.exports = function loadAllEvents(document, done) {
     clickLoadMoreButton();
   }, 2000);
 };
+
+
+// Export for Node.js/CommonJS
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = loadAllEvents;
+}
+
+// Export for browser/window
+if (typeof window !== 'undefined') {
+  window.loadAllEvents = loadAllEvents;
+}

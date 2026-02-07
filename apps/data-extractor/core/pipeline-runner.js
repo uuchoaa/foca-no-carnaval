@@ -210,6 +210,10 @@ async function executeReader(window, step, config) {
         // Save output to JSON file
         const outputPath = path.join(config._sitePath, 'output.json');
         fs.writeFileSync(outputPath, JSON.stringify(result.data, null, 2), 'utf-8');
+        
+        // Log summary
+        const eventCount = result.data?.events?.length || 0;
+        console.log(`[PIPELINE] Reader extracted ${eventCount} events`);
         console.log(`[PIPELINE] Reader output saved to ${outputPath}`);
         
         resolve({
