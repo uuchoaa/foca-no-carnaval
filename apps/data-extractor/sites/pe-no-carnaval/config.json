@@ -1,0 +1,29 @@
+{
+  "name": "pe-no-carnaval",
+  "url": "https://penocarnaval.com.br/programacao/",
+  "description": "Carnival events from PE no Carnaval",
+  "snapshot": {
+    "sanitize": {
+      "removeScripts": true,
+      "removeStyles": true,
+      "removeComments": true,
+      "removeSVG": true,
+      "removeIframes": true,
+      "removeHidden": true,
+      "additionalSelectors": ["header", "footer", ".eventos-filter"]
+    }
+  },
+  "pipeline": [
+    {
+      "type": "interaction",
+      "module": "interactions/load-all-events.js"
+    },
+    {
+      "type": "snapshot"
+    },
+    {
+      "type": "reader",
+      "module": "readers/extract-events.js"
+    }
+  ]
+}

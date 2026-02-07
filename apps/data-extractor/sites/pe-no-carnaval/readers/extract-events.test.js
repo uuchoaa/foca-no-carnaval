@@ -6,8 +6,8 @@ describe('extractEvents', () => {
   let htmlContent;
   
   beforeAll(() => {
-    // Read the actual HTML content
-    const htmlPath = path.join(__dirname, 'content.html');
+    // Read the actual HTML content (now in parent directory)
+    const htmlPath = path.join(__dirname, '..', 'content.html');
     htmlContent = fs.readFileSync(htmlPath, 'utf-8');
   });
 

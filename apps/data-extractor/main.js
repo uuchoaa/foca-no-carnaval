@@ -1,8 +1,16 @@
 const { app, BrowserWindow } = require('electron');
 const path = require('path');
+const SiteRegistry = require('./core/registry');
+const { runPipeline } = require('./core/pipeline-runner');
 
 let mainWindow;
 let logWindow;
+
+// Get site name from CLI args
+const args = process.argv.slice(2);
+const siteName = args.find(arg => !arg.startsWith('--')) || 'pe-no-carnaval';
+
+console.log(`[MAIN] Starting extraction for site: ${siteName}`);
 
 function createLogWindow() {
   // Create the log window
@@ -27,9 +35,24 @@ function createLogWindow() {
   });
 }
 
-function createWindow() {
+async function createWindow() {
   // Create the log window first
   createLogWindow();
+
+  // Load site configuration
+  const registry = new SiteRegistry();
+  const config = registry.getSite(siteName);
+  
+  if (!config) {
+    console.error(`[MAIN] Site not found: ${siteName}`);
+    console.error(`[MAIN] Available sites: ${registry.listSites().join(', ')}`);
+    app.quit();
+    return;
+  }
+  
+  console.log(`[MAIN] Loaded config for ${config.name}`);
+  console.log(`[MAIN] URL: ${config.url}`);
+  console.log(`[MAIN] Pipeline steps: ${config.pipeline.length}`);
 
   // Create the browser window
   mainWindow = new BrowserWindow({
@@ -45,10 +68,7 @@ function createWindow() {
     }
   });
 
-  // Load the PE no Carnaval website
-  mainWindow.loadURL('https://penocarnaval.com.br/programacao/');
-
-  // Capture console logs from the renderer process and output to STDOUT and log window
+  // Capture console logs from the renderer process
   mainWindow.webContents.on('console-message', (event, level, message, line, sourceId) => {
     const levels = ['LOG', 'WARNING', 'ERROR', 'DEBUG', 'INFO'];
     const logLevel = levels[level] || 'LOG';
@@ -70,9 +90,42 @@ function createWindow() {
   // Open DevTools in development (optional)
   // mainWindow.webContents.openDevTools();
 
+  // Load the site URL
+  console.log(`[MAIN] Loading ${config.url}...`);
+  await mainWindow.loadURL(config.url);
+  
+  console.log('[MAIN] Page loaded, waiting for DOMContentLoaded...');
+  
+  // Wait for page to be ready
+  await mainWindow.webContents.executeJavaScript('document.readyState');
+  
+  // Small delay to ensure everything is initialized
+  await new Promise(resolve => setTimeout(resolve, 2000));
+  
+  console.log('[MAIN] Starting pipeline...');
+  
+  // Run the pipeline
+  try {
+    const result = await runPipeline(mainWindow, config);
+    
+    if (result.success) {
+      console.log('[MAIN] ✓ Pipeline completed successfully!');
+      console.log(`[MAIN] Results saved to ${config._sitePath}`);
+    } else {
+      console.error('[MAIN] ✗ Pipeline failed:', result.error);
+    }
+    
+    // Keep window open for inspection
+    console.log('[MAIN] Pipeline complete. Close window to exit.');
+    
+  } catch (error) {
+    console.error('[MAIN] Pipeline error:', error);
+  }
+
   // Emitted when the window is closed
   mainWindow.on('closed', () => {
     mainWindow = null;
+    app.quit();
   });
 }
 
@@ -81,10 +134,7 @@ app.whenReady().then(createWindow);
 
 // Quit when all windows are closed
 app.on('window-all-closed', () => {
-  // On macOS it is common for applications to stay active until explicitly quit
-  if (process.platform !== 'darwin') {
-    app.quit();
-  }
+  app.quit();
 });
 
 app.on('activate', () => {

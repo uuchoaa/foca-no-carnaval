@@ -1,8 +1,17 @@
 module.exports = {
   testEnvironment: 'jsdom',
-  testMatch: ['**/__tests__/**/*.js', '**/?(*.)+(spec|test).js'],
+  testMatch: [
+    '**/sites/**/readers/**/*.test.js',
+    '**/sites/**/interactions/**/*.test.js',
+    '**/core/**/*.test.js',
+    '**/__tests__/**/*.js',
+    '**/?(*.)+(spec|test).js'
+  ],
   collectCoverageFrom: [
-    'readers/**/*.js',
+    'core/**/*.js',
+    'sites/**/readers/**/*.js',
+    'sites/**/interactions/**/*.js',
+    'sites/**/writers/**/*.js',
     '!**/*.test.js',
     '!**/*.spec.js'
   ],
