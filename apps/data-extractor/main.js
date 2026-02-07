@@ -9,10 +9,20 @@ let logWindow;
 // Get site name from CLI args
 const args = process.argv.slice(2);
 const siteName = args.find(arg => !arg.startsWith('--')) || 'pe-no-carnaval';
+const headless = args.includes('--headless');
 
 console.log(`[MAIN] Starting extraction for site: ${siteName}`);
+if (headless) {
+  console.log('[MAIN] Running in HEADLESS mode');
+}
 
 function createLogWindow() {
+  // Skip log window in headless mode
+  if (headless) {
+    console.log('[MAIN] Log window disabled in headless mode');
+    return;
+  }
+  
   // Create the log window
   logWindow = new BrowserWindow({
     width: 800,
@@ -60,6 +70,7 @@ async function createWindow() {
     height: 800,
     x: 920,
     y: 100,
+    show: !headless,  // Hide window in headless mode
     webPreferences: {
       nodeIntegration: false,
       contextIsolation: true,
