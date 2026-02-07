@@ -1,0 +1,36 @@
+{
+  "name": "carnaval-recife-pe-gov-br",
+  "url": "https://carnaval.recife.pe.gov.br/",
+  "description": "Data extraction for carnaval-recife-pe-gov-br",
+  "snapshot": {
+    "sanitize": {
+      "removeScripts": true,
+      "removeStyles": true,
+      "removeComments": true,
+      "removeSVG": true,
+      "removeIframes": true,
+      "removeHidden": true,
+      "additionalSelectors": []
+    }
+  },
+  "pipeline": [
+    {
+      "type": "interaction",
+      "module": "interactions/load-all-items.js"
+    },
+    {
+      "type": "reader",
+      "module": "readers/extract-list.js"
+    },
+    {
+      "type": "parallel",
+      "concurrency": 30,
+      "module": "readers/extract-details.js",
+      "input": "output.json",
+      "itemsPath": "items",
+      "urlField": "url",
+      "output": "output-with-details.json"
+    }
+  ],
+  "metadata": {}
+}
