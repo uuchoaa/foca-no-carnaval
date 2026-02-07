@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Teste Extração Eventos</title>
+    <script src="scripts/extract_event_info.js"></script>
+</head>
+<body>
+    <h1>Teste de Extração de Eventos</h1>
+
+    <ul>
+        <li data-nome-evento="Corrida dos Bonecos Gigantes" data-horario-evento="09:00" data-categoria-evento="previas" data-tipo-evento="indicamos,tradicional" data-cidade-evento="olinda" class="hide">
+            <a href="https://penocarnaval.com.br/programacao/corrida-dos-bonecos-gigantes/">
+                <span class="categoria">Prévias</span>
+                <span class="data">07/02</span>
+                <span class="diasemana">sábado</span>
+                <span class="titulo">Corrida dos Bonecos Gigantes</span>
+                <span class="cidade">Olinda</span>
+                <span class="local">Mercado da Ribeira</span>
+                <span class="horario"><i class="fa fa-clock-o"></i> 09:00</span>
+                <span class="tipo_evento"><i aria-hidden="true" class="fa fa-dollar"></i> gratuito</span>
+                <button class="favorite-button popup-login" data-post-id="19149" data-user-id="">
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" style="display: block; fill: none; height: 25px; width: 25px; stroke: currentcolor; stroke-width:2px; overflow: visible;" width="32" height="32">
+                        <path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05l-2.051 2.051-2.05-2.051c-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05-1.367 1.367-2.051 3.158-2.051 4.95 0 7 7 12.267 14 17z" fill="none"></path>
+                    </svg>
+                </button>
+            </a>
+        </li>
+    </ul>
+
+    <button onclick="testExtraction()">Testar Extração</button>
+
+    <pre id="output"></pre>
+
+    <script>
+        function testExtraction() {
+            try {
+                const ul = document.querySelector('ul');
+                const events = extractEventsFromUL(ul, '07/02/2026'); // Adiciona o dia
+                const jsonOutput = eventsToJSON(events);
+                document.getElementById('output').textContent = jsonOutput;
+                console.log('Eventos extraídos:', events);
+            } catch (error) {
+                document.getElementById('output').textContent = 'Erro: ' + error.message;
+                console.error(error);
+            }
+        }
+    </script>
+</body>
+</html>
