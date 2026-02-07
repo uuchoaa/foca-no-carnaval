@@ -89,7 +89,18 @@ window.addEventListener('DOMContentLoaded', () => {
           
           try {
             // Execute the reader module
-            const readerFn = (typeof module !== 'undefined' && module.exports) || window.extractEvents;
+            // Try multiple ways to get the exported function
+            let readerFn = null;
+            
+            // Check if module.exports was set
+            if (typeof module !== 'undefined' && module.exports && typeof module.exports === 'function') {
+              readerFn = module.exports;
+            }
+            // Otherwise look for common window exports
+            else if (typeof window !== 'undefined') {
+              readerFn = window.extractEvents || window.extractList || window.extractDetails;
+            }
+            
             if (typeof readerFn === 'function') {
               const result = readerFn(document);
               window.postMessage({ 
@@ -199,7 +210,18 @@ window.addEventListener('DOMContentLoaded', () => {
           
           try {
             // Execute the reader module with item data
-            const readerFn = (typeof module !== 'undefined' && module.exports) || window.extractEventDetails;
+            // Try multiple ways to get the exported function
+            let readerFn = null;
+            
+            // Check if module.exports was set
+            if (typeof module !== 'undefined' && module.exports && typeof module.exports === 'function') {
+              readerFn = module.exports;
+            }
+            // Otherwise look for common window exports
+            else if (typeof window !== 'undefined') {
+              readerFn = window.extractEventDetails || window.extractDetails || window.extractList;
+            }
+            
             if (typeof readerFn === 'function') {
               const itemData = ${JSON.stringify(itemData)};
               const result = readerFn(document, itemData);

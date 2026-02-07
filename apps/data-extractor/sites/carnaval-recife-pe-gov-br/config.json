@@ -15,21 +15,8 @@
   },
   "pipeline": [
     {
-      "type": "interaction",
-      "module": "interactions/load-all-items.js"
-    },
-    {
       "type": "reader",
       "module": "readers/extract-list.js"
-    },
-    {
-      "type": "parallel",
-      "concurrency": 30,
-      "module": "readers/extract-details.js",
-      "input": "output.json",
-      "itemsPath": "items",
-      "urlField": "url",
-      "output": "output-with-details.json"
     }
   ],
   "metadata": {}
