@@ -7,6 +7,18 @@ const { ipcMain } = require('electron');
 const fs = require('fs');
 const path = require('path');
 const { createSnapshot } = require('./snapshot');
+const BrowserPool = require('./browser-pool');
+
+// Get headless flag from main.js
+let headless = false;
+
+/**
+ * Set headless mode for the pipeline
+ * @param {boolean} value - Headless flag
+ */
+function setHeadless(value) {
+  headless = value;
+}
 
 /**
  * Run a pipeline for a given site
@@ -50,6 +62,13 @@ async function runPipeline(window, config) {
     results.success = false;
     results.error = error.message;
     console.error('[PIPELINE] Pipeline error:', error);
+  } finally {
+    // Cleanup: destroy browser pool if it was used
+    const pool = BrowserPool.getInstance();
+    if (pool && pool.windows.length > 0) {
+      console.log('[PIPELINE] Cleaning up browser pool...');
+      await pool.destroy();
+    }
   }
   
   return results;
@@ -89,6 +108,11 @@ async function executeStep(window, step, config) {
         
       case 'writer':
         stepResult.data = await executeWriter(window, step, config);
+        stepResult.success = true;
+        break;
+        
+      case 'parallel':
+        stepResult.data = await executeParallel(window, step, config);
         stepResult.success = true;
         break;
         
@@ -277,7 +301,137 @@ async function executeWriter(window, step, config) {
   });
 }
 
+/**
+ * Execute a parallel reader step
+ * Loads items from a JSON file and processes them in parallel
+ * @param {BrowserWindow} mainWindow - Main window (not used for parallel)
+ * @param {Object} step - Step configuration with concurrency, input, itemsPath, urlField
+ * @param {Object} config - Site configuration
+ * @returns {Promise<Object>} Parallel execution result
+ */
+async function executeParallel(mainWindow, step, config) {
+  console.log(`[PIPELINE] Executing parallel reader: ${step.module}`);
+  console.log(`[PIPELINE] Concurrency: ${step.concurrency || 5}`);
+  
+  // 1. Load input file
+  const inputFile = step.input || 'output.json';
+  const inputPath = path.join(config._sitePath, inputFile);
+  
+  if (!fs.existsSync(inputPath)) {
+    throw new Error(`Input file not found: ${inputPath}`);
+  }
+  
+  const inputData = JSON.parse(fs.readFileSync(inputPath, 'utf-8'));
+  const itemsPath = step.itemsPath || 'events';
+  const items = inputData[itemsPath];
+  
+  if (!items || !Array.isArray(items)) {
+    throw new Error(`Items not found at path: ${itemsPath}`);
+  }
+  
+  console.log(`[PIPELINE] Processing ${items.length} items from ${inputFile}`);
+  
+  // 2. Load reader module
+  const modulePath = path.join(config._sitePath, step.module);
+  if (!fs.existsSync(modulePath)) {
+    throw new Error(`Reader module not found: ${modulePath}`);
+  }
+  
+  const moduleCode = fs.readFileSync(modulePath, 'utf-8');
+  
+  // 3. Initialize browser pool
+  const concurrency = step.concurrency || 5;
+  const pool = BrowserPool.getInstance();
+  await pool.ensureSize(concurrency, headless);
+  
+  console.log(`[PIPELINE] Browser pool ready with ${concurrency} windows`);
+  
+  // 4. Process items in parallel
+  const results = [];
+  let processed = 0;
+  const urlField = step.urlField || 'url';
+  
+  await Promise.all(items.map(async (item, index) => {
+    try {
+      const url = item[urlField];
+      if (!url) {
+        console.warn(`[PIPELINE] Item ${index} has no URL field: ${urlField}`);
+        return;
+      }
+      
+      const result = await pool.execute(url, async (window) => {
+        // Execute reader in this window
+        const details = await executeReaderInPoolWindow(window, moduleCode, item);
+        
+        processed++;
+        if (processed % 10 === 0 || processed === items.length) {
+          const stats = pool.getStats();
+          console.log(`[PIPELINE] Progress: ${processed}/${items.length} (available: ${stats.available}, busy: ${stats.busy}, queued: ${stats.queued})`);
+        }
+        
+        return { ...item, details };
+      });
+      
+      results.push(result);
+    } catch (error) {
+      console.error(`[PIPELINE] Error processing item ${index}:`, error.message);
+      // Continue with other items even if one fails
+      results.push({ ...item, details: null, error: error.message });
+    }
+  }));
+  
+  // 5. Save results
+  const outputFile = step.output || 'output-with-details.json';
+  const outputPath = path.join(config._sitePath, outputFile);
+  fs.writeFileSync(outputPath, JSON.stringify({ [itemsPath]: results }, null, 2), 'utf-8');
+  
+  console.log(`[PIPELINE] Parallel reader complete: ${results.length} items processed`);
+  console.log(`[PIPELINE] Output saved to ${outputPath}`);
+  
+  return {
+    itemsProcessed: results.length,
+    outputPath
+  };
+}
+
+/**
+ * Execute reader in a pool window
+ * @param {BrowserWindow} window - Pool window
+ * @param {string} moduleCode - Reader module code
+ * @param {Object} itemData - Item data to pass to reader
+ * @returns {Promise<Object>} Reader result
+ */
+async function executeReaderInPoolWindow(window, moduleCode, itemData) {
+  return new Promise((resolve, reject) => {
+    const timeout = setTimeout(() => {
+      reject(new Error('Reader timeout (30s)'));
+    }, 30000);
+    
+    // Create unique channel for this execution
+    const channelId = `parallel-reader-${Date.now()}-${Math.random()}`;
+    
+    // Set up one-time listener for data
+    ipcMain.once(channelId, (event, result) => {
+      clearTimeout(timeout);
+      
+      if (result.success) {
+        resolve(result.data);
+      } else {
+        reject(new Error(result.error || 'Reader failed'));
+      }
+    });
+    
+    // Send reader code to renderer
+    window.webContents.send('pipeline:run-parallel-reader', {
+      code: moduleCode,
+      itemData: itemData,
+      channelId: channelId
+    });
+  });
+}
+
 module.exports = {
   runPipeline,
-  executeStep
+  executeStep,
+  setHeadless
 };

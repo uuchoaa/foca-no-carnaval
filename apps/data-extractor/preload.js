@@ -185,6 +185,67 @@ window.addEventListener('DOMContentLoaded', () => {
       });
     }
   });
+  
+  // Listen for parallel reader execution (used by browser pool)
+  ipcRenderer.on('pipeline:run-parallel-reader', (event, { code, itemData, channelId }) => {
+    console.log('[PRELOAD] Executing parallel reader...');
+    
+    try {
+      // Inject and execute the reader code
+      const script = document.createElement('script');
+      script.textContent = `
+        (function() {
+          ${code}
+          
+          try {
+            // Execute the reader module with item data
+            const readerFn = (typeof module !== 'undefined' && module.exports) || window.extractEventDetails;
+            if (typeof readerFn === 'function') {
+              const itemData = ${JSON.stringify(itemData)};
+              const result = readerFn(document, itemData);
+              window.postMessage({ 
+                type: 'parallel-reader-done', 
+                success: true, 
+                data: result,
+                channelId: '${channelId}'
+              }, '*');
+            } else {
+              console.error('[PARALLEL-READER] Module did not export a function');
+              window.postMessage({ 
+                type: 'parallel-reader-done', 
+                success: false, 
+                error: 'Module did not export a function',
+                channelId: '${channelId}'
+              }, '*');
+            }
+          } catch (error) {
+            console.error('[PARALLEL-READER] Execution error:', error);
+            window.postMessage({ 
+              type: 'parallel-reader-done', 
+              success: false, 
+              error: error.message,
+              channelId: '${channelId}'
+            }, '*');
+          }
+        })();
+      `;
+      document.head.appendChild(script);
+      
+      // Listen for result from injected script
+      window.addEventListener('message', (msgEvent) => {
+        if (msgEvent.data.type === 'parallel-reader-done' && msgEvent.data.channelId === channelId) {
+          ipcRenderer.send(channelId, msgEvent.data);
+        }
+      });
+      
+    } catch (error) {
+      console.error('[PRELOAD] Parallel reader error:', error);
+      ipcRenderer.send(channelId, { 
+        success: false, 
+        error: error.message 
+      });
+    }
+  });
 });
 
 // Expose API to renderer (currently empty, can be extended)

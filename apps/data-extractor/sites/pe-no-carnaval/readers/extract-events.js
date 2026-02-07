@@ -1,14 +1,11 @@
 /**
  * Extract carnival events from HTML content
- * @param {Document|string} content - DOM Document or HTML string
- * @returns {Object} JSON object with events array
  */
 function extractEvents(content) {
   let document;
   
   // Handle both Document and HTML string
   if (typeof content === 'string') {
-    // For Node.js/jsdom environment
     if (typeof DOMParser !== 'undefined') {
       const parser = new DOMParser();
       document = parser.parseFromString(content, 'text/html');
@@ -35,8 +32,8 @@ function extractEvents(content) {
     
     if (!dateMatch) return;
     
-    const dateStr = dateMatch[1]; // "18/02/2026"
-    const dayOfWeek = dateMatch[2]; // "quarta-feira"
+    const dateStr = dateMatch[1];
+    const dayOfWeek = dateMatch[2];
     
     // Parse date components
     const [day, month, year] = dateStr.split('/');

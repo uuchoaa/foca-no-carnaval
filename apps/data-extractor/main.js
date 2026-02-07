@@ -1,7 +1,8 @@
-const { app, BrowserWindow } = require('electron');
+const { app, BrowserWindow, ipcMain } = require('electron');
 const path = require('path');
+const fs = require('fs');
 const SiteRegistry = require('./core/registry');
-const { runPipeline } = require('./core/pipeline-runner');
+const { runPipeline, setHeadless } = require('./core/pipeline-runner');
 
 let mainWindow;
 let logWindow;
@@ -15,6 +16,9 @@ console.log(`[MAIN] Starting extraction for site: ${siteName}`);
 if (headless) {
   console.log('[MAIN] Running in HEADLESS mode');
 }
+
+// Set headless mode in pipeline runner
+setHeadless(headless);
 
 function createLogWindow() {
   // Skip log window in headless mode

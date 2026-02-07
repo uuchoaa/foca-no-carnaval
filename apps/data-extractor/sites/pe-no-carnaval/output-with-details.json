@@ -1,0 +1,6197 @@
+{
+  "events": [
+    {
+      "id": "turma-da-jaqueira-segurando-o-talo",
+      "name": "Turma da Jaqueira segurando o talo",
+      "date": "07/02/2026",
+      "dateISO": "2026-02-07T11:00:00",
+      "dayOfWeek": "sábado",
+      "time": "11:00",
+      "category": "blocos",
+      "types": [],
+      "city": "recife",
+      "location": "Em frente ao Bar Rea",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/turma-da-jaqueira-segurando-o-talo/",
+      "details": {
+        "pageTitle": "Turma da Jaqueira segurando o talo | PE no Carnaval",
+        "contentLength": 85224,
+        "extractedAt": "2026-02-07T21:38:54.217Z"
+      }
+    },
+    {
+      "id": "arrastao-da-povoada",
+      "name": "Arrastão da Povoada",
+      "date": "08/02/2026",
+      "dateISO": "2026-02-08T14:00:00",
+      "dayOfWeek": "domingo",
+      "time": "14:00",
+      "category": "previas",
+      "types": [],
+      "city": "olinda",
+      "location": "Praça do Rosário",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/arrastao-da-povoada/",
+      "details": {
+        "pageTitle": "Arrastão da Povoada | PE no Carnaval",
+        "contentLength": 85053,
+        "extractedAt": "2026-02-07T21:38:54.344Z"
+      }
+    },
+    {
+      "id": "gardenal-da-tamarineira",
+      "name": "Gardenal da tamarineira",
+      "date": "07/02/2026",
+      "dateISO": "2026-02-07T11:00:00",
+      "dayOfWeek": "sábado",
+      "time": "11:00",
+      "category": "blocos",
+      "types": [],
+      "city": "recife",
+      "location": "Rua Caio Pereira",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/gardenal-da-tamarineira/",
+      "details": {
+        "pageTitle": "Gardenal da tamarineira | PE no Carnaval",
+        "contentLength": 85128,
+        "extractedAt": "2026-02-07T21:38:54.388Z"
+      }
+    },
+    {
+      "id": "caiu-na-rede-e-sereia",
+      "name": "Caiu na rede é Sereia",
+      "date": "07/02/2026",
+      "dateISO": "2026-02-07T16:00:00",
+      "dayOfWeek": "sábado",
+      "time": "16:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Barrio",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/caiu-na-rede-e-sereia/",
+      "details": {
+        "pageTitle": "Caiu na rede é Sereia | PE no Carnaval",
+        "contentLength": 85061,
+        "extractedAt": "2026-02-07T21:38:54.426Z"
+      }
+    },
+    {
+      "id": "ceroula-4",
+      "name": "Ceroula",
+      "date": "07/02/2026",
+      "dateISO": "2026-02-07T16:00:00",
+      "dayOfWeek": "sábado",
+      "time": "16:00",
+      "category": "previas",
+      "types": [],
+      "city": "recife",
+      "location": "Cais da alfândega",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/ceroula-4/",
+      "details": {
+        "pageTitle": "Ceroula | PE no Carnaval",
+        "contentLength": 85150,
+        "extractedAt": "2026-02-07T21:38:54.473Z"
+      }
+    },
+    {
+      "id": "clube-vassourinha-de-olinda",
+      "name": "clube vassourinha de Olinda",
+      "date": "07/02/2026",
+      "dateISO": "2026-02-07T15:00:00",
+      "dayOfWeek": "sábado",
+      "time": "15:00",
+      "category": "previas",
+      "types": [],
+      "city": "recife",
+      "location": "Cais da alfândega",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/clube-vassourinha-de-olinda/",
+      "details": {
+        "pageTitle": "clube vassourinha de Olinda | PE no Carnaval",
+        "contentLength": 85141,
+        "extractedAt": "2026-02-07T21:38:54.575Z"
+      }
+    },
+    {
+      "id": "bloquinho-do-barcha-2",
+      "name": "Bloquinho do Barcha",
+      "date": "07/02/2026",
+      "dateISO": "2026-02-07T14:00:00",
+      "dayOfWeek": "sábado",
+      "time": "14:00",
+      "category": "blocos",
+      "types": [],
+      "city": "recife",
+      "location": "Arena barcha",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/bloquinho-do-barcha-2/",
+      "details": {
+        "pageTitle": "Bloquinho do Barcha | PE no Carnaval",
+        "contentLength": 85379,
+        "extractedAt": "2026-02-07T21:38:54.629Z"
+      }
+    },
+    {
+      "id": "dasolinda",
+      "name": "Dasolinda",
+      "date": "07/02/2026",
+      "dateISO": "2026-02-07T17:00:00",
+      "dayOfWeek": "sábado",
+      "time": "17:00",
+      "category": "previas",
+      "types": [],
+      "city": "olinda",
+      "location": "Mansão da Matuta",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/dasolinda/",
+      "details": {
+        "pageTitle": "Dasolinda | PE no Carnaval",
+        "contentLength": 85380,
+        "extractedAt": "2026-02-07T21:38:54.654Z"
+      }
+    },
+    {
+      "id": "a-pauta-que-nos-pariu",
+      "name": "A PAUTA QUE NOS PARIU",
+      "date": "07/02/2026",
+      "dateISO": "2026-02-07T16:30:00",
+      "dayOfWeek": "sábado",
+      "time": "16:30",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Venda de Seu Biu",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/a-pauta-que-nos-pariu/",
+      "details": {
+        "pageTitle": "A PAUTA QUE NOS PARIU | PE no Carnaval",
+        "contentLength": 85166,
+        "extractedAt": "2026-02-07T21:38:54.670Z"
+      }
+    },
+    {
+      "id": "bloco-num-pare-nao",
+      "name": "Bloco Num Pare Não",
+      "date": "07/02/2026",
+      "dateISO": "2026-02-07T15:00:00",
+      "dayOfWeek": "sábado",
+      "time": "15:00",
+      "category": "blocos",
+      "types": [],
+      "city": "recife",
+      "location": "Catamaran Tours",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/bloco-num-pare-nao/",
+      "details": {
+        "pageTitle": "Bloco Num Pare Não | PE no Carnaval",
+        "contentLength": 85225,
+        "extractedAt": "2026-02-07T21:38:54.700Z"
+      }
+    },
+    {
+      "id": "pega-vareta",
+      "name": "Pega Vareta",
+      "date": "07/02/2026",
+      "dateISO": "2026-02-07T14:00:00",
+      "dayOfWeek": "sábado",
+      "time": "14:00",
+      "category": "previas",
+      "types": [],
+      "city": "recife",
+      "location": "Não definido",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/pega-vareta/",
+      "details": {
+        "pageTitle": "Pega Vareta | PE no Carnaval",
+        "contentLength": 85654,
+        "extractedAt": "2026-02-07T21:38:54.711Z"
+      }
+    },
+    {
+      "id": "corrida-dos-bonecos-gigantes",
+      "name": "Corrida dos Bonecos Gigantes",
+      "date": "07/02/2026",
+      "dateISO": "2026-02-07T09:00:00",
+      "dayOfWeek": "sábado",
+      "time": "09:00",
+      "category": "previas",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "olinda",
+      "location": "Mercado da Ribeira",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/corrida-dos-bonecos-gigantes/",
+      "details": {
+        "pageTitle": "Corrida dos Bonecos Gigantes | PE no Carnaval",
+        "contentLength": 85724,
+        "extractedAt": "2026-02-07T21:38:54.789Z"
+      }
+    },
+    {
+      "id": "cola-em-mim-que-e-sucesso",
+      "name": "Cola Em Mim Que É Sucesso",
+      "date": "07/02/2026",
+      "dateISO": "2026-02-07T11:00:00",
+      "dayOfWeek": "sábado",
+      "time": "11:00",
+      "category": "previas",
+      "types": [],
+      "city": "recife",
+      "location": "Clube Náutico Capibaribe",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/cola-em-mim-que-e-sucesso/",
+      "details": {
+        "pageTitle": "Cola Em Mim Que É Sucesso | PE no Carnaval",
+        "contentLength": 85535,
+        "extractedAt": "2026-02-07T21:38:54.802Z"
+      }
+    },
+    {
+      "id": "mangue-beatinho",
+      "name": "Mangue beatinho",
+      "date": "07/02/2026",
+      "dateISO": "2026-02-07T10:00:00",
+      "dayOfWeek": "sábado",
+      "time": "10:00",
+      "category": "blocos",
+      "types": [
+        "infantil"
+      ],
+      "city": "olinda",
+      "location": "Praça do Carmo",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/mangue-beatinho/",
+      "details": {
+        "pageTitle": "Mangue beatinho | PE no Carnaval",
+        "contentLength": 85538,
+        "extractedAt": "2026-02-07T21:38:54.805Z"
+      }
+    },
+    {
+      "id": "acorda-pra-tomar-gagau",
+      "name": "Acorda Pra Tomar Gagau",
+      "date": "07/02/2026",
+      "dateISO": "2026-02-07T12:00:00",
+      "dayOfWeek": "sábado",
+      "time": "12:00",
+      "category": "blocos",
+      "types": [],
+      "city": "recife",
+      "location": "Avenida Rio Branco",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/acorda-pra-tomar-gagau/",
+      "details": {
+        "pageTitle": "Acorda Pra Tomar Gagau | PE no Carnaval",
+        "contentLength": 85706,
+        "extractedAt": "2026-02-07T21:38:54.863Z"
+      }
+    },
+    {
+      "id": "quanta-lancheira",
+      "name": "Quanta Lancheira",
+      "date": "07/02/2026",
+      "dateISO": "2026-02-07T11:00:00",
+      "dayOfWeek": "sábado",
+      "time": "11:00",
+      "category": "blocos",
+      "types": [
+        "infantil"
+      ],
+      "city": "olinda",
+      "location": "Centro de Cultura Luiz Freire",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/quanta-lancheira/",
+      "details": {
+        "pageTitle": "Quanta Lancheira | PE no Carnaval",
+        "contentLength": 85562,
+        "extractedAt": "2026-02-07T21:38:54.893Z"
+      }
+    },
+    {
+      "id": "olinda-beer",
+      "name": "OLINDA BEER",
+      "date": "08/02/2026",
+      "dateISO": "2026-02-08T09:00:00",
+      "dayOfWeek": "domingo",
+      "time": "09:00",
+      "category": "previas",
+      "types": [
+        "indicamos"
+      ],
+      "city": "olinda",
+      "location": "Centro de Convenções de Pernambuco",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/olinda-beer/",
+      "details": {
+        "pageTitle": "OLINDA BEER | PE no Carnaval",
+        "contentLength": 86327,
+        "extractedAt": "2026-02-07T21:38:54.916Z"
+      }
+    },
+    {
+      "id": "segundo-arrastao-sambadeiras",
+      "name": "Arrastão Sambadeiras",
+      "date": "08/02/2026",
+      "dateISO": "2026-02-08T14:00:00",
+      "dayOfWeek": "domingo",
+      "time": "14:00",
+      "category": "previas",
+      "types": [
+        "indicamos"
+      ],
+      "city": "olinda",
+      "location": "Ladeira da Misericórdia",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/segundo-arrastao-sambadeiras/",
+      "details": {
+        "pageTitle": "Arrastão Sambadeiras | PE no Carnaval",
+        "contentLength": 85557,
+        "extractedAt": "2026-02-07T21:38:54.919Z"
+      }
+    },
+    {
+      "id": "baile-municipal-do-recife",
+      "name": "60º Baile Municipal do Recife",
+      "date": "07/02/2026",
+      "dateISO": "2026-02-07T19:00:00",
+      "dayOfWeek": "sábado",
+      "time": "19:00",
+      "category": "previas",
+      "types": [
+        "indicamos",
+        "tradicional",
+        "fantasia"
+      ],
+      "city": "recife",
+      "location": "Classic Hall",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/baile-municipal-do-recife/",
+      "details": {
+        "pageTitle": "60º Baile Municipal do Recife  | PE no Carnaval",
+        "contentLength": 85843,
+        "extractedAt": "2026-02-07T21:38:54.923Z"
+      }
+    },
+    {
+      "id": "o-gala",
+      "name": "O Galã",
+      "date": "07/02/2026",
+      "dateISO": "2026-02-07T15:00:00",
+      "dayOfWeek": "sábado",
+      "time": "15:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Clube Atlântico Olindense",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/o-gala/",
+      "details": {
+        "pageTitle": "O Galã | PE no Carnaval",
+        "contentLength": 85317,
+        "extractedAt": "2026-02-07T21:38:54.928Z"
+      }
+    },
+    {
+      "id": "chocalho-do-neno",
+      "name": "CHOCALHO DO NENO",
+      "date": "07/02/2026",
+      "dateISO": "2026-02-07T16:00:00",
+      "dayOfWeek": "sábado",
+      "time": "16:00",
+      "category": "previas",
+      "types": [],
+      "city": "recife",
+      "location": "Parador",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/chocalho-do-neno/",
+      "details": {
+        "pageTitle": "CHOCALHO DO NENO | PE no Carnaval",
+        "contentLength": 85604,
+        "extractedAt": "2026-02-07T21:38:54.935Z"
+      }
+    },
+    {
+      "id": "sai-dessa-noia",
+      "name": "Sai dessa Noia",
+      "date": "07/02/2026",
+      "dateISO": "2026-02-07T10:00:00",
+      "dayOfWeek": "sábado",
+      "time": "10:00",
+      "category": "blocos",
+      "types": [],
+      "city": "recife",
+      "location": "Em frente ao colégio Sagrada Família",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/sai-dessa-noia/",
+      "details": {
+        "pageTitle": "Sai dessa Noia | PE no Carnaval",
+        "contentLength": 85484,
+        "extractedAt": "2026-02-07T21:38:54.940Z"
+      }
+    },
+    {
+      "id": "quem-cola-entra-2",
+      "name": "Quem cola entra",
+      "date": "08/02/2026",
+      "dateISO": "2026-02-08T14:00:00",
+      "dayOfWeek": "domingo",
+      "time": "14:00",
+      "category": "previas",
+      "types": [],
+      "city": "olinda",
+      "location": "Sede Cariri Olidense",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/quem-cola-entra-2/",
+      "details": {
+        "pageTitle": "Quem cola entra | PE no Carnaval",
+        "contentLength": 85346,
+        "extractedAt": "2026-02-07T21:38:54.949Z"
+      }
+    },
+    {
+      "id": "9478",
+      "name": "Bloco Ta Maluco",
+      "date": "08/02/2026",
+      "dateISO": "2026-02-08T10:00:00",
+      "dayOfWeek": "domingo",
+      "time": "10:00",
+      "category": "blocos",
+      "types": [
+        "tradicional"
+      ],
+      "city": "olinda",
+      "location": "Praça Coronel João Lapa",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/9478/",
+      "details": {
+        "pageTitle": "Bloco Ta Maluco | PE no Carnaval",
+        "contentLength": 85838,
+        "extractedAt": "2026-02-07T21:38:54.955Z"
+      }
+    },
+    {
+      "id": "eu-me-vingo-de-tu-no-carnaval",
+      "name": "Eu Me Vingo de Tu no Carnaval",
+      "date": "07/02/2026",
+      "dateISO": "2026-02-07T10:00:00",
+      "dayOfWeek": "sábado",
+      "time": "10:00",
+      "category": "blocos",
+      "types": [],
+      "city": "recife",
+      "location": "Rua Mamede Simões",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/eu-me-vingo-de-tu-no-carnaval/",
+      "details": {
+        "pageTitle": "Eu Me Vingo de Tu no Carnaval | PE no Carnaval",
+        "contentLength": 85516,
+        "extractedAt": "2026-02-07T21:38:54.975Z"
+      }
+    },
+    {
+      "id": "a-vaidosa",
+      "name": "A Vaidosa",
+      "date": "07/02/2026",
+      "dateISO": "2026-02-07T16:00:00",
+      "dayOfWeek": "sábado",
+      "time": "16:00",
+      "category": "previas",
+      "types": [],
+      "city": "olinda",
+      "location": "Sede da Pitombeira dos Quatro Cantos",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/a-vaidosa/",
+      "details": {
+        "pageTitle": "A Vaidosa | PE no Carnaval",
+        "contentLength": 85375,
+        "extractedAt": "2026-02-07T21:38:54.975Z"
+      }
+    },
+    {
+      "id": "cortejo-samba-soul-delas",
+      "name": "Cortejo Samba Soul Delas",
+      "date": "08/02/2026",
+      "dateISO": "2026-02-08T14:00:00",
+      "dayOfWeek": "domingo",
+      "time": "14:00",
+      "category": "previas",
+      "types": [],
+      "city": "olinda",
+      "location": "Praça do Carmo",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/cortejo-samba-soul-delas/",
+      "details": {
+        "pageTitle": "Cortejo Samba Soul Delas | PE no Carnaval",
+        "contentLength": 85454,
+        "extractedAt": "2026-02-07T21:38:54.979Z"
+      }
+    },
+    {
+      "id": "o-dono-do-mundo-previa",
+      "name": "O dono do mundo",
+      "date": "07/02/2026",
+      "dateISO": "2026-02-07T21:00:00",
+      "dayOfWeek": "sábado",
+      "time": "21:00",
+      "category": "previas",
+      "types": [],
+      "city": "olinda",
+      "location": "Praça do Carmo",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/o-dono-do-mundo-previa/",
+      "details": {
+        "pageTitle": "O dono do mundo | PE no Carnaval",
+        "contentLength": 85356,
+        "extractedAt": "2026-02-07T21:38:55.121Z"
+      }
+    },
+    {
+      "id": "fabrica-de-samba-arrastao",
+      "name": "Fábrica de Samba – Ensaio",
+      "date": "08/02/2026",
+      "dateISO": "2026-02-08T15:00:00",
+      "dayOfWeek": "domingo",
+      "time": "15:00",
+      "category": "previas",
+      "types": [],
+      "city": "olinda",
+      "location": "Em Frente a Prefeitura de Olinda",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/fabrica-de-samba-arrastao/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:55.237Z"
+      }
+    },
+    {
+      "id": "bicho-maluco-beleza",
+      "name": "Bicho Maluco Beleza",
+      "date": "08/02/2026",
+      "dateISO": "2026-02-08T15:00:00",
+      "dayOfWeek": "domingo",
+      "time": "15:00",
+      "category": "blocos",
+      "types": [
+        "indicamos"
+      ],
+      "city": "recife",
+      "location": "Rua da Aurora",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/bicho-maluco-beleza/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:55.364Z"
+      }
+    },
+    {
+      "id": "ensaios-casa-estao-da-luz-08-02",
+      "name": "Ensaios – Casa Estação da Luz",
+      "date": "08/02/2026",
+      "dateISO": "2026-02-08T15:00:00",
+      "dayOfWeek": "domingo",
+      "time": "15:00",
+      "category": "previas",
+      "types": [
+        "indicamos"
+      ],
+      "city": "olinda",
+      "location": "Casa Estação da Luz",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/ensaios-casa-estao-da-luz-08-02/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:55.405Z"
+      }
+    },
+    {
+      "id": "mamaes-no-calcadao",
+      "name": "Mamães no Calçadão",
+      "date": "08/02/2026",
+      "dateISO": "2026-02-08T15:00:00",
+      "dayOfWeek": "domingo",
+      "time": "15:00",
+      "category": "blocos",
+      "types": [
+        "infantil"
+      ],
+      "city": "recife",
+      "location": "Praça Marcantonio Vilaça",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/mamaes-no-calcadao/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:55.442Z"
+      }
+    },
+    {
+      "id": "cortejo-batadoni-2",
+      "name": "Cortejo Batadoní",
+      "date": "08/02/2026",
+      "dateISO": "2026-02-08T16:00:00",
+      "dayOfWeek": "domingo",
+      "time": "16:00",
+      "category": "previas",
+      "types": [],
+      "city": "olinda",
+      "location": "Praça da Abolição",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/cortejo-batadoni-2/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:55.490Z"
+      }
+    },
+    {
+      "id": "batuques-de-pernambuco-2",
+      "name": "Batuques de Pernambuco",
+      "date": "07/02/2026",
+      "dateISO": "2026-02-07T17:00:00",
+      "dayOfWeek": "sábado",
+      "time": "17:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Praça do Carmo",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/batuques-de-pernambuco-2/",
+      "details": {
+        "pageTitle": "Batuques de Pernambuco | PE no Carnaval",
+        "contentLength": 85392,
+        "extractedAt": "2026-02-07T21:38:55.556Z"
+      }
+    },
+    {
+      "id": "bateria-tsunami-arrastao",
+      "name": "Arrastão Bateria Tsunami",
+      "date": "08/02/2026",
+      "dateISO": "2026-02-08T16:00:00",
+      "dayOfWeek": "domingo",
+      "time": "16:00",
+      "category": "previas",
+      "types": [],
+      "city": "olinda",
+      "location": "Em frente a prefeitura de Olinda",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/bateria-tsunami-arrastao/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:55.590Z"
+      }
+    },
+    {
+      "id": "trote-vassourinha-de-olinda",
+      "name": "Trote vassourinha de Olinda",
+      "date": "08/02/2026",
+      "dateISO": "2026-02-08T16:00:00",
+      "dayOfWeek": "domingo",
+      "time": "16:00",
+      "category": "polos",
+      "types": [],
+      "city": "olinda",
+      "location": "Largo do Guadalupe",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/trote-vassourinha-de-olinda/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:55.647Z"
+      }
+    },
+    {
+      "id": "linguarudo-do-bonsucesso",
+      "name": "Linguarudo do Bonsucesso",
+      "date": "08/02/2026",
+      "dateISO": "2026-02-08T16:00:00",
+      "dayOfWeek": "domingo",
+      "time": "16:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Clube Vassourinhas de Olinda",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/linguarudo-do-bonsucesso/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:55.668Z"
+      }
+    },
+    {
+      "id": "pernambuco-meu-pais-4",
+      "name": "Pernambuco meu país",
+      "date": "08/02/2026",
+      "dateISO": "2026-02-08T17:30:00",
+      "dayOfWeek": "domingo",
+      "time": "17:30",
+      "category": "polos",
+      "types": [
+        "indicamos"
+      ],
+      "city": "recife",
+      "location": "Terminal Marítimo Recife",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/pernambuco-meu-pais-4/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:55.683Z"
+      }
+    },
+    {
+      "id": "ceroula-3",
+      "name": "Ceroula",
+      "date": "08/02/2026",
+      "dateISO": "2026-02-08T18:30:00",
+      "dayOfWeek": "domingo",
+      "time": "18:30",
+      "category": "previas",
+      "types": [],
+      "city": "olinda",
+      "location": "Cruzeiro de São Francisco",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/ceroula-3/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:55.717Z"
+      }
+    },
+    {
+      "id": "noite-para-os-tambores-silenciosos-de-olinda",
+      "name": "NOITE PARA OS TAMBORES SILENCIOSOS DE OLINDA",
+      "date": "09/02/2026",
+      "dateISO": "2026-02-09T19:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "19:00",
+      "category": "previas",
+      "types": [],
+      "city": "olinda",
+      "location": "Praça de São Pedro",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/noite-para-os-tambores-silenciosos-de-olinda/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:55.725Z"
+      }
+    },
+    {
+      "id": "bencao-do-mosteiro-olinda",
+      "name": "Benção do Mosteiro – Olinda",
+      "date": "10/02/2026",
+      "dateISO": "2026-02-10T19:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "19:00",
+      "category": "previas",
+      "types": [],
+      "city": "olinda",
+      "location": "Ladeira do Varadouro",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/bencao-do-mosteiro-olinda/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:55.805Z"
+      }
+    },
+    {
+      "id": "quem-me-viu-quem-mv",
+      "name": "Quem Me Viu, quem MV",
+      "date": "11/02/2026",
+      "dateISO": "2026-02-11T18:00:00",
+      "dayOfWeek": "quarta-feira",
+      "time": "18:00",
+      "category": "blocos",
+      "types": [],
+      "city": "recife",
+      "location": "Praça do Arsenal",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/quem-me-viu-quem-mv/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:55.821Z"
+      }
+    },
+    {
+      "id": "paraquedista-real",
+      "name": "Paraquedista Real",
+      "date": "11/02/2026",
+      "dateISO": "2026-02-11T19:00:00",
+      "dayOfWeek": "quarta-feira",
+      "time": "19:00",
+      "category": "blocos",
+      "types": [],
+      "city": "recife",
+      "location": "Largo da Igreja do Poço da Panela",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/paraquedista-real/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:55.822Z"
+      }
+    },
+    {
+      "id": "boizinho-da-macuca",
+      "name": "Boizinho da Macuca",
+      "date": "07/02/2026",
+      "dateISO": "2026-02-07T16:00:00",
+      "dayOfWeek": "sábado",
+      "time": "16:00",
+      "category": "blocos",
+      "types": [
+        "infantil"
+      ],
+      "city": "olinda",
+      "location": "Praça do Carmo",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/boizinho-da-macuca/",
+      "details": {
+        "pageTitle": "Boizinho da Macuca | PE no Carnaval",
+        "contentLength": 85499,
+        "extractedAt": "2026-02-07T21:38:55.833Z"
+      }
+    },
+    {
+      "id": "bloco-garoto-da-noite",
+      "name": "Bloco garoto da noite",
+      "date": "12/02/2026",
+      "dateISO": "2026-02-12T17:00:00",
+      "dayOfWeek": "quinta-feira",
+      "time": "17:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Rua de São Francisco n26, Carmo",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/bloco-garoto-da-noite/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:55.880Z"
+      }
+    },
+    {
+      "id": "carnaval-de-olinda-abertura",
+      "name": "Carnaval de Olinda – Abertura",
+      "date": "12/02/2026",
+      "dateISO": "2026-02-12T18:00:00",
+      "dayOfWeek": "quinta-feira",
+      "time": "18:00",
+      "category": "polos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "olinda",
+      "location": "Polo Erasto Vasconcelos",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/carnaval-de-olinda-abertura/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:55.909Z"
+      }
+    },
+    {
+      "id": "polo-marco-zero-quinta",
+      "name": "MARCO ZERO",
+      "date": "12/02/2026",
+      "dateISO": "2026-02-12T18:00:00",
+      "dayOfWeek": "quinta-feira",
+      "time": "18:00",
+      "category": "polos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "recife",
+      "location": "Marco Zero",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-marco-zero-quinta/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:55.930Z"
+      }
+    },
+    {
+      "id": "festejo-encarnado",
+      "name": "Festejo Encarnado",
+      "date": "12/02/2026",
+      "dateISO": "2026-02-12T18:00:00",
+      "dayOfWeek": "quinta-feira",
+      "time": "18:00",
+      "category": "previas",
+      "types": [],
+      "city": "olinda",
+      "location": "Largo do Guadalupe",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/festejo-encarnado/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:55.938Z"
+      }
+    },
+    {
+      "id": "me-mostra-teu-mapa-astral",
+      "name": "Me Mostra Teu Mapa Astral",
+      "date": "12/02/2026",
+      "dateISO": "2026-02-12T18:00:00",
+      "dayOfWeek": "quinta-feira",
+      "time": "18:00",
+      "category": "blocos",
+      "types": [],
+      "city": "recife",
+      "location": "Praça Maciel Pinheiro",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/me-mostra-teu-mapa-astral/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:55.938Z"
+      }
+    },
+    {
+      "id": "chica-na-cama",
+      "name": "Chica na cama",
+      "date": "12/02/2026",
+      "dateISO": "2026-02-12T19:00:00",
+      "dayOfWeek": "quinta-feira",
+      "time": "19:00",
+      "category": "blocos",
+      "types": [],
+      "city": "recife",
+      "location": "Chicama Recife",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/chica-na-cama/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:55.952Z"
+      }
+    },
+    {
+      "id": "seu-boteco-no-recife-antigo-quinta-feira",
+      "name": "SEU BOTECO NO RECIFE ANTIGO",
+      "date": "12/02/2026",
+      "dateISO": "2026-02-12T20:00:00",
+      "dayOfWeek": "quinta-feira",
+      "time": "20:00",
+      "category": "camarotes",
+      "types": [],
+      "city": "recife",
+      "location": "Restaurante Seu Boteco",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/seu-boteco-no-recife-antigo-quinta-feira/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:55.955Z"
+      }
+    },
+    {
+      "id": "escuta-levino",
+      "name": "Escuta Levino",
+      "date": "12/02/2026",
+      "dateISO": "2026-02-12T20:00:00",
+      "dayOfWeek": "quinta-feira",
+      "time": "20:00",
+      "category": "blocos",
+      "types": [
+        "tradicional"
+      ],
+      "city": "recife",
+      "location": "Praça Maciel Pinheiro",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/escuta-levino/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:55.955Z"
+      }
+    },
+    {
+      "id": "bloco-do-ganso",
+      "name": "Bloco do Ganso",
+      "date": "13/02/2026",
+      "dateISO": "2026-02-13T13:00:00",
+      "dayOfWeek": "sexta-feira",
+      "time": "13:00",
+      "category": "blocos",
+      "types": [],
+      "city": "recife",
+      "location": "EM FRENTE AO CAMPUS 2 DA UNIBRA",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/bloco-do-ganso/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:56.014Z"
+      }
+    },
+    {
+      "id": "shortinho-torano",
+      "name": "Shortinho Torano",
+      "date": "12/02/2026",
+      "dateISO": "2026-02-12T20:00:00",
+      "dayOfWeek": "quinta-feira",
+      "time": "20:00",
+      "category": "blocos",
+      "types": [],
+      "city": "recife",
+      "location": "Travessa do Bom Jesus",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/shortinho-torano/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:56.014Z"
+      }
+    },
+    {
+      "id": "segura-o-briefing",
+      "name": "segura o briefing",
+      "date": "13/02/2026",
+      "dateISO": "2026-02-13T15:30:00",
+      "dayOfWeek": "sexta-feira",
+      "time": "15:30",
+      "category": "blocos",
+      "types": [],
+      "city": "recife",
+      "location": "Catamarã",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/segura-o-briefing/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:56.014Z"
+      }
+    },
+    {
+      "id": "segura-tu-2",
+      "name": "Segura Tu",
+      "date": "13/02/2026",
+      "dateISO": "2026-02-13T16:30:00",
+      "dayOfWeek": "sexta-feira",
+      "time": "16:30",
+      "category": "blocos",
+      "types": [],
+      "city": "recife",
+      "location": "Praça de Casa Forte",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/segura-tu-2/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:56.014Z"
+      }
+    },
+    {
+      "id": "nem-sempre-lily-toca-flauta",
+      "name": "Nem Sempre Lily Toca Flauta",
+      "date": "13/02/2026",
+      "dateISO": "2026-02-13T16:00:00",
+      "dayOfWeek": "sexta-feira",
+      "time": "16:00",
+      "category": "blocos",
+      "types": [],
+      "city": "recife",
+      "location": "Pátio de Santa Cruz",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/nem-sempre-lily-toca-flauta/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:56.014Z"
+      }
+    },
+    {
+      "id": "abduzidos-de-olinda-carnaval",
+      "name": "Abduzidos de Olinda",
+      "date": "13/02/2026",
+      "dateISO": "2026-02-13T16:30:00",
+      "dayOfWeek": "sexta-feira",
+      "time": "16:30",
+      "category": "blocos",
+      "types": [
+        "indicamos"
+      ],
+      "city": "olinda",
+      "location": "Casa Nala",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/abduzidos-de-olinda-carnaval/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:56.139Z"
+      }
+    },
+    {
+      "id": "praca-do-arsenal-sexta",
+      "name": "Praça do Arsenal",
+      "date": "13/02/2026",
+      "dateISO": "2026-02-13T17:00:00",
+      "dayOfWeek": "sexta-feira",
+      "time": "17:00",
+      "category": "polos",
+      "types": [
+        "indicamos",
+        "tradicional",
+        "fantasia"
+      ],
+      "city": "recife",
+      "location": "Praça do Arsenal",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/praca-do-arsenal-sexta/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:56.256Z"
+      }
+    },
+    {
+      "id": "caraca-moleque",
+      "name": "Caraca Moleque",
+      "date": "13/02/2026",
+      "dateISO": "2026-02-13T17:00:00",
+      "dayOfWeek": "sexta-feira",
+      "time": "17:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Centro de Cultura Luiz Freire",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/caraca-moleque/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:56.380Z"
+      }
+    },
+    {
+      "id": "polo-marco-zero-sexta",
+      "name": "MARCO ZERO",
+      "date": "13/02/2026",
+      "dateISO": "2026-02-13T18:00:00",
+      "dayOfWeek": "sexta-feira",
+      "time": "18:00",
+      "category": "polos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "recife",
+      "location": "Marco Zero",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-marco-zero-sexta/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:56.427Z"
+      }
+    },
+    {
+      "id": "sem-nome",
+      "name": "Sem Nome",
+      "date": "13/02/2026",
+      "dateISO": "2026-02-13T18:00:00",
+      "dayOfWeek": "sexta-feira",
+      "time": "18:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Rua 27 de Janeiro, 197",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/sem-nome/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:56.464Z"
+      }
+    },
+    {
+      "id": "patio-de-sao-pedro-sexta",
+      "name": "Pátio de São Pedro",
+      "date": "13/02/2026",
+      "dateISO": "2026-02-13T18:00:00",
+      "dayOfWeek": "sexta-feira",
+      "time": "18:00",
+      "category": "polos",
+      "types": [
+        "indicamos",
+        "tradicional",
+        "fantasia"
+      ],
+      "city": "recife",
+      "location": "Pátio de São Pedro",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/patio-de-sao-pedro-sexta/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:56.512Z"
+      }
+    },
+    {
+      "id": "olinda-frevo-folia",
+      "name": "Olinda Frevo & Folia",
+      "date": "13/02/2026",
+      "dateISO": "2026-02-13T18:00:00",
+      "dayOfWeek": "sexta-feira",
+      "time": "18:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Clube Vassourinhas de Olinda",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/olinda-frevo-folia/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:56.573Z"
+      }
+    },
+    {
+      "id": "batuques-de-pernambuco",
+      "name": "Batuques de Pernambuco",
+      "date": "13/02/2026",
+      "dateISO": "2026-02-13T18:00:00",
+      "dayOfWeek": "sexta-feira",
+      "time": "18:00",
+      "category": "blocos",
+      "types": [],
+      "city": "recife",
+      "location": "Rua da Moeda",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/batuques-de-pernambuco/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:56.613Z"
+      }
+    },
+    {
+      "id": "polo-gracas",
+      "name": "Polo Graças",
+      "date": "13/02/2026",
+      "dateISO": "2026-02-13T18:00:00",
+      "dayOfWeek": "sexta-feira",
+      "time": "18:00",
+      "category": "polos",
+      "types": [],
+      "city": "recife",
+      "location": "",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-gracas/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:56.667Z"
+      }
+    },
+    {
+      "id": "polo-do-samba",
+      "name": "Polo do Samba",
+      "date": "13/02/2026",
+      "dateISO": "2026-02-13T18:00:00",
+      "dayOfWeek": "sexta-feira",
+      "time": "18:00",
+      "category": "polos",
+      "types": [],
+      "city": "recife",
+      "location": "",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-do-samba/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:56.684Z"
+      }
+    },
+    {
+      "id": "polo-erasto-vasconcelos-sexta",
+      "name": "Erasto Vasconcelos",
+      "date": "13/02/2026",
+      "dateISO": "2026-02-13T19:00:00",
+      "dayOfWeek": "sexta-feira",
+      "time": "19:00",
+      "category": "polos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "olinda",
+      "location": "Polo Erasto Vasconcelos",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-erasto-vasconcelos-sexta/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:56.699Z"
+      }
+    },
+    {
+      "id": "traquinos-em-folia",
+      "name": "Traquinos em Folia",
+      "date": "13/02/2026",
+      "dateISO": "2026-02-13T19:00:00",
+      "dayOfWeek": "sexta-feira",
+      "time": "19:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Sede da Pitombeira dos Quatro Cantos",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/traquinos-em-folia/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:56.735Z"
+      }
+    },
+    {
+      "id": "mulher-do-dia",
+      "name": "Mulher do Dia",
+      "date": "13/02/2026",
+      "dateISO": "2026-02-13T19:00:00",
+      "dayOfWeek": "sexta-feira",
+      "time": "19:00",
+      "category": "blocos",
+      "types": [
+        "indicamos"
+      ],
+      "city": "olinda",
+      "location": "Clube Vassourinhas de Olinda",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/mulher-do-dia/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:56.741Z"
+      }
+    },
+    {
+      "id": "du-nada-a-gente-sai",
+      "name": "Du Nada a Gente Sai",
+      "date": "13/02/2026",
+      "dateISO": "2026-02-13T19:00:00",
+      "dayOfWeek": "sexta-feira",
+      "time": "19:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Largo do Amparo",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/du-nada-a-gente-sai/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:56.830Z"
+      }
+    },
+    {
+      "id": "seu-boteco-no-recife-antigo-sexta-feira",
+      "name": "SEU BOTECO NO RECIFE ANTIGO",
+      "date": "13/02/2026",
+      "dateISO": "2026-02-13T20:00:00",
+      "dayOfWeek": "sexta-feira",
+      "time": "20:00",
+      "category": "camarotes",
+      "types": [],
+      "city": "recife",
+      "location": "Restaurante Seu Boteco",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/seu-boteco-no-recife-antigo-sexta-feira/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:56.843Z"
+      }
+    },
+    {
+      "id": "me-solta-carai",
+      "name": "Me Solta, Carai!",
+      "date": "13/02/2026",
+      "dateISO": "2026-02-13T20:00:00",
+      "dayOfWeek": "sexta-feira",
+      "time": "20:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Largo do Amparo",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/me-solta-carai/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:56.843Z"
+      }
+    },
+    {
+      "id": "arrastao-da-bateria-cabulosa-2",
+      "name": "Arrastão da Bateria Cabulosa",
+      "date": "13/02/2026",
+      "dateISO": "2026-02-13T21:00:00",
+      "dayOfWeek": "sexta-feira",
+      "time": "21:00",
+      "category": "previas",
+      "types": [],
+      "city": "olinda",
+      "location": "Em frente a Prefeitura de Olinda",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/arrastao-da-bateria-cabulosa-2/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:56.855Z"
+      }
+    },
+    {
+      "id": "la-ursa-do-bonfim",
+      "name": "La Ursa do Bonfim",
+      "date": "13/02/2026",
+      "dateISO": "2026-02-13T21:00:00",
+      "dayOfWeek": "sexta-feira",
+      "time": "21:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Sede Cariri Olidense",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/la-ursa-do-bonfim/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:56.904Z"
+      }
+    },
+    {
+      "id": "o-lord-de-olinda",
+      "name": "O Lord de Olinda",
+      "date": "13/02/2026",
+      "dateISO": "2026-02-13T23:00:00",
+      "dayOfWeek": "sexta-feira",
+      "time": "23:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Largo do Guadalupe",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/o-lord-de-olinda/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:56.929Z"
+      }
+    },
+    {
+      "id": "galo-da-madrugada",
+      "name": "Galo da Madrugada",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T05:00:00",
+      "dayOfWeek": "sábado",
+      "time": "05:00",
+      "category": "blocos",
+      "types": [
+        "indicamos",
+        "tradicional",
+        "galo",
+        "fantasia"
+      ],
+      "city": "recife",
+      "location": "Praça Sérgio Lorêto",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/galo-da-madrugada/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:56.945Z"
+      }
+    },
+    {
+      "id": "pinto-do-galo-da-madrugada",
+      "name": "Pinto do Galo da Madrugada",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T06:45:00",
+      "dayOfWeek": "sábado",
+      "time": "06:45",
+      "category": "blocos",
+      "types": [
+        "tradicional",
+        "infantil"
+      ],
+      "city": "recife",
+      "location": "Praça do Marco Zero",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/pinto-do-galo-da-madrugada/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:56.960Z"
+      }
+    },
+    {
+      "id": "to-aqui-galo",
+      "name": "TÔ AQUI GALO",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T08:00:00",
+      "dayOfWeek": "sábado",
+      "time": "08:00",
+      "category": "camarotes",
+      "types": [
+        "galo"
+      ],
+      "city": "recife",
+      "location": "Desfile do Galo",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/to-aqui-galo/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:56.960Z"
+      }
+    },
+    {
+      "id": "bora-galo",
+      "name": "BORA GALO",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T08:00:00",
+      "dayOfWeek": "sábado",
+      "time": "08:00",
+      "category": "camarotes",
+      "types": [
+        "galo"
+      ],
+      "city": "recife",
+      "location": "Desfile do Galo",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/bora-galo/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:56.974Z"
+      }
+    },
+    {
+      "id": "boteco-do-galo",
+      "name": "BOTECO DO GALO",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T08:00:00",
+      "dayOfWeek": "sábado",
+      "time": "08:00",
+      "category": "camarotes",
+      "types": [
+        "galo"
+      ],
+      "city": "recife",
+      "location": "Desfile do Galo",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/boteco-do-galo/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:56.975Z"
+      }
+    },
+    {
+      "id": "galo-downtown",
+      "name": "GALO DOWNTOWN",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T08:00:00",
+      "dayOfWeek": "sábado",
+      "time": "08:00",
+      "category": "camarotes",
+      "types": [
+        "galo"
+      ],
+      "city": "recife",
+      "location": "Desfile do Galo",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/galo-downtown/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:56.975Z"
+      }
+    },
+    {
+      "id": "9379",
+      "name": "PARTIU GALO",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T08:00:00",
+      "dayOfWeek": "sábado",
+      "time": "08:00",
+      "category": "camarotes",
+      "types": [
+        "galo"
+      ],
+      "city": "recife",
+      "location": "Desfile do Galo",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/9379/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:57.047Z"
+      }
+    },
+    {
+      "id": "9381",
+      "name": "SEU VISCONDE NO GALO",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T08:00:00",
+      "dayOfWeek": "sábado",
+      "time": "08:00",
+      "category": "camarotes",
+      "types": [
+        "galo"
+      ],
+      "city": "recife",
+      "location": "Desfile do Galo",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/9381/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:57.047Z"
+      }
+    },
+    {
+      "id": "galo-open",
+      "name": "GALO OPEN",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T08:00:00",
+      "dayOfWeek": "sábado",
+      "time": "08:00",
+      "category": "camarotes",
+      "types": [
+        "galo"
+      ],
+      "city": "recife",
+      "location": "Desfile do Galo",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/galo-open/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:57.047Z"
+      }
+    },
+    {
+      "id": "galo-summer",
+      "name": "GALO SUMMER",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T08:00:00",
+      "dayOfWeek": "sábado",
+      "time": "08:00",
+      "category": "camarotes",
+      "types": [
+        "galo"
+      ],
+      "city": "recife",
+      "location": "Desfile do Galo",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/galo-summer/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:57.047Z"
+      }
+    },
+    {
+      "id": "9378",
+      "name": "MAJESTIC",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T08:00:00",
+      "dayOfWeek": "sábado",
+      "time": "08:00",
+      "category": "camarotes",
+      "types": [
+        "galo"
+      ],
+      "city": "recife",
+      "location": "Desfile do Galo",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/9378/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:57.047Z"
+      }
+    },
+    {
+      "id": "camarote-sr-chopp",
+      "name": "SR CHOPP",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T08:00:00",
+      "dayOfWeek": "sábado",
+      "time": "08:00",
+      "category": "camarotes",
+      "types": [
+        "galo"
+      ],
+      "city": "recife",
+      "location": "Desfile do Galo",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/camarote-sr-chopp/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:57.158Z"
+      }
+    },
+    {
+      "id": "9384",
+      "name": "CAMAROTE DO ZEZO",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T08:00:00",
+      "dayOfWeek": "sábado",
+      "time": "08:00",
+      "category": "camarotes",
+      "types": [
+        "galo"
+      ],
+      "city": "recife",
+      "location": "Desfile do Galo",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/9384/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:57.281Z"
+      }
+    },
+    {
+      "id": "seu-antonio-no-galo",
+      "name": "SEU ANTÔNIO NO GALO",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T08:00:00",
+      "dayOfWeek": "sábado",
+      "time": "08:00",
+      "category": "camarotes",
+      "types": [
+        "galo"
+      ],
+      "city": "recife",
+      "location": "Desfile do Galo",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/seu-antonio-no-galo/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:57.408Z"
+      }
+    },
+    {
+      "id": "trinca-de-as",
+      "name": "Trinca de Ás",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T08:00:00",
+      "dayOfWeek": "sábado",
+      "time": "08:00",
+      "category": "blocos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "olinda",
+      "location": "Ladeira da Prefeitura",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/trinca-de-as/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:57.447Z"
+      }
+    },
+    {
+      "id": "bloco-galinha-dagua",
+      "name": "Galinha d’Água",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T08:00:00",
+      "dayOfWeek": "sábado",
+      "time": "08:00",
+      "category": "blocos",
+      "types": [],
+      "city": "recife",
+      "location": "Rio Capibaribe",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/bloco-galinha-dagua/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:57.483Z"
+      }
+    },
+    {
+      "id": "o-urso-cascudo-do-amparo",
+      "name": "O Urso Cascudo do Amparo",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T08:00:00",
+      "dayOfWeek": "sábado",
+      "time": "08:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Largo do Guadalupe",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/o-urso-cascudo-do-amparo/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:57.531Z"
+      }
+    },
+    {
+      "id": "sibito-baleado",
+      "name": "Sibito Baleado",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T08:00:00",
+      "dayOfWeek": "sábado",
+      "time": "08:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Rua Coronel Joaquim Cavalcanti, 201",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/sibito-baleado/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:57.596Z"
+      }
+    },
+    {
+      "id": "10408",
+      "name": "Se você não for eu vou",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T08:30:00",
+      "dayOfWeek": "sábado",
+      "time": "08:30",
+      "category": "camarotes",
+      "types": [],
+      "city": "recife",
+      "location": "Desfile do Galo",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/10408/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:57.632Z"
+      }
+    },
+    {
+      "id": "juntas-e-misturadas-no-galo",
+      "name": "JUNTAS E MISTURADAS NO GALO",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T09:00:00",
+      "dayOfWeek": "sábado",
+      "time": "09:00",
+      "category": "camarotes",
+      "types": [
+        "galo"
+      ],
+      "city": "recife",
+      "location": "Desfile do Galo",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/juntas-e-misturadas-no-galo/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:57.689Z"
+      }
+    },
+    {
+      "id": "nosso-galo",
+      "name": "NOSSO GALO",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T09:00:00",
+      "dayOfWeek": "sábado",
+      "time": "09:00",
+      "category": "camarotes",
+      "types": [
+        "galo"
+      ],
+      "city": "recife",
+      "location": "Desfile do Galo",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/nosso-galo/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:57.703Z"
+      }
+    },
+    {
+      "id": "camarote-galo-privilege",
+      "name": "GALO PRIVILEGE",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T09:00:00",
+      "dayOfWeek": "sábado",
+      "time": "09:00",
+      "category": "camarotes",
+      "types": [
+        "galo"
+      ],
+      "city": "recife",
+      "location": "Rua Imperial",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/camarote-galo-privilege/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:57.722Z"
+      }
+    },
+    {
+      "id": "balanca-rolha",
+      "name": "BALANÇA ROLHA",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T09:00:00",
+      "dayOfWeek": "sábado",
+      "time": "09:00",
+      "category": "camarotes",
+      "types": [
+        "galo"
+      ],
+      "city": "recife",
+      "location": "Av. Sul e Rua Imperial, embaixo do viaduto Capitão Temudo",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/balanca-rolha/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:57.766Z"
+      }
+    },
+    {
+      "id": "terraco-do-galo",
+      "name": "TERRAÇO DO GALO",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T09:00:00",
+      "dayOfWeek": "sábado",
+      "time": "09:00",
+      "category": "camarotes",
+      "types": [
+        "galo"
+      ],
+      "city": "recife",
+      "location": "Rua Imperial, 84",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/terraco-do-galo/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:57.766Z"
+      }
+    },
+    {
+      "id": "eu-acho-e-pouco",
+      "name": "Eu acho é pouco",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T09:00:00",
+      "dayOfWeek": "sábado",
+      "time": "09:00",
+      "category": "blocos",
+      "types": [
+        "indicamos",
+        "tradicional",
+        "fantasia"
+      ],
+      "city": "olinda",
+      "location": "Praça Laura Nigro",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/eu-acho-e-pouco/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:57.852Z"
+      }
+    },
+    {
+      "id": "bloco-mangue-beat",
+      "name": "Mangue Beat",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T09:00:00",
+      "dayOfWeek": "sábado",
+      "time": "09:00",
+      "category": "blocos",
+      "types": [
+        "indicamos"
+      ],
+      "city": "olinda",
+      "location": "Pátio de São Bento",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/bloco-mangue-beat/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:57.868Z"
+      }
+    },
+    {
+      "id": "casa-pe-no-carnaval",
+      "name": "Casa PE no Carnaval",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T09:00:00",
+      "dayOfWeek": "sábado",
+      "time": "09:00",
+      "category": "day-use",
+      "types": [
+        "indicamos"
+      ],
+      "city": "olinda",
+      "location": "Rua São Bento, 200",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/casa-pe-no-carnaval/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:57.868Z"
+      }
+    },
+    {
+      "id": "tambores-dsaia-sabado",
+      "name": "Tambores D’Saia",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T09:00:00",
+      "dayOfWeek": "sábado",
+      "time": "09:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Praça de São Pedro",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/tambores-dsaia-sabado/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:57.875Z"
+      }
+    },
+    {
+      "id": "patusquinho",
+      "name": "Patusquinho",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T09:00:00",
+      "dayOfWeek": "sábado",
+      "time": "09:00",
+      "category": "blocos",
+      "types": [
+        "fantasia",
+        "infantil"
+      ],
+      "city": "olinda",
+      "location": "Pátio da Igreja de São Pedro",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/patusquinho/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:57.922Z"
+      }
+    },
+    {
+      "id": "soul-delas",
+      "name": "Soul Delas",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T09:00:00",
+      "dayOfWeek": "sábado",
+      "time": "09:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Mosteiro de São Bento",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/soul-delas/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:57.947Z"
+      }
+    },
+    {
+      "id": "bloco-do-frei",
+      "name": "Bloco do Frei",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T09:00:00",
+      "dayOfWeek": "sábado",
+      "time": "09:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Em frente ao Convento de São Francisco",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/bloco-do-frei/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:57.962Z"
+      }
+    },
+    {
+      "id": "batucada-atmica-sabado-carnaval",
+      "name": "Batucada Atômica",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T09:00:00",
+      "dayOfWeek": "sábado",
+      "time": "09:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Avenida 10 de Novembro",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/batucada-atmica-sabado-carnaval/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:57.982Z"
+      }
+    },
+    {
+      "id": "maracatu-kangoma",
+      "name": "Maracatu Kangoma",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T09:00:00",
+      "dayOfWeek": "sábado",
+      "time": "09:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Rua do amparo, 236",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/maracatu-kangoma/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:57.982Z"
+      }
+    },
+    {
+      "id": "pife-floyd",
+      "name": "Pife Floyd",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T10:00:00",
+      "dayOfWeek": "sábado",
+      "time": "10:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Travessa de São Francisco, 206 , Carmo",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/pife-floyd/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:57.999Z"
+      }
+    },
+    {
+      "id": "estacao-da-luz-sabado",
+      "name": "Estação da Luz",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T10:00:00",
+      "dayOfWeek": "sábado",
+      "time": "10:00",
+      "category": "day-use",
+      "types": [],
+      "city": "olinda",
+      "location": "Casa Estação da Luz",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/estacao-da-luz-sabado/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:57.999Z"
+      }
+    },
+    {
+      "id": "casa-babylon-de-olinda-sabado",
+      "name": "Casa Babylon de Olinda",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T10:00:00",
+      "dayOfWeek": "sábado",
+      "time": "10:00",
+      "category": "day-use",
+      "types": [],
+      "city": "olinda",
+      "location": "Rua 27 de Janeiro, 7, Carmo",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/casa-babylon-de-olinda-sabado/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:57.999Z"
+      }
+    },
+    {
+      "id": "fabrica-de-samba-sabado",
+      "name": "Fábrica de Samba",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T10:00:00",
+      "dayOfWeek": "sábado",
+      "time": "10:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Igreja de São Pedro",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/fabrica-de-samba-sabado/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:58.080Z"
+      }
+    },
+    {
+      "id": "fique-na-sombra",
+      "name": "Fique na Sombra",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T10:00:00",
+      "dayOfWeek": "sábado",
+      "time": "10:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Rua da Boa Hora, 177",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/fique-na-sombra/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:58.080Z"
+      }
+    },
+    {
+      "id": "moidicuento",
+      "name": "Moidicuento",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T10:00:00",
+      "dayOfWeek": "sábado",
+      "time": "10:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Estrada do Bonsucesso, 520",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/moidicuento/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:58.080Z"
+      }
+    },
+    {
+      "id": "urso-congelado",
+      "name": "Urso Congelado",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T10:00:00",
+      "dayOfWeek": "sábado",
+      "time": "10:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Praça do Carmo",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/urso-congelado/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:58.080Z"
+      }
+    },
+    {
+      "id": "ta-calor-nessa-roupa",
+      "name": "Tá Calor Nessa Roupa?",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T10:00:00",
+      "dayOfWeek": "sábado",
+      "time": "10:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Casbah",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/ta-calor-nessa-roupa/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:58.080Z"
+      }
+    },
+    {
+      "id": "sombatuki-2",
+      "name": "Sombatuki",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T10:00:00",
+      "dayOfWeek": "sábado",
+      "time": "10:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Largo do Amparo",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/sombatuki-2/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:58.180Z"
+      }
+    },
+    {
+      "id": "se-me-der-eu-como",
+      "name": "Se me der eu como",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T11:30:00",
+      "dayOfWeek": "sábado",
+      "time": "11:30",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Rua do Bonfim, 386",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/se-me-der-eu-como/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:58.308Z"
+      }
+    },
+    {
+      "id": "ceroula",
+      "name": "Ceroula",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T12:00:00",
+      "dayOfWeek": "sábado",
+      "time": "12:00",
+      "category": "blocos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "olinda",
+      "location": "Colégio São Bento de Olinda",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/ceroula/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:58.436Z"
+      }
+    },
+    {
+      "id": "hoje-a-mangueira-entra",
+      "name": "Hoje a Mangueira Entra",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T12:00:00",
+      "dayOfWeek": "sábado",
+      "time": "12:00",
+      "category": "blocos",
+      "types": [
+        "indicamos",
+        "tradicional",
+        "fantasia"
+      ],
+      "city": "olinda",
+      "location": "Rua coronel Joaquim Cavalcante, 487 (varadouro)",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/hoje-a-mangueira-entra/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:58.470Z"
+      }
+    },
+    {
+      "id": "carvalheira-na-ladeira-domingo",
+      "name": "CARVALHEIRA NA LADEIRA",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T14:00:00",
+      "dayOfWeek": "sábado",
+      "time": "14:00",
+      "category": "camarotes",
+      "types": [
+        "indicamos"
+      ],
+      "city": "olinda",
+      "location": "Parque Memorial Arcoverde",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/carvalheira-na-ladeira-domingo/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:58.504Z"
+      }
+    },
+    {
+      "id": "carnaval-boa-viagem-sabado",
+      "name": "Carnaval Boa Viagem",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T14:00:00",
+      "dayOfWeek": "sábado",
+      "time": "14:00",
+      "category": "camarotes",
+      "types": [
+        "indicamos"
+      ],
+      "city": "recife",
+      "location": "Arena Boa Viagem",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/carnaval-boa-viagem-sabado/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:58.554Z"
+      }
+    },
+    {
+      "id": "sobrecu",
+      "name": "Sobrecú",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T14:00:00",
+      "dayOfWeek": "sábado",
+      "time": "14:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Beco do Bajado",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/sobrecu/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:58.619Z"
+      }
+    },
+    {
+      "id": "bumba-meu-bowie",
+      "name": "Bumba meu Bowie",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T14:00:00",
+      "dayOfWeek": "sábado",
+      "time": "14:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Praça do Jacaré",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/bumba-meu-bowie/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:58.654Z"
+      }
+    },
+    {
+      "id": "chapadinhos-na-praia",
+      "name": "Chapadinhos na praia",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T14:00:00",
+      "dayOfWeek": "sábado",
+      "time": "14:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Alto da Sé",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/chapadinhos-na-praia/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:58.709Z"
+      }
+    },
+    {
+      "id": "maracadonna",
+      "name": "Maracadonna",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T14:00:00",
+      "dayOfWeek": "sábado",
+      "time": "14:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Praça do Jacaré",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/maracadonna/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:58.723Z"
+      }
+    },
+    {
+      "id": "cordas-e-retalhos",
+      "name": "Cordas e Retalhos",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T15:00:00",
+      "dayOfWeek": "sábado",
+      "time": "15:00",
+      "category": "blocos",
+      "types": [],
+      "city": "recife",
+      "location": "Rua da Guia, 86",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/cordas-e-retalhos/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:58.739Z"
+      }
+    },
+    {
+      "id": "ta-bom-a-gente-freva",
+      "name": "Tá Bom a Gente Freva",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T16:00:00",
+      "dayOfWeek": "sábado",
+      "time": "16:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Mosteiro de São Bento",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/ta-bom-a-gente-freva/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:58.791Z"
+      }
+    },
+    {
+      "id": "menino-da-tarde",
+      "name": "Menino da Tarde",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T16:00:00",
+      "dayOfWeek": "sábado",
+      "time": "16:00",
+      "category": "blocos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "olinda",
+      "location": "Largo do Guadalupe",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/menino-da-tarde/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:58.791Z"
+      }
+    },
+    {
+      "id": "afojuba-batuque",
+      "name": "Afojubá Batuque",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T16:00:00",
+      "dayOfWeek": "sábado",
+      "time": "16:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Mosteiro de São Bento",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/afojuba-batuque/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:58.878Z"
+      }
+    },
+    {
+      "id": "praca-do-arsenal-sabado",
+      "name": "Praça do Arsenal",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T17:00:00",
+      "dayOfWeek": "sábado",
+      "time": "17:00",
+      "category": "polos",
+      "types": [
+        "indicamos",
+        "tradicional",
+        "fantasia"
+      ],
+      "city": "recife",
+      "location": "Praça do Arsenal",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/praca-do-arsenal-sabado/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:58.893Z"
+      }
+    },
+    {
+      "id": "polo-guadalupe-sabado",
+      "name": "Guadalupe",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T17:00:00",
+      "dayOfWeek": "sábado",
+      "time": "17:00",
+      "category": "polos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "olinda",
+      "location": "Guadalupe",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-guadalupe-sabado/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:58.893Z"
+      }
+    },
+    {
+      "id": "papudinhos-do-bonsucesso",
+      "name": "Papudinhos do bonsucesso",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T17:00:00",
+      "dayOfWeek": "sábado",
+      "time": "17:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Espaço Cultural Osvaldo Sérgio",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/papudinhos-do-bonsucesso/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:58.895Z"
+      }
+    },
+    {
+      "id": "polo-marco-zero-sabado",
+      "name": "MARCO ZERO",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T18:00:00",
+      "dayOfWeek": "sábado",
+      "time": "18:00",
+      "category": "polos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "recife",
+      "location": "Marco Zero",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-marco-zero-sabado/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:58.945Z"
+      }
+    },
+    {
+      "id": "burra-do-rosario",
+      "name": "Burra do Rosário",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T18:00:00",
+      "dayOfWeek": "sábado",
+      "time": "18:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Sede da Burra - Guadalupe",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/burra-do-rosario/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:58.967Z"
+      }
+    },
+    {
+      "id": "afoxe-alafin-oyo",
+      "name": "Afoxé Alafin Oyó",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T18:00:00",
+      "dayOfWeek": "sábado",
+      "time": "18:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Largo do Guadalupe",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/afoxe-alafin-oyo/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:58.981Z"
+      }
+    },
+    {
+      "id": "patio-de-sao-pedro-sabado",
+      "name": "Pátio de São Pedro",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T18:00:00",
+      "dayOfWeek": "sábado",
+      "time": "18:00",
+      "category": "polos",
+      "types": [
+        "indicamos",
+        "tradicional",
+        "fantasia"
+      ],
+      "city": "recife",
+      "location": "Pátio de São Pedro",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/patio-de-sao-pedro-sabado/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:59.004Z"
+      }
+    },
+    {
+      "id": "polo-novo-cais-sabado",
+      "name": "Novo Cais",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T18:00:00",
+      "dayOfWeek": "sábado",
+      "time": "18:00",
+      "category": "polos",
+      "types": [],
+      "city": "recife",
+      "location": "Armazém do Campo",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-novo-cais-sabado/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:59.004Z"
+      }
+    },
+    {
+      "id": "polo-gracas-sabado",
+      "name": "Polo Graças",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T18:00:00",
+      "dayOfWeek": "sábado",
+      "time": "18:00",
+      "category": "polos",
+      "types": [],
+      "city": "recife",
+      "location": "",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-gracas-sabado/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:59.025Z"
+      }
+    },
+    {
+      "id": "polo-do-samba-sabado",
+      "name": "Polo do Samba",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T18:00:00",
+      "dayOfWeek": "sábado",
+      "time": "18:00",
+      "category": "polos",
+      "types": [],
+      "city": "recife",
+      "location": "",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-do-samba-sabado/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:59.025Z"
+      }
+    },
+    {
+      "id": "john-travolta",
+      "name": "John Travolta",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T19:00:00",
+      "dayOfWeek": "sábado",
+      "time": "19:00",
+      "category": "blocos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "olinda",
+      "location": "Clube Vassourinhas de Olinda",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/john-travolta/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:59.025Z"
+      }
+    },
+    {
+      "id": "seu-boteco-no-recife-antigo-sabado",
+      "name": "SEU BOTECO NO RECIFE ANTIGO",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T20:00:00",
+      "dayOfWeek": "sábado",
+      "time": "20:00",
+      "category": "camarotes",
+      "types": [],
+      "city": "recife",
+      "location": "Restaurante Seu Boteco",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/seu-boteco-no-recife-antigo-sabado/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:59.111Z"
+      }
+    },
+    {
+      "id": "polo-erasto-vasconcelos-sabado",
+      "name": "Erasto Vasconcelos",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T19:00:00",
+      "dayOfWeek": "sábado",
+      "time": "19:00",
+      "category": "polos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "olinda",
+      "location": "Polo Erasto Vasconcelos",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-erasto-vasconcelos-sabado/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:59.111Z"
+      }
+    },
+    {
+      "id": "rec-beat-sabado",
+      "name": "Rec-Beat",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T19:00:00",
+      "dayOfWeek": "sábado",
+      "time": "19:00",
+      "category": "polos",
+      "types": [
+        "indicamos"
+      ],
+      "city": "recife",
+      "location": "Cais da Alfândega",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/rec-beat-sabado/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:59.111Z"
+      }
+    },
+    {
+      "id": "cariri-olidense",
+      "name": "Cariri Olidense",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T04:00:00",
+      "dayOfWeek": "domingo",
+      "time": "04:00",
+      "category": "blocos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "olinda",
+      "location": "Sede do Cariri",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/cariri-olidense/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:59.111Z"
+      }
+    },
+    {
+      "id": "homem-da-meia-noite",
+      "name": "Homem da Meia Noite",
+      "date": "14/02/2026",
+      "dateISO": "2026-02-14T23:59:00",
+      "dayOfWeek": "sábado",
+      "time": "23:59",
+      "category": "blocos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "olinda",
+      "location": "Sede do Homem da Meia Noite",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/homem-da-meia-noite/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:59.111Z"
+      }
+    },
+    {
+      "id": "as-filhas-de-betha",
+      "name": "As Filhas de Betha",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T08:00:00",
+      "dayOfWeek": "domingo",
+      "time": "08:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Largo do Amparo",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/as-filhas-de-betha/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:59.203Z"
+      }
+    },
+    {
+      "id": "patusco",
+      "name": "Patusco",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T08:59:00",
+      "dayOfWeek": "domingo",
+      "time": "08:59",
+      "category": "blocos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "olinda",
+      "location": "Casa do Patusco",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/patusco/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:59.333Z"
+      }
+    },
+    {
+      "id": "casa-pe-no-carnaval-domingo",
+      "name": "Casa PE no Carnaval",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T09:00:00",
+      "dayOfWeek": "domingo",
+      "time": "09:00",
+      "category": "day-use",
+      "types": [
+        "indicamos"
+      ],
+      "city": "olinda",
+      "location": "Rua São Bento, 200",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/casa-pe-no-carnaval-domingo/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:59.463Z"
+      }
+    },
+    {
+      "id": "dbreck-domingo",
+      "name": "D’BRECK",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T09:00:00",
+      "dayOfWeek": "domingo",
+      "time": "09:00",
+      "category": "blocos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "olinda",
+      "location": "Largo do Bonfim",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/dbreck-domingo/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:59.488Z"
+      }
+    },
+    {
+      "id": "mucha-lucha-2",
+      "name": "Mucha Lucha",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T09:00:00",
+      "dayOfWeek": "domingo",
+      "time": "09:00",
+      "category": "blocos",
+      "types": [
+        "indicamos",
+        "infantil"
+      ],
+      "city": "olinda",
+      "location": "Alto da Sé",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/mucha-lucha-2/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:59.523Z"
+      }
+    },
+    {
+      "id": "batadoni",
+      "name": "Batadoni",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T09:00:00",
+      "dayOfWeek": "domingo",
+      "time": "09:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Praça do Carmo",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/batadoni/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:59.578Z"
+      }
+    },
+    {
+      "id": "batuques-de-pernambuco-cortejo-previa",
+      "name": "Batuques de Pernambuco – Cortejo",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T09:00:00",
+      "dayOfWeek": "domingo",
+      "time": "09:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Praça do Carmo",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/batuques-de-pernambuco-cortejo-previa/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:59.638Z"
+      }
+    },
+    {
+      "id": "rebylleurias",
+      "name": "Rebylleurias",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T09:30:00",
+      "dayOfWeek": "domingo",
+      "time": "09:30",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Rua do Bonfim, 449",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/rebylleurias/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:59.677Z"
+      }
+    },
+    {
+      "id": "birita-de-olinda",
+      "name": "Birita de Olinda",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T09:30:00",
+      "dayOfWeek": "domingo",
+      "time": "09:30",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Rua do Amparo 110",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/birita-de-olinda/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:59.738Z"
+      }
+    },
+    {
+      "id": "9480",
+      "name": "Enquanto Isso na Sala da Justiça",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T10:00:00",
+      "dayOfWeek": "domingo",
+      "time": "10:00",
+      "category": "blocos",
+      "types": [
+        "indicamos",
+        "tradicional",
+        "fantasia"
+      ],
+      "city": "olinda",
+      "location": "Alto da Sé",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/9480/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:59.740Z"
+      }
+    },
+    {
+      "id": "mulher-na-vara",
+      "name": "MULHER NA VARA",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T10:00:00",
+      "dayOfWeek": "domingo",
+      "time": "10:00",
+      "category": "blocos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "olinda",
+      "location": "Rua da Boa Hora - Varadouro",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/mulher-na-vara/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:59.755Z"
+      }
+    },
+    {
+      "id": "casa-babylon-de-olinda-domingo",
+      "name": "Casa Babylon de Olinda",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T10:00:00",
+      "dayOfWeek": "domingo",
+      "time": "10:00",
+      "category": "day-use",
+      "types": [],
+      "city": "olinda",
+      "location": "Rua 27 de Janeiro, 7, Carmo",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/casa-babylon-de-olinda-domingo/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:59.813Z"
+      }
+    },
+    {
+      "id": "arrastao-da-bateria-cabulosa-domingo",
+      "name": "Arrastão da Bateria Cabulosa",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T10:00:00",
+      "dayOfWeek": "domingo",
+      "time": "10:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Ladeira em frente a Prefeitura de Olinda",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/arrastao-da-bateria-cabulosa-domingo/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:59.813Z"
+      }
+    },
+    {
+      "id": "desfile-da-bateria-aue-domingo",
+      "name": "Desfile da Bateria Auê",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T10:00:00",
+      "dayOfWeek": "domingo",
+      "time": "10:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Praça do Carmo",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/desfile-da-bateria-aue-domingo/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:59.897Z"
+      }
+    },
+    {
+      "id": "me-adota",
+      "name": "Me Adota",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T10:00:00",
+      "dayOfWeek": "domingo",
+      "time": "10:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Praça do Carmo",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/me-adota/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:59.912Z"
+      }
+    },
+    {
+      "id": "sambadeiras-primeiro-desfile",
+      "name": "Sambadeiras",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T10:00:00",
+      "dayOfWeek": "domingo",
+      "time": "10:00",
+      "category": "blocos",
+      "types": [
+        "indicamos"
+      ],
+      "city": "olinda",
+      "location": "Ladeira da Misericórdia",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/sambadeiras-primeiro-desfile/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:59.913Z"
+      }
+    },
+    {
+      "id": "estacao-da-luz-domingo",
+      "name": "Estação da Luz",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T10:00:00",
+      "dayOfWeek": "domingo",
+      "time": "10:00",
+      "category": "day-use",
+      "types": [],
+      "city": "olinda",
+      "location": "Casa Estação da Luz",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/estacao-da-luz-domingo/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:59.913Z"
+      }
+    },
+    {
+      "id": "congobloco-domingo",
+      "name": "Congobloco",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T10:00:00",
+      "dayOfWeek": "domingo",
+      "time": "10:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Sede do Maracatu Nação Pernambuco",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/congobloco-domingo/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:59.965Z"
+      }
+    },
+    {
+      "id": "mulher-do-dia-2",
+      "name": "Mulher do Dia",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T10:00:00",
+      "dayOfWeek": "domingo",
+      "time": "10:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "CASA PE no Carnaval",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/mulher-do-dia-2/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:59.983Z"
+      }
+    },
+    {
+      "id": "bloco-tira-lama",
+      "name": "Bloco Tira Lama",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T10:00:00",
+      "dayOfWeek": "domingo",
+      "time": "10:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Rua do bonfim",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/bloco-tira-lama/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:38:59.997Z"
+      }
+    },
+    {
+      "id": "dez-de-xarque-e-uma-latinha-2",
+      "name": "Dez de Xarque e Uma Latinha",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T11:00:00",
+      "dayOfWeek": "domingo",
+      "time": "11:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Largo do Amparo",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/dez-de-xarque-e-uma-latinha-2/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:00.022Z"
+      }
+    },
+    {
+      "id": "bloco-dos-desenrolados",
+      "name": "BLOCO DOS DESENROLADOS",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T11:00:00",
+      "dayOfWeek": "domingo",
+      "time": "11:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Colégio São Bento de Olinda",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/bloco-dos-desenrolados/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:00.022Z"
+      }
+    },
+    {
+      "id": "fudidos-porem-unidos",
+      "name": "Fudidos Porém Unidos",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T11:30:00",
+      "dayOfWeek": "domingo",
+      "time": "11:30",
+      "category": "blocos",
+      "types": [
+        "tradicional"
+      ],
+      "city": "olinda",
+      "location": "Largo do Bonfim",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/fudidos-porem-unidos/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:00.048Z"
+      }
+    },
+    {
+      "id": "eternamente-sport",
+      "name": "Eternamente Sport",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T12:00:00",
+      "dayOfWeek": "domingo",
+      "time": "12:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Em frente a sede do homem da meia noite",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/eternamente-sport/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:00.048Z"
+      }
+    },
+    {
+      "id": "umurama",
+      "name": "Umurama",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T12:30:00",
+      "dayOfWeek": "domingo",
+      "time": "12:30",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Rua epitácio pessoa sobrinho, 91",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/umurama/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:00.048Z"
+      }
+    },
+    {
+      "id": "marim-dos-caetes",
+      "name": "Marim dos Caetés",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T14:00:00",
+      "dayOfWeek": "domingo",
+      "time": "14:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Largo do Guadalupe",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/marim-dos-caetes/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:00.139Z"
+      }
+    },
+    {
+      "id": "umuarama",
+      "name": "Umuarama",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T14:00:00",
+      "dayOfWeek": "domingo",
+      "time": "14:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Rua Epitácio Pessoa Sobrinho, 91",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/umuarama/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:00.139Z"
+      }
+    },
+    {
+      "id": "carnaval-boa-viagem-domingo",
+      "name": "Carnaval Boa Viagem",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T14:00:00",
+      "dayOfWeek": "domingo",
+      "time": "14:00",
+      "category": "camarotes",
+      "types": [],
+      "city": "recife",
+      "location": "Arena Boa Viagem",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/carnaval-boa-viagem-domingo/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:00.139Z"
+      }
+    },
+    {
+      "id": "carvalheira-na-ladeira-segunda",
+      "name": "CARVALHEIRA NA LADEIRA",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T14:00:00",
+      "dayOfWeek": "domingo",
+      "time": "14:00",
+      "category": "camarotes",
+      "types": [
+        "indicamos"
+      ],
+      "city": "olinda",
+      "location": "Parque Memorial Arcoverde",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/carvalheira-na-ladeira-segunda/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:00.139Z"
+      }
+    },
+    {
+      "id": "so-no-virote",
+      "name": "Só no Virote",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T13:00:00",
+      "dayOfWeek": "domingo",
+      "time": "13:00",
+      "category": "blocos",
+      "types": [],
+      "city": "recife",
+      "location": "R. Amélia Xavier Sampaio, 20",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/so-no-virote/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:00.139Z"
+      }
+    },
+    {
+      "id": "a-troca",
+      "name": "A Troça",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T15:00:00",
+      "dayOfWeek": "domingo",
+      "time": "15:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Cruzeiro do Convento de São Francisco",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/a-troca/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:00.225Z"
+      }
+    },
+    {
+      "id": "bloco-do-cimento",
+      "name": "Bloco do Cimento",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T15:00:00",
+      "dayOfWeek": "domingo",
+      "time": "15:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Clube Vassourinhas de Olinda",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/bloco-do-cimento/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:00.358Z"
+      }
+    },
+    {
+      "id": "polo-parque-da-jaqueira-domingo",
+      "name": "Parque da Jaqueira (infantil)",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T15:00:00",
+      "dayOfWeek": "domingo",
+      "time": "15:00",
+      "category": "polos",
+      "types": [
+        "infantil"
+      ],
+      "city": "recife",
+      "location": "Parque da Jaqueira",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-parque-da-jaqueira-domingo/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:00.490Z"
+      }
+    },
+    {
+      "id": "polo-parque-santana-domingo",
+      "name": "Parque Santana (infantil)",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T15:00:00",
+      "dayOfWeek": "domingo",
+      "time": "15:00",
+      "category": "polos",
+      "types": [
+        "infantil"
+      ],
+      "city": "recife",
+      "location": "Parque Santana",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-parque-santana-domingo/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:00.509Z"
+      }
+    },
+    {
+      "id": "polo-parque-macaxeira-infantil-domingo",
+      "name": "Parque Macaxeira (infantil)",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T15:00:00",
+      "dayOfWeek": "domingo",
+      "time": "15:00",
+      "category": "polos",
+      "types": [
+        "infantil"
+      ],
+      "city": "recife",
+      "location": "Parque Macaxeira",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-parque-macaxeira-infantil-domingo/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:00.545Z"
+      }
+    },
+    {
+      "id": "polo-dona-lindu-infantil-domingo",
+      "name": "Dona Lindu (infantil)",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T15:00:00",
+      "dayOfWeek": "domingo",
+      "time": "15:00",
+      "category": "polos",
+      "types": [
+        "infantil"
+      ],
+      "city": "recife",
+      "location": "Parque Dona Lindu",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-dona-lindu-infantil-domingo/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:00.599Z"
+      }
+    },
+    {
+      "id": "polo-aurora-infantil-domingo",
+      "name": "Polo Aurora (infantil)",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T15:00:00",
+      "dayOfWeek": "domingo",
+      "time": "15:00",
+      "category": "polos",
+      "types": [
+        "infantil"
+      ],
+      "city": "recife",
+      "location": "Rua da Aurora",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-aurora-infantil-domingo/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:00.664Z"
+      }
+    },
+    {
+      "id": "a-cama-de-olinda",
+      "name": "A cama de Olinda",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T15:00:00",
+      "dayOfWeek": "domingo",
+      "time": "15:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Rua Coronel Joaquim Cavalcante",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/a-cama-de-olinda/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:00.697Z"
+      }
+    },
+    {
+      "id": "fogo-na-bacurinha",
+      "name": "Fogo na bacurinha",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T15:00:00",
+      "dayOfWeek": "domingo",
+      "time": "15:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Mercado da Ribeira",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/fogo-na-bacurinha/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:00.759Z"
+      }
+    },
+    {
+      "id": "grheia",
+      "name": "Grheia",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T15:30:00",
+      "dayOfWeek": "domingo",
+      "time": "15:30",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Alto da Sé",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/grheia/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:00.759Z"
+      }
+    },
+    {
+      "id": "unidos-pela-anseidade",
+      "name": "Unidos pela Anseidade",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T16:00:00",
+      "dayOfWeek": "domingo",
+      "time": "16:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Rua do Bonfim",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/unidos-pela-anseidade/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:00.774Z"
+      }
+    },
+    {
+      "id": "o-dono-do-mundo",
+      "name": "O dono do mundo",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T16:30:00",
+      "dayOfWeek": "domingo",
+      "time": "16:30",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Pátio do Bonsucesso",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/o-dono-do-mundo/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:00.839Z"
+      }
+    },
+    {
+      "id": "praca-do-arsenal-domingo",
+      "name": "Praça do Arsenal",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T17:00:00",
+      "dayOfWeek": "domingo",
+      "time": "17:00",
+      "category": "polos",
+      "types": [
+        "indicamos",
+        "tradicional",
+        "fantasia"
+      ],
+      "city": "recife",
+      "location": "Praça do Arsenal",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/praca-do-arsenal-domingo/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:00.839Z"
+      }
+    },
+    {
+      "id": "qg-do-frevo-domingo",
+      "name": "QG do Frevo",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T17:00:00",
+      "dayOfWeek": "domingo",
+      "time": "17:00",
+      "category": "polos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "recife",
+      "location": "Praça da Independência",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/qg-do-frevo-domingo/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:00.918Z"
+      }
+    },
+    {
+      "id": "polo-guadalupe-domingo",
+      "name": "Guadalupe",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T17:00:00",
+      "dayOfWeek": "domingo",
+      "time": "17:00",
+      "category": "polos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "olinda",
+      "location": "Guadalupe",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-guadalupe-domingo/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:00.933Z"
+      }
+    },
+    {
+      "id": "parque-da-tamarineira-infantil",
+      "name": "Parque da Tamarineira (infantil)",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T17:00:00",
+      "dayOfWeek": "domingo",
+      "time": "17:00",
+      "category": "polos",
+      "types": [],
+      "city": "recife",
+      "location": "",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/parque-da-tamarineira-infantil/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:00.933Z"
+      }
+    },
+    {
+      "id": "eduardo-campos",
+      "name": "Eduardo Campos",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T17:00:00",
+      "dayOfWeek": "domingo",
+      "time": "17:00",
+      "category": "polos",
+      "types": [],
+      "city": "recife",
+      "location": "",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/eduardo-campos/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:00.933Z"
+      }
+    },
+    {
+      "id": "polo-marco-zero-domingo",
+      "name": "MARCO ZERO",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T18:00:00",
+      "dayOfWeek": "domingo",
+      "time": "18:00",
+      "category": "polos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "recife",
+      "location": "Marco Zero",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-marco-zero-domingo/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:00.985Z"
+      }
+    },
+    {
+      "id": "patio-de-sao-pedro-domingo",
+      "name": "Pátio de São Pedro",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T18:00:00",
+      "dayOfWeek": "domingo",
+      "time": "18:00",
+      "category": "polos",
+      "types": [
+        "indicamos",
+        "tradicional",
+        "fantasia"
+      ],
+      "city": "recife",
+      "location": "Pátio de São Pedro",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/patio-de-sao-pedro-domingo/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:00.999Z"
+      }
+    },
+    {
+      "id": "polo-gracas-domingo",
+      "name": "Polo Graças",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T18:00:00",
+      "dayOfWeek": "domingo",
+      "time": "18:00",
+      "category": "polos",
+      "types": [],
+      "city": "recife",
+      "location": "",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-gracas-domingo/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:01.012Z"
+      }
+    },
+    {
+      "id": "polo-do-samba-domingo",
+      "name": "Polo do Samba",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T18:00:00",
+      "dayOfWeek": "domingo",
+      "time": "18:00",
+      "category": "polos",
+      "types": [],
+      "city": "recife",
+      "location": "",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-do-samba-domingo/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:01.044Z"
+      }
+    },
+    {
+      "id": "9511",
+      "name": "Elefante de Olinda",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T19:00:00",
+      "dayOfWeek": "domingo",
+      "time": "19:00",
+      "category": "blocos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "olinda",
+      "location": "Largo do Guadalupe",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/9511/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:01.044Z"
+      }
+    },
+    {
+      "id": "rec-beat-domingo",
+      "name": "Rec-Beat",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T19:00:00",
+      "dayOfWeek": "domingo",
+      "time": "19:00",
+      "category": "polos",
+      "types": [
+        "indicamos"
+      ],
+      "city": "recife",
+      "location": "Cais da Alfândega",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/rec-beat-domingo/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:01.074Z"
+      }
+    },
+    {
+      "id": "polo-erasto-vasconcelos-domingo",
+      "name": "Erasto Vasconcelos",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T19:00:00",
+      "dayOfWeek": "domingo",
+      "time": "19:00",
+      "category": "polos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "olinda",
+      "location": "Polo Erasto Vasconcelos",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-erasto-vasconcelos-domingo/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:01.074Z"
+      }
+    },
+    {
+      "id": "seu-boteco-no-recife-antigo-domingo",
+      "name": "SEU BOTECO NO RECIFE ANTIGO",
+      "date": "15/02/2026",
+      "dateISO": "2026-02-15T20:00:00",
+      "dayOfWeek": "domingo",
+      "time": "20:00",
+      "category": "camarotes",
+      "types": [],
+      "city": "recife",
+      "location": "Restaurante Seu Boteco",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/seu-boteco-no-recife-antigo-domingo/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:01.074Z"
+      }
+    },
+    {
+      "id": "eu-acho-e-pouquinho",
+      "name": "Eu acho é Pouquinho",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T08:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "08:00",
+      "category": "blocos",
+      "types": [
+        "infantil"
+      ],
+      "city": "olinda",
+      "location": "Rua de São Bento, 352",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/eu-acho-e-pouquinho/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:01.173Z"
+      }
+    },
+    {
+      "id": "casa-pe-no-carnaval-segunda",
+      "name": "Casa PE no Carnaval",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T09:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "09:00",
+      "category": "day-use",
+      "types": [
+        "indicamos"
+      ],
+      "city": "olinda",
+      "location": "Rua São Bento, 200",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/casa-pe-no-carnaval-segunda/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:01.173Z"
+      }
+    },
+    {
+      "id": "comigo-e-assim",
+      "name": "Comigo é Assim",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T09:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "09:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Alto da Sé",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/comigo-e-assim/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:01.173Z"
+      }
+    },
+    {
+      "id": "soul-delas-segunda",
+      "name": "Soul Delas",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T09:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "09:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Mosteiro de São Bento",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/soul-delas-segunda/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:01.173Z"
+      }
+    },
+    {
+      "id": "tambores-dsaia-segunda",
+      "name": "Tambores D’Saia",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T09:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "09:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Praça do Carmo",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/tambores-dsaia-segunda/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:01.173Z"
+      }
+    },
+    {
+      "id": "minha-cobra",
+      "name": "Minha Cobra",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T09:13:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "09:13",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Em frente a sede do Homem da Meia Noite",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/minha-cobra/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:01.248Z"
+      }
+    },
+    {
+      "id": "10363",
+      "name": "TCM Bloco MexicoPeru",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T09:30:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "09:30",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Ladeira da misericórdia",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/10363/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:01.396Z"
+      }
+    },
+    {
+      "id": "pitombeira-dos-quatro-cantos",
+      "name": "Pitombeira dos Quatro Cantos",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T10:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "10:00",
+      "category": "blocos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "olinda",
+      "location": "Sede da Pitombeira dos Quatro Cantos",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/pitombeira-dos-quatro-cantos/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:01.516Z"
+      }
+    },
+    {
+      "id": "casa-babylon-de-olinda-segunda",
+      "name": "Casa Babylon de Olinda",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T10:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "10:00",
+      "category": "day-use",
+      "types": [],
+      "city": "olinda",
+      "location": "Rua 27 de Janeiro, 7, Carmo",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/casa-babylon-de-olinda-segunda/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:01.527Z"
+      }
+    },
+    {
+      "id": "bloco-segura-o-ovo",
+      "name": "Bloco Segura o Ovo",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T10:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "10:00",
+      "category": "blocos",
+      "types": [],
+      "city": "pernambuco",
+      "location": "Amarilis Recepção - Bezerros/PE",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/bloco-segura-o-ovo/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:01.564Z"
+      }
+    },
+    {
+      "id": "estacao-da-luz-segunda",
+      "name": "Estação da Luz",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T10:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "10:00",
+      "category": "day-use",
+      "types": [],
+      "city": "olinda",
+      "location": "Casa Estação da Luz",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/estacao-da-luz-segunda/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:01.623Z"
+      }
+    },
+    {
+      "id": "apoteose-dos-bonecos-gigantes",
+      "name": "Apoteose dos Bonecos Gigantes",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T10:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "10:00",
+      "category": "blocos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "olinda",
+      "location": "Alto da Sé",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/apoteose-dos-bonecos-gigantes/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:01.681Z"
+      }
+    },
+    {
+      "id": "se-eu-flopar-me-beija",
+      "name": "Se Eu Flopar Me Beija",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T10:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "10:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Praça Cel João Lapa",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/se-eu-flopar-me-beija/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:01.714Z"
+      }
+    },
+    {
+      "id": "sombatuki",
+      "name": "Sombatuki",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T10:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "10:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Largo do Bonfim",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/sombatuki/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:01.786Z"
+      }
+    },
+    {
+      "id": "minhocao-de-olinda",
+      "name": "Minhocão de Olinda",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T11:30:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "11:30",
+      "category": "blocos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "olinda",
+      "location": "Igreja de São Pedro",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/minhocao-de-olinda/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:01.786Z"
+      }
+    },
+    {
+      "id": "carvalheira-na-ladeira",
+      "name": "CARVALHEIRA NA LADEIRA",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T14:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "14:00",
+      "category": "camarotes",
+      "types": [
+        "indicamos"
+      ],
+      "city": "olinda",
+      "location": "Parque Memorial Arcoverde",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/carvalheira-na-ladeira/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:01.793Z"
+      }
+    },
+    {
+      "id": "bloco-pre-sal",
+      "name": "Bloco Pré-Sal",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T14:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "14:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Recanto do Pré-Sal",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/bloco-pre-sal/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:01.864Z"
+      }
+    },
+    {
+      "id": "carnaval-boa-viagem-segunda",
+      "name": "Carnaval Boa Viagem",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T14:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "14:00",
+      "category": "camarotes",
+      "types": [
+        "indicamos"
+      ],
+      "city": "recife",
+      "location": "Arena Boa Viagem",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/carnaval-boa-viagem-segunda/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:01.864Z"
+      }
+    },
+    {
+      "id": "10548",
+      "name": "Amantes de Glória",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T14:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "14:00",
+      "category": "blocos",
+      "types": [
+        "tradicional"
+      ],
+      "city": "recife",
+      "location": "Rua da Guia",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/10548/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:01.939Z"
+      }
+    },
+    {
+      "id": "metido-a-rico-porem-liso",
+      "name": "METIDO A RICO PORÉM LISO",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T14:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "14:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Catedral da Seresta",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/metido-a-rico-porem-liso/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:01.955Z"
+      }
+    },
+    {
+      "id": "vaca-profana",
+      "name": "Vaca Profana",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T14:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "14:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Fortim do Queijo",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/vaca-profana/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:01.955Z"
+      }
+    },
+    {
+      "id": "polo-parque-da-jaqueira-segunda",
+      "name": "Parque da Jaqueira (infantil)",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T15:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "15:00",
+      "category": "polos",
+      "types": [
+        "infantil"
+      ],
+      "city": "recife",
+      "location": "Parque da Jaqueira",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-parque-da-jaqueira-segunda/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:01.955Z"
+      }
+    },
+    {
+      "id": "polo-parque-santana-segunda",
+      "name": "Parque Santana (infantil)",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T15:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "15:00",
+      "category": "polos",
+      "types": [
+        "infantil"
+      ],
+      "city": "recife",
+      "location": "Parque Santana",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-parque-santana-segunda/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:02.005Z"
+      }
+    },
+    {
+      "id": "polo-parque-macaxeira-infantil-segunda",
+      "name": "Parque Macaxeira (infantil)",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T15:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "15:00",
+      "category": "polos",
+      "types": [
+        "infantil"
+      ],
+      "city": "recife",
+      "location": "Parque Macaxeira",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-parque-macaxeira-infantil-segunda/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:02.018Z"
+      }
+    },
+    {
+      "id": "polo-dona-lindu-infantil-segunda",
+      "name": "Dona Lindu (infantil)",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T15:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "15:00",
+      "category": "polos",
+      "types": [
+        "infantil"
+      ],
+      "city": "recife",
+      "location": "Parque Dona Lindu",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-dona-lindu-infantil-segunda/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:02.031Z"
+      }
+    },
+    {
+      "id": "polo-aurora-infantil-segunda",
+      "name": "Polo Aurora (infantil)",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T15:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "15:00",
+      "category": "polos",
+      "types": [
+        "infantil"
+      ],
+      "city": "recife",
+      "location": "Rua da Aurora",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-aurora-infantil-segunda/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:02.064Z"
+      }
+    },
+    {
+      "id": "grheia-segunda",
+      "name": "Grheia",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T15:30:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "15:30",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Alto da Sé",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/grheia-segunda/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:02.064Z"
+      }
+    },
+    {
+      "id": "o-charmoso",
+      "name": "O Charmoso",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T16:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "16:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Bairro do monte",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/o-charmoso/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:02.097Z"
+      }
+    },
+    {
+      "id": "9477",
+      "name": "Macuca – Cortejo oficial",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T16:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "16:00",
+      "category": "blocos",
+      "types": [
+        "tradicional"
+      ],
+      "city": "olinda",
+      "location": "Clube Vassourinhas",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/9477/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:02.097Z"
+      }
+    },
+    {
+      "id": "bloco-da-saudade-segunda",
+      "name": "Bloco da Saudade",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T16:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "16:00",
+      "category": "blocos",
+      "types": [],
+      "city": "recife",
+      "location": "Praça Maciel Pinheiro",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/bloco-da-saudade-segunda/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:02.099Z"
+      }
+    },
+    {
+      "id": "maracatu-nacao-pernambuco",
+      "name": "Maracatu Nação Pernambuco",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T16:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "16:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Sede do Maracatu Nação Pernambuco",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/maracatu-nacao-pernambuco/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:02.214Z"
+      }
+    },
+    {
+      "id": "bloco-da-ema",
+      "name": "Bloco da Ema",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T16:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "16:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Praça Cel. João Lapa",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/bloco-da-ema/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:02.214Z"
+      }
+    },
+    {
+      "id": "batucada-atomica",
+      "name": "Batucada Atômica",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T16:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "16:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Rua prudente de morais,346",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/batucada-atomica/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:02.214Z"
+      }
+    },
+    {
+      "id": "segunda-tem-palhaco",
+      "name": "Segunda tem palhaço",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T16:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "16:00",
+      "category": "blocos",
+      "types": [
+        "indicamos",
+        "infantil"
+      ],
+      "city": "recife",
+      "location": "Rua da Moeda",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/segunda-tem-palhaco/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:02.214Z"
+      }
+    },
+    {
+      "id": "garoto-de-vassoura",
+      "name": "GAROTO DE VASSOURA",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T17:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "17:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "R. Antônio Luciano de Oliveira, 239",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/garoto-de-vassoura/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:02.214Z"
+      }
+    },
+    {
+      "id": "praca-do-arsenal-segunda",
+      "name": "Praça do Arsenal",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T17:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "17:00",
+      "category": "polos",
+      "types": [
+        "indicamos",
+        "tradicional",
+        "fantasia"
+      ],
+      "city": "recife",
+      "location": "Praça do Arsenal",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/praca-do-arsenal-segunda/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:02.271Z"
+      }
+    },
+    {
+      "id": "qg-do-frevo-segunda",
+      "name": "QG do Frevo",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T17:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "17:00",
+      "category": "polos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "recife",
+      "location": "Praça da Independência",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/qg-do-frevo-segunda/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:02.429Z"
+      }
+    },
+    {
+      "id": "polo-guadalupe-segunda",
+      "name": "Guadalupe",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T17:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "17:00",
+      "category": "polos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "olinda",
+      "location": "Guadalupe",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-guadalupe-segunda/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:02.538Z"
+      }
+    },
+    {
+      "id": "parque-da-tamarineira-infantil-segunda",
+      "name": "Parque da Tamarineira (infantil)",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T17:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "17:00",
+      "category": "polos",
+      "types": [],
+      "city": "recife",
+      "location": "Parque da Tamarineira",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/parque-da-tamarineira-infantil-segunda/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:02.542Z"
+      }
+    },
+    {
+      "id": "bloco-do-nada",
+      "name": "Bloco do Nada",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T17:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "17:00",
+      "category": "blocos",
+      "types": [],
+      "city": "recife",
+      "location": "Rua Rosário da Boa Vista",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/bloco-do-nada/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:02.580Z"
+      }
+    },
+    {
+      "id": "eduardo-campos-2",
+      "name": "Eduardo Campos",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T17:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "17:00",
+      "category": "polos",
+      "types": [],
+      "city": "recife",
+      "location": "",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/eduardo-campos-2/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:02.647Z"
+      }
+    },
+    {
+      "id": "polo-marco-zero-segunda",
+      "name": "MARCO ZERO",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T18:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "18:00",
+      "category": "polos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "recife",
+      "location": "Marco Zero",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-marco-zero-segunda/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:02.705Z"
+      }
+    },
+    {
+      "id": "patio-de-sao-pedro-segunda",
+      "name": "Pátio de São Pedro",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T18:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "18:00",
+      "category": "polos",
+      "types": [
+        "indicamos",
+        "tradicional",
+        "fantasia"
+      ],
+      "city": "recife",
+      "location": "Pátio de São Pedro",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/patio-de-sao-pedro-segunda/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:02.734Z"
+      }
+    },
+    {
+      "id": "polo-gracas-segunda",
+      "name": "Polo Graças",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T18:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "18:00",
+      "category": "polos",
+      "types": [],
+      "city": "recife",
+      "location": "",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-gracas-segunda/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:02.816Z"
+      }
+    },
+    {
+      "id": "polo-erasto-vasconcelos-segunda",
+      "name": "Erasto Vasconcelos",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T19:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "19:00",
+      "category": "polos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "olinda",
+      "location": "Polo Erasto Vasconcelos",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-erasto-vasconcelos-segunda/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:02.816Z"
+      }
+    },
+    {
+      "id": "polo-do-samba-segunda",
+      "name": "Polo do Samba",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T18:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "18:00",
+      "category": "polos",
+      "types": [],
+      "city": "recife",
+      "location": "",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-do-samba-segunda/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:02.816Z"
+      }
+    },
+    {
+      "id": "rec-beat-segunda",
+      "name": "Rec-Beat",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T19:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "19:00",
+      "category": "polos",
+      "types": [
+        "indicamos"
+      ],
+      "city": "recife",
+      "location": "Cais da Alfândega",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/rec-beat-segunda/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:02.891Z"
+      }
+    },
+    {
+      "id": "seu-boteco-no-recife-antigo-segunda-feira",
+      "name": "SEU BOTECO NO RECIFE ANTIGO",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T20:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "20:00",
+      "category": "camarotes",
+      "types": [],
+      "city": "recife",
+      "location": "Restaurante Seu Boteco",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/seu-boteco-no-recife-antigo-segunda-feira/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:02.891Z"
+      }
+    },
+    {
+      "id": "noite-dos-tambores-silenciosos-recife",
+      "name": "Noite dos Tambores Silenciosos",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T20:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "20:00",
+      "category": "blocos",
+      "types": [],
+      "city": "recife",
+      "location": "Pátio do Terço",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/noite-dos-tambores-silenciosos-recife/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:02.964Z"
+      }
+    },
+    {
+      "id": "a-corda",
+      "name": "A Corda",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T07:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "07:00",
+      "category": "blocos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "olinda",
+      "location": "Ladeira da Misericórdia",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/a-corda/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:02.979Z"
+      }
+    },
+    {
+      "id": "patusco-terca",
+      "name": "Patusco",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T08:59:00",
+      "dayOfWeek": "terça-feira",
+      "time": "08:59",
+      "category": "blocos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "olinda",
+      "location": "Casa do Patusco",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/patusco-terca/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:02.979Z"
+      }
+    },
+    {
+      "id": "boi-da-macuca",
+      "name": "Boi da Macuca",
+      "date": "16/02/2026",
+      "dateISO": "2026-02-16T20:00:00",
+      "dayOfWeek": "segunda-feira",
+      "time": "20:00",
+      "category": "blocos",
+      "types": [
+        "indicamos"
+      ],
+      "city": "olinda",
+      "location": "Clube Vassourinhas de Olinda",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/boi-da-macuca/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:02.979Z"
+      }
+    },
+    {
+      "id": "10265",
+      "name": "Batuques de Pernambuco – Cortejo",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T09:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "09:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Praça do Carmo",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/10265/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:03.029Z"
+      }
+    },
+    {
+      "id": "dbreck-terca",
+      "name": "D’BRECK",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T09:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "09:00",
+      "category": "blocos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "olinda",
+      "location": "Largo do Bonfim",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/dbreck-terca/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:03.037Z"
+      }
+    },
+    {
+      "id": "maracatu-kangoma-terca",
+      "name": "Maracatu Kangoma",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T09:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "09:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Rua do amparo, 236",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/maracatu-kangoma-terca/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:03.049Z"
+      }
+    },
+    {
+      "id": "9492",
+      "name": "Encontro dos Bonecos Gigantes",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T10:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "10:00",
+      "category": "blocos",
+      "types": [
+        "tradicional"
+      ],
+      "city": "olinda",
+      "location": "Largo do Guadalupe",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/9492/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:03.088Z"
+      }
+    },
+    {
+      "id": "batadoni-terca",
+      "name": "Batadoni",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T09:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "09:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Praça do Carmo",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/batadoni-terca/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:03.088Z"
+      }
+    },
+    {
+      "id": "casa-babylon-de-olinda-terca",
+      "name": "Casa Babylon de Olinda",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T10:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "10:00",
+      "category": "day-use",
+      "types": [],
+      "city": "olinda",
+      "location": "Rua 27 de Janeiro, 7, Carmo",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/casa-babylon-de-olinda-terca/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:03.125Z"
+      }
+    },
+    {
+      "id": "arrastao-da-bateria-cabulosa-terca",
+      "name": "Arrastão da Bateria Cabulosa",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T10:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "10:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Ladeira em frente a Prefeitura de Olinda",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/arrastao-da-bateria-cabulosa-terca/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:03.125Z"
+      }
+    },
+    {
+      "id": "casa-pe-no-carnaval-terca",
+      "name": "Casa PE no Carnaval",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T10:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "10:00",
+      "category": "day-use",
+      "types": [
+        "indicamos"
+      ],
+      "city": "olinda",
+      "location": "Rua São Bento, 200",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/casa-pe-no-carnaval-terca/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:03.125Z"
+      }
+    },
+    {
+      "id": "pitombeira-dos-quatro-cantos-terca",
+      "name": "Pitombeira dos Quatro Cantos",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T10:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "10:00",
+      "category": "blocos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "olinda",
+      "location": "Largo do Amparo",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/pitombeira-dos-quatro-cantos-terca/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:03.255Z"
+      }
+    },
+    {
+      "id": "sambadeiras-segundo-desfile",
+      "name": "Sambadeiras",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T10:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "10:00",
+      "category": "blocos",
+      "types": [
+        "indicamos"
+      ],
+      "city": "olinda",
+      "location": "Ladeira da Misericórdia",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/sambadeiras-segundo-desfile/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:03.255Z"
+      }
+    },
+    {
+      "id": "desfile-da-bateria-aue-terca",
+      "name": "Desfile da Bateria Auê",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T10:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "10:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Praça do Carmo",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/desfile-da-bateria-aue-terca/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:03.255Z"
+      }
+    },
+    {
+      "id": "ar-de-olinda",
+      "name": "Ar de Olinda",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T10:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "10:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Em Frente a Prefeitura de Olinda",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/ar-de-olinda/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:03.255Z"
+      }
+    },
+    {
+      "id": "estacao-da-luz-terca",
+      "name": "Estação da Luz",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T10:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "10:00",
+      "category": "day-use",
+      "types": [],
+      "city": "olinda",
+      "location": "Casa Estação da Luz",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/estacao-da-luz-terca/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:03.256Z"
+      }
+    },
+    {
+      "id": "rebylleurias-terca",
+      "name": "Rebylleurias",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T11:30:00",
+      "dayOfWeek": "terça-feira",
+      "time": "11:30",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Rua do Bonfim, 449",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/rebylleurias-terca/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:03.287Z"
+      }
+    },
+    {
+      "id": "9474",
+      "name": "Ceroula",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T12:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "12:00",
+      "category": "blocos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "olinda",
+      "location": "Colégio São Bento de Olinda",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/9474/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:03.456Z"
+      }
+    },
+    {
+      "id": "segurucu",
+      "name": "Segurucu",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T12:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "12:00",
+      "category": "blocos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "olinda",
+      "location": "Rua Sigismundo Gonçalves, Em frente ao Super Burguer",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/segurucu/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:03.566Z"
+      }
+    },
+    {
+      "id": "quem-cola-entra",
+      "name": "Quem Cola Entra",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T12:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "12:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Rua Orlando da Silva, 31",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/quem-cola-entra/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:03.566Z"
+      }
+    },
+    {
+      "id": "os-abutres",
+      "name": "Os abutres",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T12:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "12:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Rua 15 de Novembro",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/os-abutres/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:03.602Z"
+      }
+    },
+    {
+      "id": "zebra-das-olindas",
+      "name": "Zebra das Olindas",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T12:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "12:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Rua maria adalgisa Ferreira, 112",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/zebra-das-olindas/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:03.672Z"
+      }
+    },
+    {
+      "id": "carvalheira-na-ladeira-terca-feira",
+      "name": "CARVALHEIRA NA LADEIRA",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T14:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "14:00",
+      "category": "camarotes",
+      "types": [
+        "indicamos"
+      ],
+      "city": "olinda",
+      "location": "Parque Memorial Arcoverde",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/carvalheira-na-ladeira-terca-feira/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:03.730Z"
+      }
+    },
+    {
+      "id": "caranguejo-papame",
+      "name": "Caranguejo Papamé",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T15:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "15:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Rua Jerônimo de Albuquerque, 112",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/caranguejo-papame/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:03.757Z"
+      }
+    },
+    {
+      "id": "polo-parque-da-jaqueira-terca",
+      "name": "Parque da Jaqueira (infantil)",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T15:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "15:00",
+      "category": "polos",
+      "types": [
+        "infantil"
+      ],
+      "city": "recife",
+      "location": "Parque da Jaqueira",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-parque-da-jaqueira-terca/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:03.848Z"
+      }
+    },
+    {
+      "id": "polo-parque-santana-terca",
+      "name": "Parque Santana (infantil)",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T15:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "15:00",
+      "category": "polos",
+      "types": [
+        "infantil"
+      ],
+      "city": "recife",
+      "location": "Parque Santana",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-parque-santana-terca/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:03.848Z"
+      }
+    },
+    {
+      "id": "polo-parque-macaxeira-infantil-terca",
+      "name": "Parque Macaxeira (infantil)",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T15:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "15:00",
+      "category": "polos",
+      "types": [
+        "infantil"
+      ],
+      "city": "recife",
+      "location": "Parque Macaxeira",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-parque-macaxeira-infantil-terca/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:03.848Z"
+      }
+    },
+    {
+      "id": "polo-dona-lindu-infantil-terca",
+      "name": "Dona Lindu (infantil)",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T15:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "15:00",
+      "category": "polos",
+      "types": [
+        "infantil"
+      ],
+      "city": "recife",
+      "location": "Parque Dona Lindu",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-dona-lindu-infantil-terca/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:03.955Z"
+      }
+    },
+    {
+      "id": "polo-aurora-infantil-terca",
+      "name": "Polo Aurora (infantil)",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T15:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "15:00",
+      "category": "polos",
+      "types": [
+        "infantil"
+      ],
+      "city": "recife",
+      "location": "Rua da Aurora",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-aurora-infantil-terca/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:03.955Z"
+      }
+    },
+    {
+      "id": "quero-ver-quem-vai",
+      "name": "Quero Ver Quem Vai",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T16:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "16:00",
+      "category": "blocos",
+      "types": [],
+      "city": "recife",
+      "location": "Praça do Arsenal",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/quero-ver-quem-vai/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:03.988Z"
+      }
+    },
+    {
+      "id": "qg-do-frevo-terca",
+      "name": "QG do Frevo",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T17:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "17:00",
+      "category": "polos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "recife",
+      "location": "Praça da Independência",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/qg-do-frevo-terca/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:04.003Z"
+      }
+    },
+    {
+      "id": "praca-do-arsenal-terca",
+      "name": "Praça do Arsenal",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T17:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "17:00",
+      "category": "polos",
+      "types": [
+        "indicamos",
+        "tradicional",
+        "fantasia"
+      ],
+      "city": "recife",
+      "location": "Praça do Arsenal",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/praca-do-arsenal-terca/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:04.003Z"
+      }
+    },
+    {
+      "id": "eu-acho-e-pouco-terca",
+      "name": "Eu Acho é Pouco",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T17:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "17:00",
+      "category": "blocos",
+      "types": [
+        "indicamos",
+        "tradicional",
+        "fantasia"
+      ],
+      "city": "olinda",
+      "location": "A Definir",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/eu-acho-e-pouco-terca/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:04.003Z"
+      }
+    },
+    {
+      "id": "polo-guadalupe-terca",
+      "name": "Guadalupe",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T17:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "17:00",
+      "category": "polos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "olinda",
+      "location": "Guadalupe",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-guadalupe-terca/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:04.047Z"
+      }
+    },
+    {
+      "id": "parque-da-tamarineira-infantil-segunda-copy",
+      "name": "Parque da Tamarineira (infantil)",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T17:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "17:00",
+      "category": "polos",
+      "types": [],
+      "city": "recife",
+      "location": "Parque da Tamarineira",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/parque-da-tamarineira-infantil-segunda-copy/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:04.055Z"
+      }
+    },
+    {
+      "id": "eduardo-campos-3",
+      "name": "Eduardo Campos",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T17:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "17:00",
+      "category": "polos",
+      "types": [],
+      "city": "recife",
+      "location": "",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/eduardo-campos-3/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:04.070Z"
+      }
+    },
+    {
+      "id": "11763",
+      "name": "Vassourinhas de Olinda",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T18:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "18:00",
+      "category": "blocos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "olinda",
+      "location": "Sede do Vassourinhas",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/11763/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:04.108Z"
+      }
+    },
+    {
+      "id": "polo-marco-zero-terca",
+      "name": "MARCO ZERO",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T18:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "18:00",
+      "category": "polos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "recife",
+      "location": "Marco Zero",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-marco-zero-terca/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:04.108Z"
+      }
+    },
+    {
+      "id": "patio-de-sao-pedro-terca",
+      "name": "Pátio de São Pedro",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T18:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "18:00",
+      "category": "polos",
+      "types": [
+        "indicamos",
+        "tradicional",
+        "fantasia"
+      ],
+      "city": "recife",
+      "location": "Pátio de São Pedro",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/patio-de-sao-pedro-terca/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:04.150Z"
+      }
+    },
+    {
+      "id": "polo-novo-cais-terca",
+      "name": "Novo Cais",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T18:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "18:00",
+      "category": "polos",
+      "types": [],
+      "city": "recife",
+      "location": "Armazém do Campo",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-novo-cais-terca/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:04.150Z"
+      }
+    },
+    {
+      "id": "polo-gracas-terca",
+      "name": "Polo Graças",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T18:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "18:00",
+      "category": "polos",
+      "types": [],
+      "city": "recife",
+      "location": "",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-gracas-terca/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:04.150Z"
+      }
+    },
+    {
+      "id": "rec-beat-terca",
+      "name": "Rec-Beat",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T19:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "19:00",
+      "category": "polos",
+      "types": [
+        "indicamos"
+      ],
+      "city": "recife",
+      "location": "Cais da Alfândega",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/rec-beat-terca/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:04.292Z"
+      }
+    },
+    {
+      "id": "polo-erasto-vasconcelos-quarta",
+      "name": "Erasto Vasconcelos",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T19:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "19:00",
+      "category": "polos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "olinda",
+      "location": "Polo Erasto Vasconcelos",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-erasto-vasconcelos-quarta/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:04.292Z"
+      }
+    },
+    {
+      "id": "lenhadores-olindense",
+      "name": "Lenhadores Olindense",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T19:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "19:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Largo do Guadalupe",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/lenhadores-olindense/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:04.292Z"
+      }
+    },
+    {
+      "id": "polo-erasto-vasconcelos-terca",
+      "name": "Erasto Vasconcelos",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T19:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "19:00",
+      "category": "polos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "olinda",
+      "location": "Polo Erasto Vasconcelos",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-erasto-vasconcelos-terca/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:04.292Z"
+      }
+    },
+    {
+      "id": "polo-do-samba-terca",
+      "name": "Polo do Samba",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T18:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "18:00",
+      "category": "polos",
+      "types": [],
+      "city": "recife",
+      "location": "",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/polo-do-samba-terca/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:04.292Z"
+      }
+    },
+    {
+      "id": "seu-boteco-no-recife-antigo-terca-feira",
+      "name": "SEU BOTECO NO RECIFE ANTIGO",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T20:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "20:00",
+      "category": "camarotes",
+      "types": [],
+      "city": "recife",
+      "location": "Restaurante Seu Boteco",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/seu-boteco-no-recife-antigo-terca-feira/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:04.306Z"
+      }
+    },
+    {
+      "id": "congobloco-terca",
+      "name": "Congobloco",
+      "date": "17/02/2026",
+      "dateISO": "2026-02-17T20:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "20:00",
+      "category": "blocos",
+      "types": [],
+      "city": "recife",
+      "location": "Rua da Guia",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/congobloco-terca/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:04.481Z"
+      }
+    },
+    {
+      "id": "bloco-do-barao",
+      "name": "Bloco do Barão",
+      "date": "18/02/2026",
+      "dateISO": "2026-02-18T11:00:00",
+      "dayOfWeek": "quarta-feira",
+      "time": "11:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Rua da Boa Hora",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/bloco-do-barao/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:04.592Z"
+      }
+    },
+    {
+      "id": "10386",
+      "name": "Bacalhau do Batata",
+      "date": "18/02/2026",
+      "dateISO": "2026-02-18T08:00:00",
+      "dayOfWeek": "quarta-feira",
+      "time": "08:00",
+      "category": "blocos",
+      "types": [
+        "indicamos",
+        "tradicional"
+      ],
+      "city": "olinda",
+      "location": "Ladeira da Sé",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/10386/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:04.592Z"
+      }
+    },
+    {
+      "id": "boi-da-macuca-2",
+      "name": "Boi da Macuca",
+      "date": "18/02/2026",
+      "dateISO": "2026-02-18T17:00:00",
+      "dayOfWeek": "quarta-feira",
+      "time": "17:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Largo do Guadalupe",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/boi-da-macuca-2/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:04.623Z"
+      }
+    },
+    {
+      "id": "bloco-do-case",
+      "name": "Bloco do Case",
+      "date": "18/02/2026",
+      "dateISO": "2026-02-18T18:00:00",
+      "dayOfWeek": "quarta-feira",
+      "time": "18:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Atrás da Igreja de São Pedro",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/bloco-do-case/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:04.695Z"
+      }
+    },
+    {
+      "id": "segura-a-coisa",
+      "name": "Segura a Coisa",
+      "date": "18/02/2026",
+      "dateISO": "2026-02-18T23:59:00",
+      "dayOfWeek": "quarta-feira",
+      "time": "23:59",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Praça do Fortinho",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/segura-a-coisa/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:04.754Z"
+      }
+    },
+    {
+      "id": "o-invejado",
+      "name": "O Invejado",
+      "date": "22/02/2026",
+      "dateISO": "2026-02-22T16:00:00",
+      "dayOfWeek": "domingo",
+      "time": "16:00",
+      "category": "blocos",
+      "types": [],
+      "city": "olinda",
+      "location": "Bar do Ró",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/o-invejado/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:04.776Z"
+      }
+    },
+    {
+      "id": "o-homem-de-preto",
+      "name": "O Homem de Preto",
+      "date": "25/10/2026",
+      "dateISO": "2026-10-25T14:00:00",
+      "dayOfWeek": "domingo",
+      "time": "14:00",
+      "category": "previas",
+      "types": [],
+      "city": "olinda",
+      "location": "Praça do Carmo",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/o-homem-de-preto/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:04.878Z"
+      }
+    },
+    {
+      "id": "elefantinho-de-olinda",
+      "name": "Elefantinho de Olinda",
+      "date": "24/02/2026",
+      "dateISO": "2026-02-24T08:30:00",
+      "dayOfWeek": "terça-feira",
+      "time": "08:30",
+      "category": "blocos",
+      "types": [
+        "infantil"
+      ],
+      "city": "olinda",
+      "location": "Praça do Carmo",
+      "isFree": true,
+      "url": "https://penocarnaval.com.br/programacao/elefantinho-de-olinda/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:04.878Z"
+      }
+    },
+    {
+      "id": "9827",
+      "name": "Jumenta Chopp",
+      "date": "24/02/2026",
+      "dateISO": "2026-02-24T10:00:00",
+      "dayOfWeek": "terça-feira",
+      "time": "10:00",
+      "category": "blocos",
+      "types": [],
+      "city": "recife",
+      "location": "Praça Zeca Barbosa Lima",
+      "isFree": false,
+      "url": "https://penocarnaval.com.br/programacao/9827/",
+      "details": {
+        "pageTitle": "",
+        "contentLength": 0,
+        "extractedAt": "2026-02-07T21:39:04.878Z"
+      }
+    }
+  ]
+}

@@ -58,8 +58,7 @@ function loadAllEvents(document, done) {
   setTimeout(() => {
     clickLoadMoreButton();
   }, 2000);
-};
-
+}
 
 // Export for Node.js/CommonJS
 if (typeof module !== 'undefined' && module.exports) {
