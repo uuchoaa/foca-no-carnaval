@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Extraction Logs</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+      background-color: #1e1e1e;
+      color: #d4d4d4;
+      padding: 20px;
+      overflow: hidden;
+    }
+
+    h1 {
+      font-size: 18px;
+      margin-bottom: 15px;
+      color: #4ec9b0;
+      border-bottom: 2px solid #4ec9b0;
+      padding-bottom: 10px;
+    }
+
+    #log-container {
+      height: calc(100vh - 100px);
+      overflow-y: auto;
+      background-color: #252526;
+      padding: 15px;
+      border-radius: 5px;
+      border: 1px solid #3e3e42;
+    }
+
+    .log-entry {
+      padding: 8px 12px;
+      margin-bottom: 8px;
+      border-radius: 3px;
+      border-left: 4px solid #4ec9b0;
+      background-color: #2d2d30;
+      animation: fadeIn 0.3s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .log-entry.LOG {
+      border-left-color: #4ec9b0;
+    }
+
+    .log-entry.WARNING {
+      border-left-color: #dcdcaa;
+      background-color: #3a3a2d;
+    }
+
+    .log-entry.ERROR {
+      border-left-color: #f48771;
+      background-color: #3a2d2d;
+    }
+
+    .log-timestamp {
+      color: #858585;
+      font-size: 11px;
+      margin-right: 10px;
+    }
+
+    .log-level {
+      font-weight: bold;
+      margin-right: 10px;
+      font-size: 11px;
+    }
+
+    .log-entry.LOG .log-level {
+      color: #4ec9b0;
+    }
+
+    .log-entry.WARNING .log-level {
+      color: #dcdcaa;
+    }
+
+    .log-entry.ERROR .log-level {
+      color: #f48771;
+    }
+
+    .log-message {
+      color: #d4d4d4;
+      line-height: 1.5;
+    }
+
+    #log-container::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    #log-container::-webkit-scrollbar-track {
+      background: #1e1e1e;
+    }
+
+    #log-container::-webkit-scrollbar-thumb {
+      background: #424242;
+      border-radius: 5px;
+    }
+
+    #log-container::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
+
+    .clear-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #4ec9b0;
+      color: #1e1e1e;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-family: inherit;
+      font-size: 12px;
+      font-weight: bold;
+      transition: background-color 0.2s;
+    }
+
+    .clear-btn:hover {
+      background-color: #3ea88f;
+    }
+  </style>
+</head>
+<body>
+  <h1>🔍 Data Extraction Logs</h1>
+  <div id="log-container"></div>
+  <button class="clear-btn" onclick="clearLogs()">Clear Logs</button>
+
+  <script>
+    const logContainer = document.getElementById('log-container');
+
+    window.electronAPI.onNewLog((logData) => {
+      const logEntry = document.createElement('div');
+      logEntry.className = `log-entry ${logData.level}`;
+      
+      const timestamp = new Date(logData.timestamp).toLocaleTimeString();
+      
+      logEntry.innerHTML = `
+        <span class="log-timestamp">${timestamp}</span>
+        <span class="log-level">[${logData.level}]</span>
+        <span class="log-message">${escapeHtml(logData.message)}</span>
+      `;
+      
+      logContainer.appendChild(logEntry);
+      
+      // Auto-scroll to bottom
+      logContainer.scrollTop = logContainer.scrollHeight;
+    });
+
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
+    }
+
+    function clearLogs() {
+      logContainer.innerHTML = '';
+    }
+  </script>
+</body>
+</html>
