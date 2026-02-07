@@ -19,6 +19,17 @@
   },
   "pipeline": [
     {
+      "type": "interaction",
+      "module": "interactions/load-all-events.js"
+    },
+    {
+      "type": "snapshot"
+    },
+    {
+      "type": "reader",
+      "module": "readers/extract-events.js"
+    },
+    {
       "type": "parallel",
       "concurrency": 30,
       "module": "readers/extract-event-details.js",

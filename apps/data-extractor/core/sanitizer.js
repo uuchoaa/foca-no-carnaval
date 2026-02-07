@@ -170,23 +170,41 @@ function cleanHTMLString(htmlString, options = {}) {
 }
 
 /**
- * Cleans a full HTML document, keeping only the body content
+ * Cleans a full HTML document, returning valid HTML structure
  * Also normalizes whitespace in the output
  * @param {string} htmlString - HTML string to clean
  * @param {Object} options - Configuration options
- * @returns {string} Cleaned HTML string (body only)
+ * @returns {string} Cleaned, valid HTML string with full document structure
  */
 function cleanHTMLDocument(htmlString, options = {}) {
   const dom = new JSDOM(htmlString);
   const document = dom.window.document;
   
-  // Clean only the body (head is not useful for scraping)
+  // Remove head content (not useful for scraping)
+  if (document.head) {
+    // Keep only title if it exists
+    const title = document.head.querySelector('title');
+    const titleText = title ? title.textContent : '';
+    document.head.innerHTML = '';
+    if (titleText) {
+      const newTitle = document.createElement('title');
+      newTitle.textContent = titleText;
+      document.head.appendChild(newTitle);
+    }
+  }
+  
+  // Clean the body
   if (document.body) {
     cleanHTML(document.body, options);
   }
   
-  // Get only body HTML
-  let html = document.body ? document.body.innerHTML : '';
+  // Get full HTML structure
+  let html = document.documentElement.outerHTML;
+  
+  // Add DOCTYPE if not present
+  if (!html.trim().toLowerCase().startsWith('<!doctype')) {
+    html = '<!DOCTYPE html>\n' + html;
+  }
   
   // Remove excessive blank lines (more than 2 consecutive newlines)
   html = html.replace(/\n\s*\n\s*\n+/g, '\n\n');

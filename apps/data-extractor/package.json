@@ -8,6 +8,7 @@
     "dev": "electron .",
     "extract": "electron .",
     "extract:headless": "electron . --headless",
+    "snapshot:url": "electron scripts/snapshot-url.js",
     "test": "jest",
     "test:watch": "jest --watch"
   },

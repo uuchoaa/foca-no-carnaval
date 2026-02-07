@@ -329,7 +329,14 @@ async function executeParallel(mainWindow, step, config) {
     throw new Error(`Items not found at path: ${itemsPath}`);
   }
   
-  console.log(`[PIPELINE] Processing ${items.length} items from ${inputFile}`);
+  // Apply limit if set (useful for dev/testing)
+  const limit = step.limit || items.length;
+  const itemsToProcess = items.slice(0, limit);
+
+  if (limit < items.length) {
+    console.log(`[PIPELINE] Limited to ${limit} of ${items.length} items (dev mode)`);
+  }
+  console.log(`[PIPELINE] Processing ${itemsToProcess.length} items from ${inputFile}`);
   
   // 2. Load reader module
   const modulePath = path.join(config._sitePath, step.module);
@@ -351,7 +358,7 @@ async function executeParallel(mainWindow, step, config) {
   let processed = 0;
   const urlField = step.urlField || 'url';
   
-  await Promise.all(items.map(async (item, index) => {
+  await Promise.all(itemsToProcess.map(async (item, index) => {
     try {
       const url = item[urlField];
       if (!url) {
@@ -364,7 +371,7 @@ async function executeParallel(mainWindow, step, config) {
         const details = await executeReaderInPoolWindow(window, moduleCode, item);
         
         processed++;
-        if (processed % 10 === 0 || processed === items.length) {
+        if (processed % 10 === 0 || processed === itemsToProcess.length) {
           const stats = pool.getStats();
           console.log(`[PIPELINE] Progress: ${processed}/${items.length} (available: ${stats.available}, busy: ${stats.busy}, queued: ${stats.queued})`);
         }
