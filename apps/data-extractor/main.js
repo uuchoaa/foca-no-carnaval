@@ -9,7 +9,7 @@ let logWindow;
 
 // Get site name from CLI args
 const args = process.argv.slice(2);
-const siteName = args.find(arg => !arg.startsWith('--')) || 'pe-no-carnaval';
+const siteName = args.find(arg => !arg.startsWith('--'));
 const headless = args.includes('--headless');
 
 console.log(`[MAIN] Starting extraction for site: ${siteName}`);

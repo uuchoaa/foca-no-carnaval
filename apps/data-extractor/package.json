@@ -9,6 +9,7 @@
     "extract": "electron .",
     "extract:headless": "electron . --headless",
     "snapshot:url": "electron scripts/snapshot-url.js",
+    "generate:site": "node scripts/generate-site.js",
     "test": "jest",
     "test:watch": "jest --watch"
   },
