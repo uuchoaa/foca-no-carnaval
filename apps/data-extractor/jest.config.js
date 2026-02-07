@@ -1,5 +1,5 @@
 module.exports = {
-  testEnvironment: 'jsdom',
+  testEnvironment: 'node',
   testMatch: [
     '**/sites/**/readers/**/*.test.js',
     '**/sites/**/interactions/**/*.test.js',

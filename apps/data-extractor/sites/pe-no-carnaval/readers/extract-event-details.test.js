@@ -48,12 +48,12 @@ describe('extractEventDetails', () => {
 
   test('should include page title', () => {
     const result = extractEventDetails(document, sampleEvent);
-    expect(result.pageTitle).toContain('Corrida dos Bonecos Gigantes');
+    expect(result.pageTitle).toBe('Corrida dos Bonecos Gigantes | PE no Carnaval');
   });
 
   test('should include content length', () => {
     const result = extractEventDetails(document, sampleEvent);
-    expect(result.contentLength).toBeGreaterThan(0);
+    expect(result.contentLength).toBe(37398);
   });
 
   test('should include extractedAt timestamp', () => {
