@@ -1,0 +1,334 @@
+13
+QUINTA	12/02	18:00	20:00	Olinda	Elefante de Olinda	Largo do Guadalupe	-	
+14
+QUINTA	12/02	16:00	17:00	Recife	Afojubá Batuque	Avenida Marquês de Olinda	-	
+15
+QUINTA	12/02	16:00	17:00	Olinda	Garoto da Noite	Rua São Francisco, 26	-	
+16
+QUINTA	12/02	19:00	20:00	Recife	Escuta Levino	Praça Maciel Pinheiro	Maestro Lessa/Maestro Sid	
+17
+QUINTA	12/02	18:00	20:00	Recife	Me Mostra Teu Mapa Astral	Praça Maciel Pinheiro	-	
+18
+QUINTA	12/02	20:00	21:00	Recife	Shortinho Torano	Rua do Apolo, 174	Orquestra Império	
+19
+SEXTA	13/02	17:00	18:00	Olinda	Cortejo do Boneco do Maestro Óseas	Bar do Ró	Maestro Oseas	
+20
+SEXTA	13/02	15:00	16:00	Olinda	O Fazendão	Secretaria da Fazenda de Olinda	-	
+21
+SEXTA	13/02	15:00	15:00	Olinda	Deusas do Ébano	Largo do Guadalupe		
+22
+SEXTA	13/02	16:20	17:00	Olinda	Me Rega Que Eu Brilho	Quatro Cantos	Henrique Dias	
+23
+SEXTA	13/02	16:30	17:30	Olinda	Abduzidos	Casa Nala	-	
+24
+SEXTA	13/02	17:00	18:00	Olinda	Caraca Moleque	Centro Luiz Freire	-	
+25
+SEXTA	13/02	17:00	19:30	Recife	Segura o Tonho, Charlie Brow	Rua da Moeda	-	
+26
+SEXTA	13/02	17:00	19:00	Recife	Nem Sempre Lily Toca Flauta	Pátio Santa Cruz	Betto do Bandolim e Levino Ferreira	
+27
+SEXTA	13/02	19:00	19:00	Olinda	Mulher do Dia	Vassourinhas de Olinda - Largo do Amparo	Henrique Dias	
+28
+SEXTA	13/02	18:30	19:30	Olinda	Traquinos em Folia	Sede da Pitombeira	Maestro Oseas	
+29
+SEXTA	13/02	18:30	19:30	Recife	Buzina mas não freia	Coreto do Derby	-	
+30
+SEXTA	13/02	18:00	20:00	Olinda	Sem Nome	Rua 27 de Janeiro, 197	Maestro Carlos	
+31
+SEXTA	13/02	19:00	20:00	Recife	Batuques de Pernambuco	Rua da Moeda	-	
+32
+SEXTA	13/02	20:00	20:00	Recife	Batadoní	Avenida Rio Branco		
+33
+SEXTA	13/02	17:30	20:30	Olinda	Feitiço das Estrelas	Rua do Bonfim, 82	-	
+34
+SEXTA	13/02	17:30	20:30	Olinda	Rapariga Véa	Bar do Peneira		
+35
+SEXTA	13/02	20:00	21:00	Olinda	Me Solta, Carai!	Largo do Amparo	Orquestra do Babá	
+36
+SEXTA	13/02	19:00	21:00	Olinda	Du Nada a Gente Sai	Largo do Amparo	Maestro Lessa/Maestro Sid	
+37
+SEXTA	13/02	17:00	22:00	Olinda	La Ursa do Bonfim	Clube Cariri	Maestro Oséas	
+38
+SEXTA	13/02	18:30	22:00	Olinda	Frevo e Folia	Vassourinhas de Olinda - Largo do Amparo	Orquestra do Babá	
+39
+SEXTA	13/02	18:00	23:00	Olinda	O Lord de Olinda	Largo do Guadalupe	Henrique Dias	
+40
+SÁBADO	14/02	5:45	6:45	Recife	Pinto do galo da Madrugada	Praça do Marco Zero	-	
+41
+SÁBADO	14/02	7:00	8:00	Recife	Galinha d’Água	Rio Capibaribe	-	
+42
+SÁBADO	14/02	4:00	9:00	Recife	Galo da Madrugada	Praça Sérgio Lôreto	-	
+43
+SÁBADO	14/02	8:00	9:00	Olinda	Sibito Baleado	Rua Coronel Joaquim Cavalcanti, 201	-	
+44
+SÁBADO	14/02	8:00	9:00	Olinda	O Urso Cascudo do Amparo	Largo do Guadalupe	Orquestra do Mamão do Pandeiro	
+45
+SÁBADO	14/02	8:00	9:00	Olinda	Eu Acho é Pouco	Praça Laura Nigro	-	
+46
+SÁBADO	14/02	10:00	11:00	Olinda	Bloco Mangue Beat	Mosteiro São Bento	-	
+47
+SÁBADO	14/02	8:00	9:00	Olinda	Bloco do Frei	Cruzeiro do Convento de São Francisco	-	
+48
+SÁBADO	14/02	8:00	9:00	Olinda	Maracatu Kangoma	Rua do Amparo, 236	-	
+49
+SÁBADO	14/02	8:00	9:00	Olinda	Tambores D'Saia	Praça de São Pedro	-	
+50
+SÁBADO	14/02	8:00	9:00	Olinda	Soul Delas	Mosteiro São Bento	-	
+51
+SÁBADO	14/02	8:00	9:30	Olinda	Trinca de Ás	Ladeira da Prefeitura	Maestro Oseas	
+52
+SÁBADO	14/02	9:00	9:59	Recife	Patusquinho	Pátio São Pedro	-	
+53
+SÁBADO	14/02	9:00	10:00	Olinda	Urso Congelado	Açaí do Carmo, 5	-	
+54
+SÁBADO	14/02	9:00	10:00	Olinda	Fábrica de Samba	Igreja de São Pedro	-	
+55
+SÁBADO	14/02	10:00	10:00	Olinda	Sombatuki	Largo do Amparo	-	
+56
+SÁBADO	14/02	10:00	10:00	Olinda	Fique na Sombra	Rua da Boa Hora, 177	-	
+57
+SÁBADO	14/02	9:00	10:00	Olinda	Batucada Atômica	Avenida 10 de Novembro	-	
+58
+SÁBADO	14/02	9:00	10:00	Olinda	Tá Calor Nessa Roupa?	Casbah	Maestro China	
+59
+SÁBADO	14/02	9:00	11:30	Olinda	Se me der eu como	Rua do Bonfim 386	-	
+60
+SÁBADO	14/02	10:00	12:00	Olinda	Tomamu no Papeiro	Rua coronel Joaquim, 237	-	
+61
+SÁBADO	14/02	10:00	12:00	Olinda	Pife Floyd	Travessa de São Francisco, 206	-	
+62
+SÁBADO	14/02	14:00	14:00	Olinda	O Pescador	Caldinho do Dogão (Praça do Fortim)	-	
+63
+SÁBADO	14/02	14:00	15:00	Olinda	Afojubá Batuque	Mosteiro São Bento	-	
+64
+SÁBADO	14/02	13:00	14:00	Olinda	Donzelinhos dos Milagres	Largo do Amparo		
+65
+SÁBADO	14/02	13:00	14:00	Olinda	Moidicuento	Praça Cel João Lapa	-	
+66
+SÁBADO	14/02	14:00	14:00	Olinda	Bumba Meu Bowie	Praça do Jacaré	-	
+67
+SÁBADO	14/02	14:00	14:00	Olinda	Maracadonna	Praça do Jacaré	-	
+68
+SÁBADO	14/02	10:00	14:00	Olinda	A Flor de Zíaco	Estrada do Bonsucesso, 241	Henrique Dias	
+69
+SÁBADO	14/02	13:30	14:30	Olinda	Ta Bom a Gente Freva	Mosteiro São Bento	Orquestra Backstage	
+70
+SÁBADO	14/02	14:00	14:50	Olinda	Chapadinhos na Praia	Alto da Sé	-	
+71
+SÁBADO	14/02	12:00	16:00	Olinda	Ceroula de Olinda	Colégio Sao Bento	Maestro Oséas	
+72
+SÁBADO	14/02	16:00	16:00	Olinda	Hoje a Mangueira Entra	Rua Coronel Joaquim Cavalcanti, 487	-	
+73
+SÁBADO	14/02	15:00	16:00	Recife	Cordas e Retalhos	Rua da Guia, 86	Maestro Edson Rodrigues	
+74
+SÁBADO	14/02	15:00	15:00	Olinda	Sobrecú	Beco do Bajado	Orquestra Frevo e Folia	
+75
+SÁBADO	14/02	16:00	17:00	Olinda	Menino da Tarde	Largo do Guadalupe	Maestro Carlos	
+76
+SÁBADO	14/02	10:00	17:00	Olinda	Papudinhos do Bonsucesso	Espaço Cultural Osvaldo Sérgio	Paranampuká	
+77
+SÁBADO	14/02	17:00	18:00	Olinda	Burra do Rosário	Guadalupe - Sede da Burra	-	
+78
+SÁBADO	14/02	18:00	19:00	Olinda	Afoxé Alafin Oyó	Largo do Guadalupe	-	
+79
+SÁBADO	14/02	18:00	19:00	Olinda	John Travolta	Vassourinhas de Olinda - Largo do Amparo	-	
+80
+SÁBADO	14/02	23:00	0:00	Olinda	Homem da Meia Noite	Estrada do Bom Sucesso - Sede do Homem	-	
+81
+DOMINGO	15/02	3:00	4:00	Olinda	Cariri	Clube Cariri	-	
+82
+DOMINGO	15/02	8:00	8:00	Olinda	Mucha Lucha	Alto da Sé	-	
+83
+DOMINGO	15/02	9:00	9:00	Olinda	D'Breck	Largo do Bonfim	-	
+84
+DOMINGO	15/02	8:00	9:00	Olinda	A Rede	Largo do Guadalupe	-	
+85
+DOMINGO	15/02	8:00	9:00	Olinda	Birita de Olinda	Rua do Amparo 110	Maestro Célio	
+86
+DOMINGO	15/02	8:00	9:00	Olinda	Batuques de Pernambuco	Praça do Carmo	-	
+87
+DOMINGO	15/02	9:00	9:59	Olinda	Patusco	Rua do Amparo, 292	-	
+88
+DOMINGO	15/02	8:00	10:00	Olinda	Filhas de Betha	Largo do Amparo	Paranampuká	
+89
+DOMINGO	15/02	9:00	10:00	Olinda	Sambadeiras	Ladeira da Misericordia	-	
+90
+DOMINGO	15/02	9:00	10:00	Olinda	Enquanto Isso Na Sala da Justiça	Alto da Sé	-	
+91
+DOMINGO	15/02	9:00	10:00	Olinda	Congobloco	Sede do Macaratu Nação Pernambuco	-	
+92
+DOMINGO	15/02	9:00	10:00	Olinda	Mulher do Dia	Casa PE no Carnaval	Henrique Dias	
+93
+DOMINGO	15/02	10:00	10:00	Olinda	Sombatuki	Rua do Bonfim	-	
+94
+DOMINGO	15/02	10:00	11:00	Olinda	Bloco Tira Lama	Mosteiro São Bento	-	
+95
+DOMINGO	15/02	10:00	11:00	Olinda	Batadoní	Mosteiro São Bento		
+96
+DOMINGO	15/02	9:30	10:30	Olinda	Rebylleurias	Rua do Bonfim, 449	Henrique Dias	
+97
+DOMINGO	15/02	10:00	11:00	Olinda	Cachorro do Farol	Praça do Amaro Branco	-	
+98
+DOMINGO	15/02	11:00	12:00	Olinda	Dez de Xarque e Uma Latinha	Largo do Amparo	Maestro Lessa/Maestro Sid	
+99
+DOMINGO	15/02	11:00	14:00	Olinda	Umuarama	Rua Epitácio Pessoa Sobrinho, 91	Henrique Dias	
+100
+DOMINGO	15/02	10:00	14:00	Olinda	Me Adota	Praça do Carmo	-	
+101
+DOMINGO	15/02	13:00	14:00	Olinda	Marim dos Caetés	Largo do Guadalupe	-	
+102
+DOMINGO	15/02	12:00	15:00	Olinda	Fogo na Bacurinha	Mercado da Ribeira	Orquestra do Babá	
+103
+DOMINGO	15/02	15:30	15:30	Olinda	Grheia	Alto da Sé	-	
+104
+DOMINGO	15/02	11:00	15:30	Olinda	Bloco do Cimento	Vassourinhas de Olinda - Largo do Amparo	Maestro Oseas	
+105
+DOMINGO	15/02	15:00	16:00	Olinda	Vassourinhas	Largo do Guadalupe		
+106
+DOMINGO	15/02	10:00	16:00	Olinda	Vem Pra Sombra	Estrada do Bonsucesso, 510	Henrique Dias	
+107
+DOMINGO	15/02	15:00	16:00	Recife	Caranguejo no Caçuá	Rua da Moeda	Maestro Lessa/Maestro Sid	
+108
+DOMINGO	15/02	17:00	19:00	Olinda	Elefante de Olinda	Largo do Bonsucesso - Sede do Homem	-	
+109
+SEGUNDA	16/02	8:00	9:00	Olinda	Apoteose dos Bonecos Gigantes	Alto da Sé	-	
+110
+SEGUNDA	16/02	8:00	9:00	Olinda	Minha Cobra	Largo do Bonsucesso	Henrique Dias	
+111
+SEGUNDA	16/02	8:00	9:00	Olinda	Soul Delas	Mosteiro São Bento	-	
+112
+SEGUNDA	16/02	8:00	9:00	Olinda	Tambores D'Saia	Praça de São Pedro	-	
+113
+SEGUNDA	16/02	8:00	9:00	Olinda	Eu Acho é Pouquinho	Praça Laura Nigro		
+114
+SEGUNDA	16/02	8:30	9:30	Olinda	Birita de Olinda	Rua do Amparo, 110	Maestro Célio	
+115
+SEGUNDA	16/02	10:00	10:00	Olinda	Pitombeira dos Quatro Cantos	Sede da Pitombeira	Maestro Carlos e Paranampuká	
+116
+SEGUNDA	16/02	9:00	10:00	Olinda	Fábrica de Samba	Igreja de São Pedro	-	
+117
+SEGUNDA	16/02	9:00	10:30	Olinda	México Peru	Ladeira da Misericórdia	-	
+118
+SEGUNDA	16/02	10:00	10:30	Olinda	Comigo é Assim	Alto da Sé	Maestro Oséas	
+119
+SEGUNDA	16/02	10:00	11:30	Olinda	Minhocão de Olinda	Atrás da Igreja de São Pedro	Henrique Dias	
+120
+SEGUNDA	16/02	11:00	12:00	Olinda	Ta'Qui Pr'Ocês	Rua Nelson Guedes da Silva, 142 (Beco do Lixo)	Orquestra do Babá	
+121
+SEGUNDA	16/02	11:00	12:00	Olinda	A Sopa do Monte	Estrada do Bonsucesso, 510	-	
+122
+SEGUNDA	16/02	10:30	12:00	Olinda	Se Eu Flopar Me Beija	Praça Cel João Lapa	Henrique Dias	
+123
+SEGUNDA	16/02	13:00	13:00	Olinda	O Cara	Clube Cariri	-	
+124
+SEGUNDA	16/02	13:00	13:00	Olinda	O Franciscão	Sede da JOGO	-	
+125
+SEGUNDA	16/02	11:30	13:30	Olinda	Mulher na Vara	Casa de Dona Dá	Maestro Oséas	
+126
+SEGUNDA	16/02	13:00	14:00	Olinda	Pré-Sal	Rua Joaquim Cavalcanti, 511	-	
+127
+SEGUNDA	16/02	13:00	14:00	Recife	Amantes de Glória	Rua da Guia	-	
+128
+SEGUNDA	16/02	15:30	15:30	Olinda	Grheia	Alto da Sé	-	
+129
+SEGUNDA	16/02	15:00	16:20	Olinda	Vaca Profana	Fortin do Queijo	-	
+130
+SEGUNDA	16/02	15:00	16:00	Recife	Bloco da Saudade	Praça Maciel Pinheiro	Orquestra Bloco da Saudade	
+131
+SEGUNDA	16/02	15:00	16:00	Olinda	Bloco da Ema	Praça Cel João Lapa	-	
+132
+SEGUNDA	16/02	15:00	16:00	Olinda	Fígado de Aço	Rua do Bonfim, 109	-	
+133
+SEGUNDA	16/02	15:00	16:00	Olinda	Batucada Atômica	Praça do Carmo - Focca	-	
+134
+SEGUNDA	16/02	15:00	16:00	Olinda	Maracatu Nação Pernambuco	Casarão Nação Pernambuco	-	
+135
+SEGUNDA	16/02	15:00	16:00	Recife	Segunda tem palhaço	Rua da Moeda	-	
+136
+SEGUNDA	16/02	16:00	16:00	Recife	Cordas e Retalhos	Praça Joaquim Nabuco	Maestro Edson Rodrigues	
+137
+SEGUNDA	16/02	15:30	16:00	Olinda	Eu Gosto Assim	Rua Dez de Novembro	Orquestra Backstage	
+138
+SEGUNDA	16/02	13:00	17:00	Recife	Bloco do Nada	Rua Rosário da Boa Vista	Orquestra Botelho Frevo e Folia	
+139
+SEGUNDA	16/02	14:30	17:00	Olinda	Garoto de Vassoura	Rua Antonio Luciano de Oliveira, 239	Maestro Oséas	
+140
+SEGUNDA	16/02	11:00	17:00	Olinda	Metido a Rico Porém Liso	Espaço Cultural Osvaldo Sérgio	-	
+141
+SEGUNDA	16/02	18:00	19:30	Olinda	O Rodo	Casa de Dona Dá	Orquestra de Ninho	
+142
+SEGUNDA	16/02	19:00	20:00	Recife	Noite dos tambores silenciosos	Pátio do Terço	-	
+143
+SEGUNDA	16/02	19:00	20:00	Olinda	Boi da Macuca	Vassourinhas de Olinda - Largo do Amparo	-	
+144
+TERÇA	17/02	7:00	7:00	Olinda	A Corda	Ladeira da Misericordia	-	
+145
+TERÇA	17/02	7:00	8:00	Olinda	A Porca	Rua da Palha	Orquestra do Babá	
+146
+TERÇA	17/03	8:00	9:00	Olinda	Pernambucar-te	Praça do Carmo	-	
+147
+TERÇA	17/02	9:00	9:00	Olinda	D'Breck	Largo do Bonfim	-	
+148
+TERÇA	17/02	8:00	9:00	Olinda	Maracatu Kangoma	Rua do Amparo, 236	-	
+149
+TERÇA	17/02	8:00	9:00	Olinda	Batadoní	Praça do Carmo	-	
+150
+TERÇA	17/02	8:00	9:00	Olinda	Batuques de Pernambuco	Praça do Carmo	-	
+151
+TERÇA	17/02	9:00	9:59	Olinda	Patusco	Rua do Amparo, 292	-	
+152
+TERÇA	17/02	10:00	10:00	Olinda	Pitombeira dos Quatro Cantos	Largo do Amparo	Maestro Carlos e Paranampuká	
+153
+TERÇA	17/02	9:00	10:00	Olinda	Sambadeiras	Ladeira da Misericordia	-	
+154
+TERÇA	17/02	9:30	10:30	Olinda	Rebylleurias	Rua do Bonfim, 449	Henrique Dias	
+155
+TERÇA	17/02	10:00	11:00	Olinda	Encontro dos Bonecos Gigantes	Largo do Guadalupe	-	
+156
+TERÇA	17/02	11:00	12:00	Olinda	Os Abutres	Rua 15 de Novembro	Orquestra Santa Cecília	
+157
+TERÇA	17/02	11:00	12:00	Olinda	Zebra das Olindas	Rua Maria Adalgisa Ferreira de Castro	Orquestra do Babá	
+158
+TERÇA	17/02	11:00	13:00	Olinda	Quem Cola Entra	Rua Henrique Dias, 130	Henrique Dias	
+159
+TERÇA	17/02	12:00	14:30	Olinda	Segurucu	Bar Esquina do Carmo	Maestro Carlos	
+160
+TERÇA	17/02	10:00	15:00	Olinda	Caranguejo Papamé	Rua Jerônimo de Albuquerque, 112	Maestro Lessa/Maestro Sid	
+161
+TERÇA	17/02	12:00	16:00	Recife	Bloco da Saudade	Praça Maciel Pinheiro	Orquestra Bloco da Saudade	
+162
+TERÇA	17/02	12:00	16:00	Olinda	Ceroula de Olinda	Colégio Sao Bento	Maestro Oséas	
+163
+TERÇA	17/02	15:00	16:00	Olinda	Rainha	Rua Coronel Joaquim Cavalcante , 298	Frevor do Pina	
+164
+TERÇA	17/02	15:00	16:00	Recife	Quero ver quem vai	Praça do Arsenal	Henrique Dias	
+165
+TERÇA	17/02	16:00	17:00	Recife	Maracatu Nação Pernambuco	Praça do Arsenal	-	
+166
+TERÇA	17/02	16:00	17:00	Olinda	Eu Acho é Pouco	A definir	-	
+167
+TERÇA	17/02	16:00	17:00	Recife	Afojubá Batuque	Avenida Marquês de Olinda	-	
+168
+TERÇA	17/02	17:00	19:30	Olinda	Lenhadores Olindense	Largo do Guadalupe	-	
+169
+TERÇA	17/02	1900	20:00	Recife	Congobloco	Rua da Guia	-	
+170
+QUARTA	18/02	8:00	8:00	Olinda	Bacalhau do Batata	Alto da Sé	-	
+171
+QUARTA	18/02	10:00	10:00	Olinda	Isso Nú Hein?	Bar do Ró	-	
+172
+QUARTA	18/02	10:00	11:00	Olinda	Bloco do Barão	Rua da Boa Hora	-	
+173
+QUARTA	18/02	12:00	12:00	Olinda	Bloco do Reggae	A definir	-	
+174
+QUARTA	18/02	13:00	14:00	Olinda	Coveirinhos na Folia	Cemitério de Guadalupe	-	
+175
+QUARTA	18/02	16:00	18:00	Olinda	Boi da Macuca	Largo do Guadalupe	-	
+176
+QUARTA	18/02	17:00	18:00	Olinda	Bloco do Case	Atrás da Igreja de São Pedro	-	
+177
+QUARTA	18/02	18:00	19:00	Olinda	Encontro de Bois	Rua da Boa Hora	-	
+178
+QUARTA	18/02	20:00	20:00	Olinda	Cortejo dos Afoxés	Largo do Guadalupe	-	
+179
+QUARTA	18/02	23:00	23:59	Olinda	Segura a Coisa	Praça do Fortim	-	
