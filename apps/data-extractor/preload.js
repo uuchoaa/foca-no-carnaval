@@ -11,7 +11,13 @@ window.addEventListener('DOMContentLoaded', () => {
       // Wait a bit for the page to fully load
       setTimeout(() => {
         console.log('[EXTRACTOR] Starting to look for "Carregar mais eventos" button');
-        clickLoadMoreButton();
+        // clickLoadMoreButton();
+      }, 2000);
+
+      // Wait a bit for the page to fully load
+      setTimeout(() => {
+        console.log('[EXTRACTOR] Starting to look how to parse HTML);
+        // clickLoadMoreButton();
       }, 2000);
 
       function clickLoadMoreButton() {
