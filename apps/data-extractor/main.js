@@ -19,6 +19,12 @@ function createWindow() {
   // Load the PE no Carnaval website
   mainWindow.loadURL('https://penocarnaval.com.br/programacao/');
 
+  // Capture console logs from the renderer process and output to STDOUT
+  mainWindow.webContents.on('console-message', (event, level, message, line, sourceId) => {
+    const levels = ['LOG', 'WARNING', 'ERROR', 'DEBUG', 'INFO'];
+    console.log(`[RENDERER ${levels[level] || 'LOG'}] ${message}`);
+  });
+
   // Open DevTools in development (optional)
   // mainWindow.webContents.openDevTools();
 
