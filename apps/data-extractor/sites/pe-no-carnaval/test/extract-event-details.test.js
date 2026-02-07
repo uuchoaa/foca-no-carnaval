@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const { JSDOM } = require('jsdom');
-const extractEventDetails = require('./extract-event-details');
+const extractEventDetails = require('../readers/extract-event-details');
 
 describe('extractEventDetails', () => {
   let document;
@@ -21,6 +21,8 @@ describe('extractEventDetails', () => {
   };
 
   beforeAll(() => {
+
+    // TODO: create loadFixture(...) helper
     const html = fs.readFileSync(
       path.join(__dirname, '__fixtures__', 'event-detail.html'),
       'utf-8'

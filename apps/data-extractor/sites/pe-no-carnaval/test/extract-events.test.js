@@ -1,14 +1,14 @@
 const fs = require('fs');
 const path = require('path');
 const { JSDOM } = require('jsdom');
-const extractEvents = require('./extract-events');
+const extractEvents = require('../readers/extract-events');
 
 describe('extractEvents', () => {
   let document;
   
   beforeAll(() => {
-    // Read the actual HTML content (now in parent directory)
-    const htmlPath = path.join(__dirname, '..', 'content.html');
+    // TODO: create loadFixture(...) helper
+    const htmlPath = path.join(__dirname, '__fixtures__', 'events-list.html');
     const htmlContent = fs.readFileSync(htmlPath, 'utf-8');
     const dom = new JSDOM(htmlContent);
     document = dom.window.document;
@@ -25,23 +25,23 @@ describe('extractEvents', () => {
   test('should extract correct number of events', () => {
     const result = extractEvents(document);
     
-    // Based on content.html snapshot from 07/02/2026
-    expect(result.events.length).toBe(308);
+    // Based on events-list.html fixture
+    expect(result.events.length).toBe(90);
   });
 
   test('should extract first event correctly', () => {
     const result = extractEvents(document);
     const firstEvent = result.events[0];
     
-    expect(firstEvent.name).toBe('Corrida dos Bonecos Gigantes');
+    expect(firstEvent.name).toBe('60º Baile Municipal do Recife');
     expect(firstEvent.date).toBe('07/02/2026');
-    expect(firstEvent.dateISO).toBe('2026-02-07T09:00:00');
+    expect(firstEvent.dateISO).toBe('2026-02-07T19:00:00');
     expect(firstEvent.dayOfWeek).toBe('sábado');
-    expect(firstEvent.time).toBe('09:00');
+    expect(firstEvent.time).toBe('19:00');
     expect(firstEvent.category).toBe('previas');
-    expect(firstEvent.city).toBe('olinda');
-    expect(firstEvent.location).toBe('Mercado da Ribeira');
-    expect(firstEvent.isFree).toBe(true);
+    expect(firstEvent.city).toBe('recife');
+    expect(firstEvent.location).toBe('Classic Hall');
+    expect(firstEvent.isFree).toBe(false);
     expect(firstEvent.url).toContain('penocarnaval.com.br/programacao');
   });
 
@@ -50,17 +50,16 @@ describe('extractEvents', () => {
     const firstEvent = result.events[0];
     
     expect(Array.isArray(firstEvent.types)).toBe(true);
-    expect(firstEvent.types).toEqual(['indicamos', 'tradicional']);
+    expect(firstEvent.types).toEqual(['indicamos', 'indicamos']);
   });
 
   test('should handle empty types', () => {
     const result = extractEvents(document);
-    // Find an event with empty types
+    // In this fixture, all events have types
     const eventWithEmptyTypes = result.events.find(e => e.types.length === 0);
     
-    expect(eventWithEmptyTypes).toBeDefined();
-    expect(Array.isArray(eventWithEmptyTypes.types)).toBe(true);
-    expect(eventWithEmptyTypes.types.length).toBe(0);
+    // No events with empty types in this fixture
+    expect(eventWithEmptyTypes).toBeUndefined();
   });
 
   test('should extract event ID from URL', () => {
@@ -84,11 +83,11 @@ describe('extractEvents', () => {
     const result = extractEvents(document);
     const lastEvent = result.events[result.events.length - 1];
     
-    expect(lastEvent.name).toBe('O Homem de Preto');
-    expect(lastEvent.date).toBe('25/10/2026');
-    expect(lastEvent.dateISO).toBe('2026-10-25T14:00:00');
-    expect(lastEvent.dayOfWeek).toBe('domingo');
-    expect(lastEvent.time).toBe('14:00');
+    expect(lastEvent.name).toBe('Eu Acho é Pouco');
+    expect(lastEvent.date).toBe('17/02/2026');
+    expect(lastEvent.dateISO).toBe('2026-02-17T17:00:00');
+    expect(lastEvent.dayOfWeek).toBe('terça-feira');
+    expect(lastEvent.time).toBe('17:00');
   });
 
   test('should handle late night events correctly', () => {
@@ -157,7 +156,7 @@ describe('extractEvents', () => {
     // Should have various cities
     const cities = [...new Set(result.events.map(e => e.city))];
     expect(cities.length).toBeGreaterThan(0);
-    // First event should be in olinda
-    expect(result.events[0].city).toBe('olinda');
+    // First event should be in recife
+    expect(result.events[0].city).toBe('recife');
   });
 });

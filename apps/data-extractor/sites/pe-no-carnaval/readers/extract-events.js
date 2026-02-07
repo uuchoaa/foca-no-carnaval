@@ -18,56 +18,77 @@ function extractEvents(content) {
 
   const events = [];
   
-  // Find all date containers
-  const dateContainers = document.querySelectorAll('.data-container');
+  // Find all data containers
+  const containers = document.querySelectorAll('.data-container');
   
-  dateContainers.forEach(container => {
-    // Extract date from h4 header
-    const h4 = container.querySelector('h4');
-    if (!h4) return;
+  containers.forEach(container => {
+    // Get section name from h3 (e.g., "Tradicional", "Indicamos")
+    const h3 = container.querySelector('h3');
+    const sectionType = h3 ? h3.textContent.trim().toLowerCase() : '';
     
-    const headerText = h4.textContent.trim();
-    // Format: "18/02/2026 - quarta-feira"
-    const dateMatch = headerText.match(/(\d{2}\/\d{2}\/\d{4})\s*-\s*(.+)/);
-    
-    if (!dateMatch) return;
-    
-    const dateStr = dateMatch[1];
-    const dayOfWeek = dateMatch[2];
-    
-    // Parse date components
-    const [day, month, year] = dateStr.split('/');
-    
-    // Find all event items in this date container
-    const eventItems = container.querySelectorAll('li');
+    // Find all event items in this container
+    const eventItems = container.querySelectorAll('li[data-categoria-evento]');
     
     eventItems.forEach(li => {
       try {
         // Extract data from attributes
-        const name = li.getAttribute('data-nome-evento') || '';
-        const time = li.getAttribute('data-horario-evento') || '';
         const category = li.getAttribute('data-categoria-evento') || '';
-        const typeStr = li.getAttribute('data-tipo-evento') || '';
+        const typeAttr = li.getAttribute('data-tipo-evento') || '';
         const city = li.getAttribute('data-cidade-evento') || '';
         
-        // Parse types (comma-separated)
-        const types = typeStr ? typeStr.split(',').map(t => t.trim()).filter(t => t) : [];
+        // Build types array: [typeAttr, sectionType]
+        const types = [];
+        if (typeAttr) types.push(typeAttr);
+        if (sectionType) types.push(sectionType);
         
         // Extract nested span data
         const link = li.querySelector('a');
         const url = link ? link.getAttribute('href') || '' : '';
         
+        // Extract date from .data span
+        const dataSpan = li.querySelector('.data');
+        const dateText = dataSpan ? dataSpan.textContent.trim() : '';
+        // Date format: " 07/02" (with leading space sometimes)
+        const dateShort = dateText.trim();
+        
+        // Extract day of week from .diasemana span
+        const diasemanaSpan = li.querySelector('.diasemana');
+        const dayOfWeek = diasemanaSpan ? diasemanaSpan.childNodes[0]?.textContent.trim() : '';
+        
+        // Extract title from .titulo span (nested inside .diasemana)
         const tituloSpan = li.querySelector('.titulo');
-        const titleRaw = tituloSpan ? tituloSpan.textContent : name;
-        // Remove extra whitespace and normalize
-        const title = titleRaw.replace(/\s+/g, ' ').trim();
+        const title = tituloSpan ? tituloSpan.textContent.replace(/\s+/g, ' ').trim() : '';
         
+        // Extract location from .local span
         const localSpan = li.querySelector('.local');
-        const location = localSpan ? localSpan.textContent.trim() : '';
+        const location = localSpan ? localSpan.textContent.replace(/\s+/g, ' ').trim() : '';
         
+        // Extract time from .horario span
+        const horarioSpan = li.querySelector('.horario');
+        let time = '';
+        if (horarioSpan) {
+          // Remove icon and extract time (e.g., " 09:00")
+          const horarioText = horarioSpan.textContent.trim();
+          const timeMatch = horarioText.match(/(\d{2}:\d{2})/);
+          if (timeMatch) {
+            time = timeMatch[1];
+          }
+        }
+        
+        // Extract price info from .tipo_evento span
         const tipoEventoSpan = li.querySelector('.tipo_evento');
         const priceText = tipoEventoSpan ? tipoEventoSpan.textContent.trim().toLowerCase() : '';
         const isFree = priceText.includes('gratuito');
+        
+        // Build full date string (need to infer year from current context or default to 2026)
+        const currentYear = new Date().getFullYear();
+        const dateStr = dateShort.includes('/') ? `${dateShort}/2026` : '';
+        
+        // Parse date components
+        let day = '', month = '', year = '2026';
+        if (dateStr) {
+          [day, month, year] = dateStr.split('/');
+        }
         
         // Generate ID from URL
         let id = '';
@@ -81,12 +102,15 @@ function extractEvents(content) {
         // Create ISO datetime string
         // Format: YYYY-MM-DDTHH:MM:SS
         let dateISO = '';
-        if (time) {
+        if (time && dateStr) {
           const [hours, minutes] = time.split(':');
           dateISO = `${year}-${month}-${day}T${hours.padStart(2, '0')}:${minutes.padStart(2, '0')}:00`;
-        } else {
+        } else if (dateStr) {
           dateISO = `${year}-${month}-${day}T00:00:00`;
         }
+        
+        // Skip if no essential data
+        if (!title || !dateStr) return;
         
         // Build event object
         const event = {

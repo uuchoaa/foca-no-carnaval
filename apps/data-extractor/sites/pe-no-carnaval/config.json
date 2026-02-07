@@ -23,9 +23,6 @@
       "module": "interactions/load-all-events.js"
     },
     {
-      "type": "snapshot"
-    },
-    {
       "type": "reader",
       "module": "readers/extract-events.js"
     },
