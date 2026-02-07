@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "27326",
+      "title": "BLOCO MALUCO BELEZA",
+      "date": "08/02/2026",
+      "dayOfWeek": "Domingo",
+      "time": "16:00",
+      "stage": "Aurora",
+      "stageId": "793",
+      "type": "Prévias",
+      "isStreet": false,
+      "url": "https://carnaval.recife.pe.gov.br/?attraction_id=27326",
+      "details": {
+        "description": "O Bloco Maluco Beleza retorna ao Carnaval do Recife pela segunda vez, ocupando a Rua da Aurora com uma celebração marcada pela diversidade musical, pela liberdade criativa e pelo espírito democrático da folia. Com proposta inclusiva e atmosfera vibrante, o bloco reúne foliões de diferentes gerações...",
+        "address": "Rua Da Aurora, S/N (Praça Do Cais Da Aurora)"
+      }
+    },
+    {
       "id": "26866",
       "title": "PLATAFORMA RECIFE - CARNAVAL DE TODAS AS DANÇAS",
       "date": "08/02/2026",
@@ -11,92 +27,10 @@
       "type": "Prévias",
       "isStreet": false,
       "url": "https://carnaval.recife.pe.gov.br/?attraction_id=26866",
-      "details": null,
-      "error": "Object has been destroyed"
-    },
-    {
-      "id": "26883",
-      "title": "ENCONTRO DE AFOXÉ - PARTE 1",
-      "date": "08/02/2026",
-      "dayOfWeek": "Domingo",
-      "time": "16:00",
-      "stage": "Pátio De São Pedro",
-      "stageId": "813",
-      "type": "Prévias",
-      "isStreet": false,
-      "url": "https://carnaval.recife.pe.gov.br/?attraction_id=26883",
-      "details": null,
-      "error": "Object has been destroyed"
-    },
-    {
-      "id": "26854",
-      "title": "FESTIVAL PRÉ NO REGGAE",
-      "date": "08/02/2026",
-      "dayOfWeek": "Domingo",
-      "time": "17:00",
-      "stage": "Cais Da Alfândega",
-      "stageId": "777",
-      "type": "Prévias",
-      "isStreet": false,
-      "url": "https://carnaval.recife.pe.gov.br/?attraction_id=26854",
-      "details": null,
-      "error": "Object has been destroyed"
-    },
-    {
-      "id": "26867",
-      "title": "PALCO FREI CANECA",
-      "date": "08/02/2026",
-      "dayOfWeek": "Domingo",
-      "time": "17:00",
-      "stage": "Praça Do Arsenal",
-      "stageId": "812",
-      "type": "Prévias",
-      "isStreet": false,
-      "url": "https://carnaval.recife.pe.gov.br/?attraction_id=26867",
-      "details": null,
-      "error": "Object has been destroyed"
-    },
-    {
-      "id": "26868",
-      "title": "COMEMORAÇÃO DO DIA DO FREVO",
-      "date": "09/02/2026",
-      "dayOfWeek": "Segunda",
-      "time": "17:00",
-      "stage": "Praça Do Arsenal",
-      "stageId": "812",
-      "type": "Prévias",
-      "isStreet": false,
-      "url": "https://carnaval.recife.pe.gov.br/?attraction_id=26868",
-      "details": null,
-      "error": "Object has been destroyed"
-    },
-    {
-      "id": "27329",
-      "title": "BAILE MUNICIPAL DA PESSOA IDOSA",
-      "date": "10/02/2026",
-      "dayOfWeek": "Terça",
-      "time": "14:00",
-      "stage": "Aflitos",
-      "stageId": "",
-      "type": "Prévias",
-      "isStreet": true,
-      "url": "https://carnaval.recife.pe.gov.br/?attraction_id=27329",
-      "details": null,
-      "error": "Object has been destroyed"
-    },
-    {
-      "id": "26869",
-      "title": "ENCONTRO DE CABOCLINHOS E INDIOS",
-      "date": "10/02/2026",
-      "dayOfWeek": "Terça",
-      "time": "17:00",
-      "stage": "Praça Do Arsenal",
-      "stageId": "812",
-      "type": "Prévias",
-      "isStreet": false,
-      "url": "https://carnaval.recife.pe.gov.br/?attraction_id=26869",
-      "details": null,
-      "error": "Object has been destroyed"
+      "details": {
+        "description": "A Plataforma Recife – Carnaval de Todas as Danças integra a programação do Carnaval do Recife como um espaço dedicado à valorização da dança em suas múltiplas linguagens e expressões. Reunindo estilos tradicionais e contemporâneos, a iniciativa celebra o corpo como instrumento de criação,...",
+        "address": "Rua São José, S/N. Esquina Com A Rua Do Observatório. Bairro Do Recife"
+      }
     },
     {
       "id": "26884",
@@ -109,78 +43,10 @@
       "type": "Prévias",
       "isStreet": false,
       "url": "https://carnaval.recife.pe.gov.br/?attraction_id=26884",
-      "details": null,
-      "error": "Object has been destroyed"
-    },
-    {
-      "id": "27285",
-      "title": "BLOCO NEM COM UMA FLOR",
-      "date": "11/02/2026",
-      "dayOfWeek": "Quarta",
-      "time": "16:00",
-      "stage": "Praça Do Arsenal",
-      "stageId": "812",
-      "type": "Prévias",
-      "isStreet": false,
-      "url": "https://carnaval.recife.pe.gov.br/?attraction_id=27285",
-      "details": null,
-      "error": "Object has been destroyed"
-    },
-    {
-      "id": "26855",
-      "title": "CIRCUITO LEDA ALVES DA CULTURA POPULAR",
-      "date": "11/02/2026",
-      "dayOfWeek": "Quarta",
-      "time": "17:00",
-      "stage": "Cais Da Alfândega",
-      "stageId": "777",
-      "type": "Prévias",
-      "isStreet": false,
-      "url": "https://carnaval.recife.pe.gov.br/?attraction_id=26855",
-      "details": null,
-      "error": "Object has been destroyed"
-    },
-    {
-      "id": "26906",
-      "title": "CLARINS DE MOMO DE PERNAMBUCO",
-      "date": "11/02/2026",
-      "dayOfWeek": "Quarta",
-      "time": "17:00",
-      "stage": "Marco Zero",
-      "stageId": "787",
-      "type": "Show",
-      "isStreet": false,
-      "url": "https://carnaval.recife.pe.gov.br/?attraction_id=26906",
-      "details": null,
-      "error": "Object has been destroyed"
-    },
-    {
-      "id": "27327",
-      "title": "UBUNTU ENCONTRO DOS AFOXÉS",
-      "date": "11/02/2026",
-      "dayOfWeek": "Quarta",
-      "time": "17:30",
-      "stage": "Marco Zero",
-      "stageId": "787",
-      "type": "Prévias",
-      "isStreet": false,
-      "url": "https://carnaval.recife.pe.gov.br/?attraction_id=27327",
-      "details": null,
-      "error": "Object has been destroyed"
-    },
-    {
-      "id": "26885",
-      "title": "SUBIDA DO GALO",
-      "date": "11/02/2026",
-      "dayOfWeek": "Quarta",
-      "time": "19:00",
-      "stage": "Ponte Duarte Coelho",
-      "stageId": "827",
-      "type": "Prévias",
-      "isStreet": false,
-      "url": "https://carnaval.recife.pe.gov.br/?attraction_id=26885",
-      "details": null,
-      "error": "Object has been destroyed"
+      "details": {
+        "description": "A Terça Negra Especial integra a programação do Carnaval do Recife celebrando a cultura afro-brasileira e a força das expressões negras que constroem a identidade da cidade. Com apresentações musicais e manifestações culturais que exaltam ancestralidade, resistência e diversidade, o evento reafirma...",
+        "address": "Rua Águas Verdes (Pátio De São Pedro). Santo Antônio"
+      }
     },
     {
       "id": "26853",
@@ -194,26 +60,184 @@
       "isStreet": false,
       "url": "https://carnaval.recife.pe.gov.br/?attraction_id=26853",
       "details": {
-        "pageTitle": "Carnaval do Recife 2026",
-        "contentLength": 294564,
-        "extractedAt": "2026-02-07T23:19:14.278Z"
+        "description": "O Cortejo de Cultura Popular celebra a diversidade das tradições que formam a identidade cultural do Recife, reunindo grupos, mestres e brincantes em um desfile coletivo marcado por música, dança, cores e símbolos da cultura popular. A ação transforma o espaço público em palco de encontro e...",
+        "address": "Av. Cais Da Alfândega"
       }
     },
     {
-      "id": "27326",
-      "title": "BLOCO MALUCO BELEZA",
+      "id": "26869",
+      "title": "ENCONTRO DE CABOCLINHOS E INDIOS",
+      "date": "10/02/2026",
+      "dayOfWeek": "Terça",
+      "time": "17:00",
+      "stage": "Praça Do Arsenal",
+      "stageId": "812",
+      "type": "Prévias",
+      "isStreet": false,
+      "url": "https://carnaval.recife.pe.gov.br/?attraction_id=26869",
+      "details": {
+        "description": "O Encontro de Baques de Caboclinhos e Índios do Recife celebra uma tradição ancestral, que reúne grupos tradicionais em uma expressão vibrante de memória, resistência e cultura popular, valorizando as manifestações afro-indígenas e fortalecendo as narrativas históricas que compõem a identidade do...",
+        "address": "Rua São José, S/N. Esquina Com A Rua Do Observatório. Bairro Do Recife"
+      }
+    },
+    {
+      "id": "27329",
+      "title": "BAILE MUNICIPAL DA PESSOA IDOSA",
+      "date": "10/02/2026",
+      "dayOfWeek": "Terça",
+      "time": "14:00",
+      "stage": "Aflitos",
+      "stageId": "",
+      "type": "Prévias",
+      "isStreet": true,
+      "url": "https://carnaval.recife.pe.gov.br/?attraction_id=27329",
+      "details": {
+        "description": "O Baile Municipal da Pessoa Idosa integra a programação do Carnaval do Recife como um espaço de celebração, convivência e valorização da pessoa idosa, combinando alegria, música e tradição. Com repertório animado e clima acolhedor, o baile promove o encontro de gerações e reafirma o carnaval como...",
+        "address": "CLASSIC HALL                                                  AV. GOV. AGAMENON MAGALHÃES , S/N SALGADINHO, OLINDA"
+      }
+    },
+    {
+      "id": "26867",
+      "title": "PALCO FREI CANECA",
+      "date": "08/02/2026",
+      "dayOfWeek": "Domingo",
+      "time": "17:00",
+      "stage": "Praça Do Arsenal",
+      "stageId": "812",
+      "type": "Prévias",
+      "isStreet": false,
+      "url": "https://carnaval.recife.pe.gov.br/?attraction_id=26867",
+      "details": {
+        "description": "O Palco Frei Caneca celebra a importância da rádio pública recifense, criada por lei como instrumento de cidadania e abraçada pela cidade como importante espaço de divulgação da produção artística local, em todas as suas gerações, movimentos e desdobramentos. A programação, já estabelecida no...",
+        "address": "Rua São José, S/N. Esquina Com A Rua Do Observatório. Bairro Do Recife"
+      }
+    },
+    {
+      "id": "26854",
+      "title": "FESTIVAL PRÉ NO REGGAE",
+      "date": "08/02/2026",
+      "dayOfWeek": "Domingo",
+      "time": "17:00",
+      "stage": "Cais Da Alfândega",
+      "stageId": "777",
+      "type": "Prévias",
+      "isStreet": false,
+      "url": "https://carnaval.recife.pe.gov.br/?attraction_id=26854",
+      "details": {
+        "description": "O Pré no Reggae integra a programação do Carnaval do Recife celebrando a cultura reggae e suas mensagens de paz, resistência e consciência coletiva. Com apresentações musicais que valorizam o ritmo e sua conexão com diferentes públicos, o evento amplia a diversidade sonora da festa e reforça o...",
+        "address": "Av. Cais Da Alfândega"
+      }
+    },
+    {
+      "id": "26883",
+      "title": "ENCONTRO DE AFOXÉ - PARTE 1",
       "date": "08/02/2026",
       "dayOfWeek": "Domingo",
       "time": "16:00",
-      "stage": "Aurora",
-      "stageId": "793",
+      "stage": "Pátio De São Pedro",
+      "stageId": "813",
       "type": "Prévias",
       "isStreet": false,
-      "url": "https://carnaval.recife.pe.gov.br/?attraction_id=27326",
+      "url": "https://carnaval.recife.pe.gov.br/?attraction_id=26883",
       "details": {
-        "pageTitle": "Carnaval do Recife 2026",
-        "contentLength": 294506,
-        "extractedAt": "2026-02-07T23:19:14.345Z"
+        "description": "",
+        "address": ""
+      }
+    },
+    {
+      "id": "26868",
+      "title": "COMEMORAÇÃO DO DIA DO FREVO",
+      "date": "09/02/2026",
+      "dayOfWeek": "Segunda",
+      "time": "17:00",
+      "stage": "Praça Do Arsenal",
+      "stageId": "812",
+      "type": "Prévias",
+      "isStreet": false,
+      "url": "https://carnaval.recife.pe.gov.br/?attraction_id=26868",
+      "details": {
+        "description": "",
+        "address": ""
+      }
+    },
+    {
+      "id": "27285",
+      "title": "BLOCO NEM COM UMA FLOR",
+      "date": "11/02/2026",
+      "dayOfWeek": "Quarta",
+      "time": "16:00",
+      "stage": "Praça Do Arsenal",
+      "stageId": "812",
+      "type": "Prévias",
+      "isStreet": false,
+      "url": "https://carnaval.recife.pe.gov.br/?attraction_id=27285",
+      "details": {
+        "description": "O Bloco Nem Com Uma Flor integra a programação do Carnaval do Recife como uma importante ação de conscientização e enfrentamento à violência contra as mulheres. Unindo folia, arte e mobilização social, o bloco ocupa as ruas com música, mensagens de respeito e defesa dos direitos das mulheres,...",
+        "address": "Rua São José, S/N. Esquina Com A Rua Do Observatório. Bairro Do Recife"
+      }
+    },
+    {
+      "id": "26855",
+      "title": "CIRCUITO LEDA ALVES DA CULTURA POPULAR",
+      "date": "11/02/2026",
+      "dayOfWeek": "Quarta",
+      "time": "17:00",
+      "stage": "Cais Da Alfândega",
+      "stageId": "777",
+      "type": "Prévias",
+      "isStreet": false,
+      "url": "https://carnaval.recife.pe.gov.br/?attraction_id=26855",
+      "details": {
+        "description": "O Desfile de Agremiações Itinerantes integra a programação do Carnaval do Recife, com a presença de blocos e grupos e agremiações tradicionais em circulação, a iniciativa valoriza a mobilidade das manifestações culturais, promove o encontro direto com o público e reforça o caráter democrático e com...",
+        "address": "Av. Cais Da Alfândega"
+      }
+    },
+    {
+      "id": "26906",
+      "title": "CLARINS DE MOMO DE PERNAMBUCO",
+      "date": "11/02/2026",
+      "dayOfWeek": "Quarta",
+      "time": "17:00",
+      "stage": "Marco Zero",
+      "stageId": "787",
+      "type": "Show",
+      "isStreet": false,
+      "url": "https://carnaval.recife.pe.gov.br/?attraction_id=26906",
+      "details": {
+        "description": "",
+        "address": "Av. Alfredo Lisboa, S/N (Praça Do Marco Zero). Bairro Do Recife"
+      }
+    },
+    {
+      "id": "27327",
+      "title": "UBUNTU ENCONTRO DOS AFOXÉS",
+      "date": "11/02/2026",
+      "dayOfWeek": "Quarta",
+      "time": "17:30",
+      "stage": "Marco Zero",
+      "stageId": "787",
+      "type": "Prévias",
+      "isStreet": false,
+      "url": "https://carnaval.recife.pe.gov.br/?attraction_id=27327",
+      "details": {
+        "description": "O Ensaio Ubuntu – Encontro dos Afoxés reúne diferentes grupos em uma celebração coletiva numa consagração ao povo negro, que, por meio da dança, da música, das cores e do axé, pedem as bênçãos dos Orixás para a festa, reafirmando o espírito de união, diversidade e identidade que define o Carnaval...",
+        "address": "Av. Alfredo Lisboa, S/N (Praça Do Marco Zero). Bairro Do Recife"
+      }
+    },
+    {
+      "id": "26885",
+      "title": "SUBIDA DO GALO",
+      "date": "11/02/2026",
+      "dayOfWeek": "Quarta",
+      "time": "19:00",
+      "stage": "Ponte Duarte Coelho",
+      "stageId": "827",
+      "type": "Prévias",
+      "isStreet": false,
+      "url": "https://carnaval.recife.pe.gov.br/?attraction_id=26885",
+      "details": {
+        "description": "A Subida do Galo da Madrugada marca um dos momentos mais aguardados do Carnaval do Recife, confirmando, literalmente, o maior e mais venerado símbolo do imaginário momesco, na cidade que se orgulha de promover a maior e mais democrática festa de rua do mundo. A montagem do gigante no coração do...",
+        "address": "Ponte Duarte Coelho"
       }
     }
   ]

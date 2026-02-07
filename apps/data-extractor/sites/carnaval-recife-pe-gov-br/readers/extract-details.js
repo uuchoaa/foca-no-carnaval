@@ -4,20 +4,29 @@
  * 
  * @param {Document} document - The item page DOM
  * @param {Object} item - The original item data from output.json
- * @returns {Object} Detailed item information
+ * @returns {Object} Detailed item information (only NEW fields not in list)
  */
 function extractDetails(document, item) {
-  console.log(`[DETAIL-READER] Processing item: ${item.title} (${item.id})`);
-  console.log(`[DETAIL-READER] URL: ${item.url}`);
-  console.log(`[DETAIL-READER] Page title: ${document.title}`);
+  // Extract data from the modal
+  const modal = document.querySelector('#attraction-modal');
   
-  // TODO: Extract actual detail fields from the page
-  // This is a placeholder - customize based on your HTML structure
+  if (!modal) {
+    console.warn('[DETAIL-READER] Modal not found');
+    return {}; // Return empty object if modal not found
+  }
   
+  // Extract description from modal (NEW field)
+  const descEl = modal.querySelector('#description-truncated');
+  const description = descEl ? descEl.textContent.replace(/\s+/g, ' ').trim() : '';
+  
+  // Extract address (NEW field)
+  const addressEl = modal.querySelector('#address');
+  const address = addressEl ? addressEl.textContent.trim() : '';
+  
+  // Only return NEW fields that aren't already in the list
   return {
-    pageTitle: document.title,
-    contentLength: document.body.innerHTML.length,
-    extractedAt: new Date().toISOString()
+    description: description,
+    address: address
   };
 }
 

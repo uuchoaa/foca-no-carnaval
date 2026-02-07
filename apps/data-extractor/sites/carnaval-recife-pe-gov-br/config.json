@@ -17,6 +17,15 @@
     {
       "type": "reader",
       "module": "readers/extract-list.js"
+    },
+    {
+      "type": "parallel",
+      "concurrency": 10,
+      "module": "readers/extract-details.js",
+      "input": "output.json",
+      "itemsPath": "items",
+      "urlField": "url",
+      "output": "output-with-details.json"
     }
   ],
   "metadata": {}
