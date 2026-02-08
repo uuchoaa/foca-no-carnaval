@@ -1,0 +1,23 @@
+{
+  "name": "recbeatfestival-com",
+  "url": "https://recbeatfestival.com/#programacao",
+  "description": "Data extraction for recbeatfestival-com",
+  "snapshot": {
+    "sanitize": {
+      "removeScripts": true,
+      "removeStyles": true,
+      "removeComments": true,
+      "removeSVG": true,
+      "removeIframes": true,
+      "removeHidden": true,
+      "additionalSelectors": []
+    }
+  },
+  "pipeline": [
+    {
+      "type": "reader",
+      "module": "readers/extract-list.js"
+    }
+  ],
+  "metadata": {}
+}
