@@ -1,0 +1,491 @@
+[
+  {
+    "id": "galo-da-madrugada",
+    "eventType": "bloco",
+    "name": "Galo da Madrugada",
+    "date": "2026-02-14",
+    "concentration": {
+      "time": "05:00",
+      "dateTime": "2026-02-14T05:00:00"
+    },
+    "departure": {
+      "time": "07:00",
+      "dateTime": "2026-02-14T07:00:00"
+    },
+    "city": "recife",
+    "location": {
+      "venue": "Forte das Cinco Pontas",
+      "address": "Praça das Cinco Pontas",
+      "raw": "Forte das Cinco Pontas"
+    },
+    "tags": ["tradicional", "gigante"],
+    "isFree": true,
+    "description": "O maior bloco de carnaval do mundo, reunindo milhões de foliões.",
+    "sources": [
+      {
+        "id": "pe-no-carnaval",
+        "originalId": "galo-da-madrugada",
+        "url": "https://penocarnaval.com.br/programacao/galo-da-madrugada/",
+        "extractedAt": "2026-02-08T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "homem-da-meia-noite",
+    "eventType": "bloco",
+    "name": "Homem da Meia Noite",
+    "date": "2026-02-14",
+    "concentration": {
+      "time": "23:00",
+      "dateTime": "2026-02-13T23:00:00"
+    },
+    "departure": {
+      "time": "00:00",
+      "dateTime": "2026-02-14T00:00:00"
+    },
+    "city": "olinda",
+    "location": {
+      "venue": "Bonsucesso",
+      "address": "Estrada do Bom Sucesso - Sede do Homem",
+      "raw": "Estrada do Bom Sucesso - Sede do Homem"
+    },
+    "tags": ["tradicional", "noturno"],
+    "isFree": true,
+    "description": "Bloco mais tradicional de Olinda, marca a abertura oficial do carnaval.",
+    "sources": [
+      {
+        "id": "olinda-gov",
+        "originalId": "homem-da-meia-noite-2026",
+        "url": "https://www.olinda.pe.gov.br/programacao-do-carnaval-2026/",
+        "extractedAt": "2026-02-08T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "eu-acho-e-pouco",
+    "eventType": "bloco",
+    "name": "Eu Acho É Pouco",
+    "date": "2026-02-15",
+    "concentration": {
+      "time": "10:00",
+      "dateTime": "2026-02-15T10:00:00"
+    },
+    "departure": {
+      "time": "12:00",
+      "dateTime": "2026-02-15T12:00:00"
+    },
+    "city": "recife",
+    "location": {
+      "venue": "Pátio de São Pedro",
+      "address": "Pátio de São Pedro, Santo Antônio",
+      "raw": "Pátio de São Pedro"
+    },
+    "artist": "Spok Frevo Orquestra",
+    "tags": ["frevo", "orquestra"],
+    "isFree": true,
+    "sources": [
+      {
+        "id": "pe-no-carnaval",
+        "originalId": "eu-acho-e-pouco",
+        "url": "https://penocarnaval.com.br/programacao/eu-acho-e-pouco/",
+        "extractedAt": "2026-02-08T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "elefante-de-olinda",
+    "eventType": "bloco",
+    "name": "Elefante de Olinda",
+    "date": "2026-02-12",
+    "concentration": {
+      "time": "18:00",
+      "dateTime": "2026-02-12T18:00:00"
+    },
+    "departure": {
+      "time": "20:00",
+      "dateTime": "2026-02-12T20:00:00"
+    },
+    "city": "olinda",
+    "location": {
+      "venue": "Largo do Guadalupe",
+      "address": null,
+      "raw": "Largo do Guadalupe"
+    },
+    "tags": ["tradicional", "previas"],
+    "isFree": true,
+    "sources": [
+      {
+        "id": "eventos_carnaval.csv",
+        "originalId": "12-02-elefante-olinda",
+        "url": "",
+        "extractedAt": "2026-02-08T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "pitombeira-dos-quatro-cantos",
+    "eventType": "bloco",
+    "name": "Pitombeira dos Quatro Cantos",
+    "date": "2026-02-15",
+    "concentration": {
+      "time": "08:00",
+      "dateTime": "2026-02-15T08:00:00"
+    },
+    "departure": {
+      "time": "10:00",
+      "dateTime": "2026-02-15T10:00:00"
+    },
+    "city": "olinda",
+    "location": {
+      "venue": "Quatro Cantos",
+      "address": "Cruzamento das ruas Prudente de Morais e Getúlio Vargas",
+      "raw": "Quatro Cantos"
+    },
+    "artist": "Orquestra Henrique Dias",
+    "tags": ["frevo", "matinal"],
+    "isFree": true,
+    "sources": [
+      {
+        "id": "pe-no-carnaval",
+        "originalId": "pitombeira-quatro-cantos",
+        "url": "https://penocarnaval.com.br/programacao/pitombeira-quatro-cantos/",
+        "extractedAt": "2026-02-08T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "bacalhau-do-batata",
+    "eventType": "bloco",
+    "name": "Bacalhau do Batata",
+    "date": "2026-02-16",
+    "concentration": {
+      "time": "09:00",
+      "dateTime": "2026-02-16T09:00:00"
+    },
+    "departure": {
+      "time": "11:00",
+      "dateTime": "2026-02-16T11:00:00"
+    },
+    "city": "olinda",
+    "location": {
+      "venue": "Alto da Sé",
+      "address": null,
+      "raw": "Alto da Sé"
+    },
+    "tags": ["tradicional", "lgbt"],
+    "isFree": true,
+    "description": "Bloco tradicional de Olinda com forte presença da comunidade LGBTQIA+.",
+    "sources": [
+      {
+        "id": "pe-no-carnaval",
+        "originalId": "bacalhau-do-batata",
+        "url": "https://penocarnaval.com.br/programacao/bacalhau-do-batata/",
+        "extractedAt": "2026-02-08T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "mangue-beatinho",
+    "eventType": "bloco",
+    "name": "Mangue Beatinho",
+    "date": "2026-02-07",
+    "concentration": {
+      "time": "10:00",
+      "dateTime": "2026-02-07T10:00:00"
+    },
+    "departure": {
+      "time": "12:00",
+      "dateTime": "2026-02-07T10:00:00"
+    },
+    "city": "olinda",
+    "location": {
+      "venue": "Praça do Carmo",
+      "address": null,
+      "raw": "Praça do Carmo"
+    },
+    "tags": ["infantil", "previas"],
+    "isFree": true,
+    "sources": [
+      {
+        "id": "pe-no-carnaval",
+        "originalId": "mangue-beatinho",
+        "url": "https://penocarnaval.com.br/programacao/mangue-beatinho/",
+        "extractedAt": "2026-02-08T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "mulher-da-meia-noite",
+    "eventType": "bloco",
+    "name": "Mulher da Meia Noite",
+    "date": "2026-02-15",
+    "concentration": {
+      "time": "22:00",
+      "dateTime": "2026-02-15T22:00:00"
+    },
+    "departure": {
+      "time": "23:30",
+      "dateTime": "2026-02-15T23:30:00"
+    },
+    "city": "olinda",
+    "location": {
+      "venue": "Bonsucesso",
+      "address": "Estrada do Bom Sucesso",
+      "raw": "Estrada do Bom Sucesso"
+    },
+    "tags": ["tradicional", "noturno", "feminista"],
+    "isFree": true,
+    "description": "Resposta feminista ao Homem da Meia Noite, celebra a luta das mulheres.",
+    "sources": [
+      {
+        "id": "pe-no-carnaval",
+        "originalId": "mulher-da-meia-noite",
+        "url": "https://penocarnaval.com.br/programacao/mulher-da-meia-noite/",
+        "extractedAt": "2026-02-08T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "bonecos-gigantes",
+    "eventType": "bloco",
+    "name": "Corrida dos Bonecos Gigantes",
+    "date": "2026-02-07",
+    "concentration": {
+      "time": "09:00",
+      "dateTime": "2026-02-07T09:00:00"
+    },
+    "departure": {
+      "time": "10:30",
+      "dateTime": "2026-02-07T10:30:00"
+    },
+    "city": "olinda",
+    "location": {
+      "venue": "Mercado da Ribeira",
+      "address": null,
+      "raw": "Mercado da Ribeira"
+    },
+    "tags": ["tradicional", "bonecos", "previas"],
+    "isFree": true,
+    "sources": [
+      {
+        "id": "pe-no-carnaval",
+        "originalId": "corrida-dos-bonecos-gigantes",
+        "url": "https://penocarnaval.com.br/programacao/corrida-dos-bonecos-gigantes/",
+        "extractedAt": "2026-02-08T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "ceroula-olinda",
+    "eventType": "bloco",
+    "name": "Ceroula de Olinda",
+    "date": "2026-02-14",
+    "concentration": {
+      "time": "12:00",
+      "dateTime": "2026-02-14T12:00:00"
+    },
+    "departure": {
+      "time": "16:00",
+      "dateTime": "2026-02-14T16:00:00"
+    },
+    "city": "olinda",
+    "location": {
+      "venue": "Colégio São Bento",
+      "address": null,
+      "raw": "Colégio São Bento"
+    },
+    "artist": "Maestro Oséas",
+    "tags": ["frevo"],
+    "isFree": true,
+    "sources": [
+      {
+        "id": "eventos_carnaval.csv",
+        "originalId": "14-02-ceroula-olinda",
+        "url": "",
+        "extractedAt": "2026-02-08T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "afojuba-batuque",
+    "eventType": "bloco",
+    "name": "Afojubá Batuque",
+    "date": "2026-02-12",
+    "concentration": {
+      "time": "16:00",
+      "dateTime": "2026-02-12T16:00:00"
+    },
+    "departure": {
+      "time": "17:00",
+      "dateTime": "2026-02-12T17:00:00"
+    },
+    "city": "recife",
+    "location": {
+      "venue": "Avenida Marquês de Olinda",
+      "address": null,
+      "raw": "Avenida Marquês de Olinda"
+    },
+    "tags": ["afoxe", "previas"],
+    "isFree": true,
+    "sources": [
+      {
+        "id": "eventos_carnaval.csv",
+        "originalId": "12-02-afojuba-batuque",
+        "url": "",
+        "extractedAt": "2026-02-08T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "la-ursa-bonfim",
+    "eventType": "bloco",
+    "name": "La Ursa do Bonfim",
+    "date": "2026-02-13",
+    "concentration": {
+      "time": "17:00",
+      "dateTime": "2026-02-13T17:00:00"
+    },
+    "departure": {
+      "time": "22:00",
+      "dateTime": "2026-02-13T22:00:00"
+    },
+    "city": "olinda",
+    "location": {
+      "venue": "Clube Cariri",
+      "address": null,
+      "raw": "Clube Cariri"
+    },
+    "artist": "Maestro Oséas",
+    "tags": ["frevo"],
+    "isFree": true,
+    "sources": [
+      {
+        "id": "eventos_carnaval.csv",
+        "originalId": "13-02-la-ursa",
+        "url": "",
+        "extractedAt": "2026-02-08T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "john-travolta",
+    "eventType": "bloco",
+    "name": "John Travolta",
+    "date": "2026-02-14",
+    "concentration": {
+      "time": "18:00",
+      "dateTime": "2026-02-14T18:00:00"
+    },
+    "departure": {
+      "time": "19:00",
+      "dateTime": "2026-02-14T19:00:00"
+    },
+    "city": "olinda",
+    "location": {
+      "venue": "Largo do Amparo",
+      "address": "Vassourinhas de Olinda - Largo do Amparo",
+      "raw": "Vassourinhas de Olinda - Largo do Amparo"
+    },
+    "tags": ["frevo"],
+    "isFree": true,
+    "sources": [
+      {
+        "id": "eventos_carnaval.csv",
+        "originalId": "14-02-john-travolta",
+        "url": "",
+        "extractedAt": "2026-02-08T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "filhos-baianas",
+    "eventType": "bloco",
+    "name": "Filhos das Baianas",
+    "date": "2026-02-15",
+    "concentration": {
+      "time": "08:00",
+      "dateTime": "2026-02-15T08:00:00"
+    },
+    "departure": {
+      "time": "10:00",
+      "dateTime": "2026-02-15T10:00:00"
+    },
+    "city": "olinda",
+    "location": {
+      "venue": "Largo do Amparo",
+      "address": null,
+      "raw": "Largo do Amparo"
+    },
+    "artist": "Paranampuká",
+    "tags": ["frevo", "matinal"],
+    "isFree": true,
+    "sources": [
+      {
+        "id": "eventos_carnaval.csv",
+        "originalId": "15-02-filhos-baianas",
+        "url": "",
+        "extractedAt": "2026-02-08T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "burra-do-rosario",
+    "eventType": "bloco",
+    "name": "Burra do Rosário",
+    "date": "2026-02-14",
+    "concentration": {
+      "time": "17:00",
+      "dateTime": "2026-02-14T17:00:00"
+    },
+    "departure": {
+      "time": "18:00",
+      "dateTime": "2026-02-14T18:00:00"
+    },
+    "city": "olinda",
+    "location": {
+      "venue": "Guadalupe",
+      "address": "Guadalupe - Sede da Burra",
+      "raw": "Guadalupe - Sede da Burra"
+    },
+    "tags": ["tradicional"],
+    "isFree": true,
+    "sources": [
+      {
+        "id": "eventos_carnaval.csv",
+        "originalId": "14-02-burra-rosario",
+        "url": "",
+        "extractedAt": "2026-02-08T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "turma-jaqueira",
+    "eventType": "bloco",
+    "name": "Turma da Jaqueira segurando o talo",
+    "date": "2026-02-07",
+    "concentration": {
+      "time": "11:00",
+      "dateTime": "2026-02-07T11:00:00"
+    },
+    "departure": {
+      "time": "13:00",
+      "dateTime": "2026-02-07T13:00:00"
+    },
+    "city": "recife",
+    "location": {
+      "venue": "Jaqueira",
+      "address": "Em frente ao Bar Rea",
+      "raw": "Em frente ao Bar Rea"
+    },
+    "tags": ["previas"],
+    "isFree": true,
+    "sources": [
+      {
+        "id": "pe-no-carnaval",
+        "originalId": "turma-da-jaqueira-segurando-o-talo",
+        "url": "https://penocarnaval.com.br/programacao/turma-da-jaqueira-segurando-o-talo/",
+        "extractedAt": "2026-02-08T00:00:00Z"
+      }
+    ]
+  }
+]
