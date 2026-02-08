@@ -114,7 +114,7 @@ npm test -- sites/${siteName}/test/extract-list.test.js
 After running extract-list tests to get item URLs:
 
 \`\`\`bash
-electron scripts/snapshot-url.js <detail-url> sites/${siteName}/test/__fixtures__/detail.html --sanitize
+npx npm run snapshot:url <detail-url> sites/${siteName}/test/__fixtures__/detail.html --sanitize
 \`\`\`
 
 Then update \`test/extract-details.test.js\` to load this fixture.
@@ -359,7 +359,7 @@ describe('extractDetails', () => {
     // Skip tests if fixture doesn't exist yet
     if (!fs.existsSync(htmlPath)) {
       console.log('⚠️  detail.html fixture not found. Generate it first:');
-      console.log('   electron scripts/snapshot-url.js <detail-url> sites/${siteName}/test/__fixtures__/detail.html --sanitize');
+      console.log('   npx npm run snapshot:url <detail-url> sites/${siteName}/test/__fixtures__/detail.html --sanitize');
       return;
     }
     
@@ -446,7 +446,7 @@ To generate a detail page fixture:
 3. Generate the fixture:
 
 \`\`\`bash
-electron scripts/snapshot-url.js <detail-url> sites/${siteName}/test/__fixtures__/detail.html --sanitize
+npx npm run snapshot:url <detail-url> sites/${siteName}/test/__fixtures__/detail.html --sanitize
 \`\`\`
 
 4. Update \`test/extract-details.test.js\` if needed
@@ -495,7 +495,7 @@ try {
 } catch (error) {
   console.error('   ⚠️  Could not auto-generate fixture');
   console.error('   You can generate it manually with:');
-  console.error(`   npm run snapshot:url -- "${url}" sites/${siteName}/test/__fixtures__/list.html --sanitize`);
+  console.error(`   npx npm run snapshot:url -- "${url}" sites/${siteName}/test/__fixtures__/list.html --sanitize`);
 }
 
 // Success message

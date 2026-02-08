@@ -1,0 +1,23 @@
+{
+  "name": "olinda-pe-gov-br",
+  "url": "https://www.olinda.pe.gov.br/programacao-do-carnaval-2026-coloca-todo-mundo-na-folia-em-olinda/",
+  "description": "Data extraction for olinda-pe-gov-br",
+  "snapshot": {
+    "sanitize": {
+      "removeScripts": true,
+      "removeStyles": true,
+      "removeComments": true,
+      "removeSVG": true,
+      "removeIframes": true,
+      "removeHidden": true,
+      "additionalSelectors": []
+    }
+  },
+  "pipeline": [
+    {
+      "type": "reader",
+      "module": "readers/extract-list.js"
+    }
+  ],
+  "metadata": {}
+}
