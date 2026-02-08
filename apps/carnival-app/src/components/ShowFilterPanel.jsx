@@ -1,6 +1,7 @@
 import { Filter, X } from 'lucide-react';
 import { useState } from 'react';
 import { useEvents } from '../contexts/EventsContext';
+import { motion, AnimatePresence } from 'framer-motion';
 import clsx from 'clsx';
 
 export default function ShowFilterPanel({ filters, onFilterChange }) {
@@ -54,107 +55,132 @@ export default function ShowFilterPanel({ filters, onFilterChange }) {
           <Filter size={20} className="text-carnival-purple" />
           <span className="font-medium text-gray-900">Filtros</span>
           {activeFilterCount > 0 && (
-            <span className="bg-carnival-purple text-white text-xs px-2 py-0.5 rounded-full font-medium">
+            <motion.span
+              key={activeFilterCount}
+              initial={{ scale: 0 }}
+              animate={{ scale: 1 }}
+              className="bg-carnival-purple text-white text-xs px-2 py-0.5 rounded-full font-medium"
+            >
               {activeFilterCount}
-            </span>
+            </motion.span>
           )}
         </div>
-        <div className="text-gray-500">
-          {isOpen ? '▲' : '▼'}
-        </div>
+        <motion.div
+          animate={{ rotate: isOpen ? 180 : 0 }}
+          transition={{ duration: 0.3 }}
+          className="text-gray-500"
+        >
+          ▼
+        </motion.div>
       </button>
 
-      {isOpen && (
-        <div className="px-4 pb-4 border-t border-gray-200 space-y-4">
-          {/* City Filter */}
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">
-              Cidade
-            </label>
-            <div className="flex gap-2">
-              <button
-                onClick={() => handleCityToggle('recife')}
-                className={clsx(
-                  'px-3 py-1.5 rounded-full text-sm font-medium transition-colors',
-                  (filters.city || []).includes('recife')
-                    ? 'bg-blue-500 text-white'
-                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                )}
-              >
-                Recife
-              </button>
-              <button
-                onClick={() => handleCityToggle('olinda')}
-                className={clsx(
-                  'px-3 py-1.5 rounded-full text-sm font-medium transition-colors',
-                  (filters.city || []).includes('olinda')
-                    ? 'bg-green-500 text-white'
-                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                )}
-              >
-                Olinda
-              </button>
-            </div>
-          </div>
+      <AnimatePresence>
+        {isOpen && (
+          <motion.div
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: 'auto', opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: 0.3, ease: 'easeInOut' }}
+            className="overflow-hidden"
+          >
+            <div className="px-4 pb-4 border-t border-gray-200 space-y-4 pt-4">
+              {/* City Filter */}
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Cidade
+                </label>
+                <div className="flex gap-2">
+                  <motion.button
+                    whileTap={{ scale: 0.95 }}
+                    onClick={() => handleCityToggle('recife')}
+                    className={clsx(
+                      'px-3 py-1.5 rounded-full text-sm font-medium transition-colors',
+                      (filters.city || []).includes('recife')
+                        ? 'bg-blue-500 text-white'
+                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                    )}
+                  >
+                    Recife
+                  </motion.button>
+                  <motion.button
+                    whileTap={{ scale: 0.95 }}
+                    onClick={() => handleCityToggle('olinda')}
+                    className={clsx(
+                      'px-3 py-1.5 rounded-full text-sm font-medium transition-colors',
+                      (filters.city || []).includes('olinda')
+                        ? 'bg-green-500 text-white'
+                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                    )}
+                  >
+                    Olinda
+                  </motion.button>
+                </div>
+              </div>
 
-          {/* Pole Filter */}
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">
-              Polo / Palco
-            </label>
-            <div className="flex flex-wrap gap-2">
-              {poles.map(pole => (
-                <button
-                  key={pole}
-                  onClick={() => handlePoleToggle(pole)}
-                  className={clsx(
-                    'px-3 py-1.5 rounded-full text-xs font-medium transition-colors',
-                    (filters.pole || []).includes(pole)
-                      ? 'bg-carnival-purple text-white'
-                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                  )}
+              {/* Pole Filter */}
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Polo / Palco
+                </label>
+                <div className="flex flex-wrap gap-2">
+                  {poles.map(pole => (
+                    <motion.button
+                      key={pole}
+                      whileTap={{ scale: 0.95 }}
+                      onClick={() => handlePoleToggle(pole)}
+                      className={clsx(
+                        'px-3 py-1.5 rounded-full text-xs font-medium transition-colors',
+                        (filters.pole || []).includes(pole)
+                          ? 'bg-carnival-purple text-white'
+                          : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                      )}
+                    >
+                      {pole}
+                    </motion.button>
+                  ))}
+                </div>
+              </div>
+
+              {/* Artist Origin Filter */}
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Origem do Artista
+                </label>
+                <div className="flex flex-wrap gap-2">
+                  {artistOrigins.map(origin => (
+                    <motion.button
+                      key={origin}
+                      whileTap={{ scale: 0.95 }}
+                      onClick={() => handleOriginToggle(origin)}
+                      className={clsx(
+                        'px-3 py-1.5 rounded-full text-xs font-medium transition-colors',
+                        (filters.artistOrigin || []).includes(origin)
+                          ? 'bg-purple-500 text-white'
+                          : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                      )}
+                    >
+                      {origin}
+                    </motion.button>
+                  ))}
+                </div>
+              </div>
+
+              {/* Clear Filters */}
+              {activeFilterCount > 0 && (
+                <motion.button
+                  initial={{ opacity: 0, y: -10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  onClick={clearFilters}
+                  className="w-full px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-lg flex items-center justify-center gap-2 transition-colors"
                 >
-                  {pole}
-                </button>
-              ))}
+                  <X size={16} />
+                  Limpar filtros
+                </motion.button>
+              )}
             </div>
-          </div>
-
-          {/* Artist Origin Filter */}
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">
-              Origem do Artista
-            </label>
-            <div className="flex flex-wrap gap-2">
-              {artistOrigins.map(origin => (
-                <button
-                  key={origin}
-                  onClick={() => handleOriginToggle(origin)}
-                  className={clsx(
-                    'px-3 py-1.5 rounded-full text-xs font-medium transition-colors',
-                    (filters.artistOrigin || []).includes(origin)
-                      ? 'bg-purple-500 text-white'
-                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                  )}
-                >
-                  {origin}
-                </button>
-              ))}
-            </div>
-          </div>
-
-          {/* Clear Filters */}
-          {activeFilterCount > 0 && (
-            <button
-              onClick={clearFilters}
-              className="w-full px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-lg flex items-center justify-center gap-2 transition-colors"
-            >
-              <X size={16} />
-              Limpar filtros
-            </button>
-          )}
-        </div>
-      )}
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }

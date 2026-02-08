@@ -1,6 +1,7 @@
 import { useState, useMemo } from 'react';
 import { useEvents } from '../contexts/EventsContext';
 import { groupByDate, formatDate } from '../utils/dateHelpers';
+import { motion } from 'framer-motion';
 import SearchBar from '../components/SearchBar';
 import ShowFilterPanel from '../components/ShowFilterPanel';
 import DateFilter from '../components/DateFilter';
@@ -23,7 +24,13 @@ export default function ShowsHomeScreen() {
   const groupedShows = groupByDate(shows);
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.2 }}
+      className="min-h-screen bg-gray-50"
+    >
       {/* Header */}
       <div className="bg-gradient-to-r from-carnival-purple to-purple-600 text-white p-6 shadow-lg">
         <h1 className="text-3xl font-bold">Shows</h1>
@@ -59,12 +66,17 @@ export default function ShowsHomeScreen() {
             <p className="text-gray-500 mt-4">Carregando...</p>
           </div>
         ) : groupedShows.length === 0 ? (
-          <div className="text-center py-12">
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.3 }}
+            className="text-center py-12"
+          >
             <p className="text-gray-500 text-lg">Nenhum show encontrado</p>
             <p className="text-gray-400 text-sm mt-2">
               Tente ajustar os filtros ou busca
             </p>
-          </div>
+          </motion.div>
         ) : (
           groupedShows.map(({ date, dayOfWeek, events }) => (
             <div key={date} className="mb-6">
@@ -75,14 +87,14 @@ export default function ShowsHomeScreen() {
                 <p className="text-sm text-gray-500 capitalize">{dayOfWeek}</p>
               </div>
               <div className="space-y-3">
-                {events.map(show => (
-                  <ShowCard key={show.id} show={show} />
+                {events.map((show, idx) => (
+                  <ShowCard key={show.id} show={show} index={idx} />
                 ))}
               </div>
             </div>
           ))
         )}
       </div>
-    </div>
+    </motion.div>
   );
 }

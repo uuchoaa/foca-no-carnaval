@@ -1,9 +1,10 @@
 import { useNavigate } from 'react-router-dom';
 import { MapPin, Clock, Heart, Mic2 } from 'lucide-react';
 import { useFavorites } from '../contexts/FavoritesContext';
+import { motion } from 'framer-motion';
 import clsx from 'clsx';
 
-export default function ShowCard({ show }) {
+export default function ShowCard({ show, index = 0 }) {
   const navigate = useNavigate();
   const { isFavorite, toggleFavorite } = useFavorites();
   const isFav = isFavorite(show.id);
@@ -18,7 +19,10 @@ export default function ShowCard({ show }) {
   };
 
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: index * 0.05, duration: 0.3 }}
       onClick={handleClick}
       className="bg-white rounded-lg shadow-md p-4 cursor-pointer hover:shadow-lg transition-shadow"
     >
@@ -43,7 +47,14 @@ export default function ShowCard({ show }) {
             </span>
           </div>
         </div>
-        <button
+        <motion.button
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.8 }}
+          animate={isFav ? { 
+            scale: [1, 1.3, 1],
+            rotate: [0, -10, 10, 0]
+          } : {}}
+          transition={{ duration: 0.3 }}
           onClick={handleFavoriteClick}
           className="p-2 hover:bg-gray-100 rounded-full transition-colors"
         >
@@ -53,7 +64,7 @@ export default function ShowCard({ show }) {
               isFav ? 'fill-red-500 text-red-500' : 'text-gray-400'
             )}
           />
-        </button>
+        </motion.button>
       </div>
 
       <div className="space-y-2 mt-3 border-t pt-3">
@@ -84,6 +95,6 @@ export default function ShowCard({ show }) {
           </div>
         )}
       </div>
-    </div>
+    </motion.div>
   );
 }

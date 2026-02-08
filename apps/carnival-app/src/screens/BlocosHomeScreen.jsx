@@ -1,6 +1,7 @@
 import { useState, useMemo } from 'react';
 import { useEvents } from '../contexts/EventsContext';
 import { groupByDate, formatDate } from '../utils/dateHelpers';
+import { motion } from 'framer-motion';
 import SearchBar from '../components/SearchBar';
 import BlocoFilterPanel from '../components/BlocoFilterPanel';
 import DateFilter from '../components/DateFilter';
@@ -23,7 +24,13 @@ export default function BlocosHomeScreen() {
   const groupedBlocos = groupByDate(blocos);
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.2 }}
+      className="min-h-screen bg-gray-50"
+    >
       {/* Header */}
       <div className="bg-gradient-to-r from-carnival-orange to-carnival-yellow text-white p-6 shadow-lg">
         <h1 className="text-3xl font-bold">Blocos</h1>
@@ -58,12 +65,17 @@ export default function BlocosHomeScreen() {
             <p className="text-gray-500 mt-4">Carregando...</p>
           </div>
         ) : groupedBlocos.length === 0 ? (
-          <div className="text-center py-12">
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.3 }}
+            className="text-center py-12"
+          >
             <p className="text-gray-500 text-lg">Nenhum bloco encontrado</p>
             <p className="text-gray-400 text-sm mt-2">
               Tente ajustar os filtros ou busca
             </p>
-          </div>
+          </motion.div>
         ) : (
           groupedBlocos.map(({ date, dayOfWeek, events }) => (
             <div key={date} className="mb-6">
@@ -74,14 +86,14 @@ export default function BlocosHomeScreen() {
                 <p className="text-sm text-gray-500 capitalize">{dayOfWeek}</p>
               </div>
               <div className="space-y-3">
-                {events.map(bloco => (
-                  <BlocoCard key={bloco.id} bloco={bloco} />
+                {events.map((bloco, idx) => (
+                  <BlocoCard key={bloco.id} bloco={bloco} index={idx} />
                 ))}
               </div>
             </div>
           ))
         )}
       </div>
-    </div>
+    </motion.div>
   );
 }
