@@ -41,4 +41,4 @@ See [apps/data-extractor/README.md](apps/data-extractor/README.md) for detailed 
 - [x] https://penocarnaval.com.br/programacao/
 - [x] https://carnaval.recife.pe.gov.br/
 - [x] https://www.olinda.pe.gov.br/programacao-do-carnaval-2026-coloca-todo-mundo-na-folia-em-olinda/
-- [ ] https://recbeatfestival.com/#programacao
+- [x] https://recbeatfestival.com/#programacao
