@@ -277,17 +277,3 @@ The platform uses Electron IPC to coordinate between main and renderer processes
 ## Architecture Details
 
 For detailed architecture documentation, see [ARCHITECTURE.md](./ARCHITECTURE.md).
-
-## LLM-Assisted Workflow
-
-1. **Generate site scaffold:**
-   ```bash
-   npm run generate:site -- https://carnaval.recife.pe.gov.br/
-   ```
-   Creates initial snapshot, tests, and implementation boilerplate for the list view.
-
-2. **LLM-assisted implementation:**
-   1. Analyze the generated snapshot to identify data structure
-   2. Model the data as JSON in memory
-   3. Update tests based on the JSON model
-   4. Implement extraction logic (without modifying tests or fixtures)

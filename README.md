@@ -34,3 +34,11 @@ Each site has its own extraction pipeline with interactions, readers, and config
 ## Learn More
 
 See [apps/data-extractor/README.md](apps/data-extractor/README.md) for detailed platform documentation and how to create new extractors.
+
+
+## Sources
+
+- [x] https://penocarnaval.com.br/programacao/
+- [x] https://carnaval.recife.pe.gov.br/
+- [ ] https://www.olinda.pe.gov.br/programacao-do-carnaval-2026-coloca-todo-mundo-na-folia-em-olinda/
+- [ ] https://recbeatfestival.com/#programacao
