@@ -1,10 +1,13 @@
 import { Filter, X } from 'lucide-react';
 import { useState } from 'react';
+import { useEvents } from '../contexts/EventsContext';
 import { motion, AnimatePresence } from 'framer-motion';
 import clsx from 'clsx';
 
 export default function BlocoFilterPanel({ filters, onFilterChange }) {
   const [isOpen, setIsOpen] = useState(false);
+  const { getBlocoTags } = useEvents();
+  const availableTags = getBlocoTags();
 
   const handleCityToggle = (city) => {
     const current = filters.city || [];
@@ -14,8 +17,20 @@ export default function BlocoFilterPanel({ filters, onFilterChange }) {
     onFilterChange({ ...filters, city: updated });
   };
 
+  const handleTagToggle = (tag) => {
+    const current = filters.tags || [];
+    const updated = current.includes(tag)
+      ? current.filter(t => t !== tag)
+      : [...current, tag];
+    onFilterChange({ ...filters, tags: updated });
+  };
+
   const handleArtistToggle = () => {
     onFilterChange({ ...filters, hasArtist: !filters.hasArtist });
+  };
+
+  const handleFavoritesOnlyToggle = () => {
+    onFilterChange({ ...filters, favoritesOnly: !filters.favoritesOnly });
   };
 
   const clearFilters = () => {
@@ -24,7 +39,9 @@ export default function BlocoFilterPanel({ filters, onFilterChange }) {
 
   const activeFilterCount = (
     (filters.city?.length || 0) +
+    (filters.tags?.length || 0) +
     (filters.hasArtist ? 1 : 0) +
+    (filters.favoritesOnly ? 1 : 0) +
     (filters.dateFrom || filters.dateTo ? 1 : 0)
   );
 
@@ -100,6 +117,32 @@ export default function BlocoFilterPanel({ filters, onFilterChange }) {
                 </div>
               </div>
 
+              {/* Tags / Type Filter */}
+              {availableTags.length > 0 && (
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    Tipo / Tags
+                  </label>
+                  <div className="flex flex-wrap gap-2">
+                    {availableTags.map(tag => (
+                      <motion.button
+                        key={tag}
+                        whileTap={{ scale: 0.95 }}
+                        onClick={() => handleTagToggle(tag)}
+                        className={clsx(
+                          'px-3 py-1.5 rounded-full text-xs font-medium transition-colors capitalize',
+                          (filters.tags || []).includes(tag)
+                            ? 'bg-carnival-orange text-white'
+                            : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                        )}
+                      >
+                        {tag}
+                      </motion.button>
+                    ))}
+                  </div>
+                </div>
+              )}
+
               {/* Has Artist Filter */}
               <div>
                 <label className="flex items-center gap-2 cursor-pointer">
@@ -110,6 +153,19 @@ export default function BlocoFilterPanel({ filters, onFilterChange }) {
                     className="w-4 h-4 text-carnival-orange focus:ring-carnival-orange rounded"
                   />
                   <span className="text-sm text-gray-700">Somente com artista</span>
+                </label>
+              </div>
+
+              {/* Só favoritos */}
+              <div>
+                <label className="flex items-center gap-2 cursor-pointer">
+                  <input
+                    type="checkbox"
+                    checked={filters.favoritesOnly || false}
+                    onChange={handleFavoritesOnlyToggle}
+                    className="w-4 h-4 text-carnival-orange focus:ring-carnival-orange rounded"
+                  />
+                  <span className="text-sm text-gray-700">Só favoritos</span>
                 </label>
               </div>
 

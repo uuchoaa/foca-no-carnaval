@@ -6,10 +6,11 @@ import clsx from 'clsx';
 
 export default function ShowFilterPanel({ filters, onFilterChange }) {
   const [isOpen, setIsOpen] = useState(false);
-  const { getPoles, getArtistOrigins } = useEvents();
+  const { getPoles, getArtistOrigins, getShowTags } = useEvents();
 
   const poles = getPoles();
   const artistOrigins = getArtistOrigins();
+  const availableTags = getShowTags();
 
   const handleCityToggle = (city) => {
     const current = filters.city || [];
@@ -35,6 +36,18 @@ export default function ShowFilterPanel({ filters, onFilterChange }) {
     onFilterChange({ ...filters, artistOrigin: updated });
   };
 
+  const handleTagToggle = (tag) => {
+    const current = filters.tags || [];
+    const updated = current.includes(tag)
+      ? current.filter(t => t !== tag)
+      : [...current, tag];
+    onFilterChange({ ...filters, tags: updated });
+  };
+
+  const handleFavoritesOnlyToggle = () => {
+    onFilterChange({ ...filters, favoritesOnly: !filters.favoritesOnly });
+  };
+
   const clearFilters = () => {
     onFilterChange({});
   };
@@ -42,7 +55,9 @@ export default function ShowFilterPanel({ filters, onFilterChange }) {
   const activeFilterCount = (
     (filters.city?.length || 0) +
     (filters.pole?.length || 0) +
-    (filters.artistOrigin?.length || 0)
+    (filters.artistOrigin?.length || 0) +
+    (filters.tags?.length || 0) +
+    (filters.favoritesOnly ? 1 : 0)
   );
 
   return (
@@ -163,6 +178,45 @@ export default function ShowFilterPanel({ filters, onFilterChange }) {
                     </motion.button>
                   ))}
                 </div>
+              </div>
+
+              {/* Tags / Type Filter */}
+              {availableTags.length > 0 && (
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    Tipo / Tags
+                  </label>
+                  <div className="flex flex-wrap gap-2">
+                    {availableTags.map(tag => (
+                      <motion.button
+                        key={tag}
+                        whileTap={{ scale: 0.95 }}
+                        onClick={() => handleTagToggle(tag)}
+                        className={clsx(
+                          'px-3 py-1.5 rounded-full text-xs font-medium transition-colors capitalize',
+                          (filters.tags || []).includes(tag)
+                            ? 'bg-carnival-purple text-white'
+                            : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                        )}
+                      >
+                        {tag}
+                      </motion.button>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Só favoritos */}
+              <div>
+                <label className="flex items-center gap-2 cursor-pointer">
+                  <input
+                    type="checkbox"
+                    checked={filters.favoritesOnly || false}
+                    onChange={handleFavoritesOnlyToggle}
+                    className="w-4 h-4 text-carnival-purple focus:ring-carnival-purple rounded"
+                  />
+                  <span className="text-sm text-gray-700">Só favoritos</span>
+                </label>
               </div>
 
               {/* Clear Filters */}

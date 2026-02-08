@@ -1,9 +1,10 @@
-import { useState } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { Calendar as BigCalendar, dateFnsLocalizer } from 'react-big-calendar';
-import { format, parse, startOfWeek, getDay } from 'date-fns';
+import { format, parse, startOfWeek, getDay, startOfDay, endOfDay } from 'date-fns';
 import { ptBR } from 'date-fns/locale';
 import { useNavigate } from 'react-router-dom';
 import { useEvents } from '../contexts/EventsContext';
+import { motion } from 'framer-motion';
 import clsx from 'clsx';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
 
@@ -25,14 +26,15 @@ export default function CalendarScreen() {
   const [filter, setFilter] = useState('all'); // 'all', 'blocos', 'shows'
 
   const allEvents = getAllEvents();
-  
+  const [currentDate, setCurrentDate] = useState(null);
+
   const filteredEvents = allEvents.filter(event => {
     if (filter === 'blocos') return event.eventType === 'bloco';
     if (filter === 'shows') return event.eventType === 'show';
     return true;
   });
 
-  const calendarEvents = filteredEvents.map(event => {
+  const calendarEvents = useMemo(() => filteredEvents.map(event => {
     const isBloco = event.eventType === 'bloco';
     const startDate = isBloco
       ? new Date(event.concentration.dateTime)
@@ -46,7 +48,38 @@ export default function CalendarScreen() {
       resource: event,
       eventType: event.eventType,
     };
-  });
+  }), [filteredEvents]);
+
+  const { minDate, maxDate, defaultDate } = useMemo(() => {
+    if (calendarEvents.length === 0) {
+      const today = new Date();
+      return {
+        minDate: startOfDay(today),
+        maxDate: endOfDay(today),
+        defaultDate: today,
+      };
+    }
+    const dates = calendarEvents.map(e => e.start);
+    const min = new Date(Math.min(...dates.map(d => d.getTime())));
+    const max = new Date(Math.max(...dates.map(d => d.getTime())));
+    return {
+      minDate: startOfDay(min),
+      maxDate: endOfDay(max),
+      defaultDate: min,
+    };
+  }, [calendarEvents]);
+
+  const displayDate = currentDate ?? defaultDate;
+
+  useEffect(() => {
+    setCurrentDate(null);
+  }, [filter]);
+
+  const handleNavigate = (newDate) => {
+    const t = newDate.getTime();
+    const clamped = new Date(Math.min(maxDate.getTime(), Math.max(minDate.getTime(), t)));
+    setCurrentDate(clamped);
+  };
 
   const eventStyleGetter = (event) => {
     const isBloco = event.eventType === 'bloco';
@@ -69,7 +102,11 @@ export default function CalendarScreen() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      className="min-h-screen bg-gray-50"
+    >
       {/* Header */}
       <div className="bg-gradient-to-r from-carnival-orange via-carnival-yellow to-carnival-purple text-white p-6 shadow-lg">
         <h1 className="text-3xl font-bold">Agenda</h1>
@@ -81,7 +118,8 @@ export default function CalendarScreen() {
       {/* Filter */}
       <div className="p-4 bg-white border-b border-gray-200">
         <div className="flex gap-2 max-w-screen-xl mx-auto">
-          <button
+          <motion.button
+            whileTap={{ scale: 0.95 }}
             onClick={() => setFilter('all')}
             className={clsx(
               'flex-1 px-4 py-2 rounded-lg font-medium transition-colors',
@@ -91,8 +129,9 @@ export default function CalendarScreen() {
             )}
           >
             Todos
-          </button>
-          <button
+          </motion.button>
+          <motion.button
+            whileTap={{ scale: 0.95 }}
             onClick={() => setFilter('blocos')}
             className={clsx(
               'flex-1 px-4 py-2 rounded-lg font-medium transition-colors',
@@ -102,8 +141,9 @@ export default function CalendarScreen() {
             )}
           >
             Blocos
-          </button>
-          <button
+          </motion.button>
+          <motion.button
+            whileTap={{ scale: 0.95 }}
             onClick={() => setFilter('shows')}
             className={clsx(
               'flex-1 px-4 py-2 rounded-lg font-medium transition-colors',
@@ -113,11 +153,11 @@ export default function CalendarScreen() {
             )}
           >
             Shows
-          </button>
+          </motion.button>
         </div>
       </div>
 
-      {/* Calendar */}
+      {/* Calendar - agenda only, carnival date range */}
       <div className="p-4">
         <div className="bg-white rounded-lg shadow-md p-4 overflow-auto">
           <BigCalendar
@@ -125,7 +165,13 @@ export default function CalendarScreen() {
             events={calendarEvents}
             startAccessor="start"
             endAccessor="end"
-            style={{ height: 600 }}
+            views={['agenda']}
+            defaultView="agenda"
+            date={displayDate}
+            onNavigate={handleNavigate}
+            min={minDate}
+            max={maxDate}
+            style={{ minHeight: 400 }}
             onSelectEvent={handleSelectEvent}
             eventPropGetter={eventStyleGetter}
             culture="pt-BR"
@@ -133,10 +179,6 @@ export default function CalendarScreen() {
               next: 'Próximo',
               previous: 'Anterior',
               today: 'Hoje',
-              month: 'Mês',
-              week: 'Semana',
-              day: 'Dia',
-              agenda: 'Agenda',
               date: 'Data',
               time: 'Hora',
               event: 'Evento',
@@ -144,22 +186,7 @@ export default function CalendarScreen() {
             }}
           />
         </div>
-
-        {/* Legend */}
-        <div className="mt-4 bg-white rounded-lg shadow-md p-4">
-          <h3 className="font-medium text-gray-900 mb-3">Legenda</h3>
-          <div className="flex gap-4">
-            <div className="flex items-center gap-2">
-              <div className="w-4 h-4 bg-carnival-orange rounded"></div>
-              <span className="text-sm text-gray-700">Blocos</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <div className="w-4 h-4 bg-carnival-purple rounded"></div>
-              <span className="text-sm text-gray-700">Shows</span>
-            </div>
-          </div>
-        </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

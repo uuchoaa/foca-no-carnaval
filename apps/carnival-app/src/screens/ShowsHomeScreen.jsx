@@ -1,5 +1,6 @@
 import { useState, useMemo } from 'react';
 import { useEvents } from '../contexts/EventsContext';
+import { useFavorites } from '../contexts/FavoritesContext';
 import { groupByDate, formatDate } from '../utils/dateHelpers';
 import { motion } from 'framer-motion';
 import SearchBar from '../components/SearchBar';
@@ -9,6 +10,7 @@ import ShowCard from '../components/ShowCard';
 
 export default function ShowsHomeScreen() {
   const { getShows, loading, shows: allShows } = useEvents();
+  const { isFavorite } = useFavorites();
   const [search, setSearch] = useState('');
   const [filters, setFilters] = useState({});
   const [selectedDate, setSelectedDate] = useState(null);
@@ -18,9 +20,12 @@ export default function ShowsHomeScreen() {
     return [...new Set(allShows.map(s => s.date))].sort();
   }, [allShows]);
 
-  // Apply date filter
+  // Apply date filter and get shows
   const dateFilter = selectedDate ? { dateFrom: selectedDate, dateTo: selectedDate } : {};
-  const shows = getShows({ ...filters, ...dateFilter, search });
+  let shows = getShows({ ...filters, ...dateFilter, search });
+  if (filters.favoritesOnly) {
+    shows = shows.filter(s => isFavorite(s.id));
+  }
   const groupedShows = groupByDate(shows);
 
   return (

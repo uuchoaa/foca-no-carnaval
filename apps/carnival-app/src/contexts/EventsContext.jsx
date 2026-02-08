@@ -47,6 +47,13 @@ export function EventsProvider({ children }) {
       filtered = filtered.filter(b => b.artist);
     }
 
+    // Filter by tags (event has at least one of the selected tags)
+    if (filters.tags && filters.tags.length > 0) {
+      filtered = filtered.filter(b =>
+        b.tags && b.tags.some(t => filters.tags.includes(t))
+      );
+    }
+
     // Search
     if (filters.search) {
       const search = filters.search.toLowerCase();
@@ -90,6 +97,13 @@ export function EventsProvider({ children }) {
       filtered = filtered.filter(s => filters.pole.includes(s.pole));
     }
 
+    // Filter by tags
+    if (filters.tags && filters.tags.length > 0) {
+      filtered = filtered.filter(s =>
+        s.tags && s.tags.some(t => filters.tags.includes(t))
+      );
+    }
+
     // Search
     if (filters.search) {
       const search = filters.search.toLowerCase();
@@ -122,6 +136,18 @@ export function EventsProvider({ children }) {
     return [...new Set(shows.map(s => s.artistOrigin))].sort();
   };
 
+  // Get all unique tags for blocos
+  const getBlocoTags = () => {
+    const tags = blocos.flatMap(b => b.tags || []);
+    return [...new Set(tags)].sort();
+  };
+
+  // Get all unique tags for shows
+  const getShowTags = () => {
+    const tags = shows.flatMap(s => s.tags || []);
+    return [...new Set(tags)].sort();
+  };
+
   const value = {
     blocos,
     shows,
@@ -132,6 +158,8 @@ export function EventsProvider({ children }) {
     getEventById,
     getPoles,
     getArtistOrigins,
+    getBlocoTags,
+    getShowTags,
   };
 
   return (

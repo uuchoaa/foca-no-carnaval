@@ -1,5 +1,6 @@
 import { useState, useMemo } from 'react';
 import { useEvents } from '../contexts/EventsContext';
+import { useFavorites } from '../contexts/FavoritesContext';
 import { groupByDate, formatDate } from '../utils/dateHelpers';
 import { motion } from 'framer-motion';
 import SearchBar from '../components/SearchBar';
@@ -9,6 +10,7 @@ import BlocoCard from '../components/BlocoCard';
 
 export default function BlocosHomeScreen() {
   const { getBlocos, loading, blocos: allBlocos } = useEvents();
+  const { isFavorite } = useFavorites();
   const [search, setSearch] = useState('');
   const [filters, setFilters] = useState({});
   const [selectedDate, setSelectedDate] = useState(null);
@@ -18,9 +20,12 @@ export default function BlocosHomeScreen() {
     return [...new Set(allBlocos.map(b => b.date))].sort();
   }, [allBlocos]);
 
-  // Apply date filter
+  // Apply date filter and get blocos
   const dateFilter = selectedDate ? { dateFrom: selectedDate, dateTo: selectedDate } : {};
-  const blocos = getBlocos({ ...filters, ...dateFilter, search });
+  let blocos = getBlocos({ ...filters, ...dateFilter, search });
+  if (filters.favoritesOnly) {
+    blocos = blocos.filter(b => isFavorite(b.id));
+  }
   const groupedBlocos = groupByDate(blocos);
 
   return (

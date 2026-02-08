@@ -5,7 +5,6 @@ import Navigation from './components/Navigation';
 import BlocosHomeScreen from './screens/BlocosHomeScreen';
 import ShowsHomeScreen from './screens/ShowsHomeScreen';
 import EventDetailScreen from './screens/EventDetailScreen';
-import CalendarScreen from './screens/CalendarScreen';
 import MapScreen from './screens/MapScreen';
 import FavoritesScreen from './screens/FavoritesScreen';
 
@@ -21,7 +20,6 @@ function App() {
                 <Route path="/blocos" element={<BlocosHomeScreen />} />
                 <Route path="/shows" element={<ShowsHomeScreen />} />
                 <Route path="/event/:id" element={<EventDetailScreen />} />
-                <Route path="/calendar" element={<CalendarScreen />} />
                 <Route path="/map" element={<MapScreen />} />
                 <Route path="/favorites" element={<FavoritesScreen />} />
               </Routes>
