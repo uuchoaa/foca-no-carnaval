@@ -9,8 +9,8 @@ interface LoadingSpinnerProps {
 }
 
 const variantBorder: Record<SpinnerVariant, string> = {
-  orange: 'border-carnival-orange',
-  purple: 'border-carnival-purple',
+  orange: 'border-orange',
+  purple: 'border-purple',
 };
 
 export function LoadingSpinner({

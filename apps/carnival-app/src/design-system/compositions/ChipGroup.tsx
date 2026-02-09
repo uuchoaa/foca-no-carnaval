@@ -16,8 +16,8 @@ interface ChipGroupProps {
 }
 
 const colorClasses: Record<ChipColor, string> = {
-  orange: 'bg-carnival-orange text-white',
-  purple: 'bg-carnival-purple text-white',
+  orange: 'bg-orange text-white',
+  purple: 'bg-purple text-white',
   blue: 'bg-blue-500 text-white',
   green: 'bg-green-500 text-white',
   gray: 'bg-gray-700 text-white',

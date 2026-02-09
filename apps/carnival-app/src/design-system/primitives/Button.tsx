@@ -12,7 +12,7 @@ interface ButtonProps extends Omit<ButtonHTMLAttributes<HTMLButtonElement>, 'cla
 }
 
 const variantClasses: Record<ButtonVariant, string> = {
-  primary: 'bg-carnival-orange text-white hover:opacity-90',
+  primary: 'bg-orange text-white hover:opacity-90',
   secondary: 'bg-gray-200 text-gray-800 hover:bg-gray-300',
   ghost: 'bg-transparent text-gray-700 hover:bg-gray-100',
 };

@@ -24,10 +24,10 @@ export function FilterPanel({
         className="w-full px-4 py-3 flex items-center justify-between"
       >
         <div className="flex items-center gap-2">
-          <Filter size={20} className="text-carnival-orange" />
+          <Filter size={20} className="text-orange" />
           <span className="font-medium text-gray-900">Filtros</span>
           {activeCount > 0 ? (
-            <span className="bg-carnival-orange text-white text-xs px-2 py-0.5 rounded-full font-medium">
+            <span className="bg-orange text-white text-xs px-2 py-0.5 rounded-full font-medium">
               {activeCount}
             </span>
           ) : null}

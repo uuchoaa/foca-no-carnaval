@@ -13,7 +13,7 @@ export function Checkbox({ checked, onChange, className, ...props }: CheckboxPro
       checked={checked}
       onChange={(e) => onChange(e.target.checked)}
       className={clsx(
-        'w-4 h-4 text-carnival-orange focus:ring-carnival-orange rounded border-gray-300',
+        'w-4 h-4 text-orange focus:ring-orange rounded border-gray-300',
         className
       )}
       {...props}

@@ -25,8 +25,8 @@ export function TabGroup({ options, selectedId, onSelect }: TabGroupProps) {
             style === 'all'
               ? '!bg-gray-900 text-white'
               : style === 'orange'
-                ? '!bg-carnival-orange text-white'
-                : '!bg-carnival-purple text-white';
+                ? '!bg-orange text-white'
+                : '!bg-purple text-white';
           return (
             <Button
               key={opt.id}

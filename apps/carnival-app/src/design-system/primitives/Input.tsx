@@ -20,7 +20,7 @@ export function Input({
       value={value}
       onChange={(e) => onChange(e.target.value)}
       placeholder={placeholder}
-      className="w-full rounded-lg border border-gray-300 px-4 py-2 text-gray-900 placeholder-gray-500 focus:border-carnival-orange focus:outline-none focus:ring-1 focus:ring-carnival-orange"
+      className="w-full rounded-lg border border-gray-300 px-4 py-2 text-gray-900 placeholder-gray-500 focus:border-orange focus:outline-none focus:ring-1 focus:ring-orange"
       {...props}
     />
   );

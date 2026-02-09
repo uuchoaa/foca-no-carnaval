@@ -10,7 +10,7 @@ interface CardProps {
 
 const variantClasses: Record<CardVariant, string> = {
   default: 'bg-white shadow-md',
-  highlight: 'bg-white shadow-lg border border-carnival-orange/20',
+  highlight: 'bg-white shadow-lg border border-orange/20',
   muted: 'bg-gray-50 shadow-sm',
 };
 
