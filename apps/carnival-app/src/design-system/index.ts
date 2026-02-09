@@ -1,4 +1,4 @@
-export { semantic } from './tokens/colors';
+export { semantic, textColor, type TextColor } from './tokens/colors';
 export { spacing } from './tokens/spacing';
 export { typography } from './tokens/typography';
 export { pageHeaderGradients, type PageHeaderGradient } from './tokens/gradients';

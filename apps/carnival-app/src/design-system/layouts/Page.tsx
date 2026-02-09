@@ -48,7 +48,6 @@ function PageHeader({ gradient, children }: PageHeaderProps) {
           maxWidth: '1280px',
           margin: '0 auto',
           position: 'relative',
-          padding: '0 16px',
         }}
       >
         {children}
@@ -73,7 +72,7 @@ function PageContent({ children, center, isLoading, isEmpty }: PageContentProps)
   return (
     <div
       style={{
-        padding: '16px 24px 32px',
+        padding: '32px 24px 32px',
         maxWidth: '1280px',
         margin: '0 auto',
         ...(center && {

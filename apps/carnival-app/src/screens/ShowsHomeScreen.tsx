@@ -20,8 +20,8 @@ export default function ShowsHomeScreen() {
             </button>
           </HStack>
           <VStack>
-            <Text variant="title">Shows</Text>
-            <Text variant="subtitle">Tela mockada — navegação</Text>
+            <Text variant="hero" color="inverse">Shows</Text>
+            <Text variant="subtitle" color="inverse">Tela mockada — navegação</Text>
           </VStack>
         </VStack>
       </Page.Header>
