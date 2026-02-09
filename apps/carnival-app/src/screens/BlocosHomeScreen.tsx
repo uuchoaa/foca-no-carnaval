@@ -26,7 +26,7 @@ export default function BlocosHomeScreen() {
                 />
                 <CardGrid>
                 {(events as Bloco[]).map((bloco) => (
-                  <Card key={bloco.id}>
+                  <Card key={bloco.id} interactive>
                     <VStack gap={2} align="start">
                       <Text variant="title">{bloco.name}</Text>
                       <Badge color="blue">{bloco.city}</Badge>

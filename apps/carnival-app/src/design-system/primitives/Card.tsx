@@ -6,6 +6,7 @@ type CardVariant = 'default' | 'highlight' | 'muted';
 
 interface CardProps {
   variant?: CardVariant;
+  interactive?: boolean;
   children: ReactNode;
 }
 
@@ -15,13 +16,19 @@ const variantClasses: Record<CardVariant, string> = {
   muted: 'bg-gray-50 shadow-sm',
 };
 
+const interactiveClasses = 'transition-shadow duration-200 hover:shadow-lg';
+
 /** 20% opacity in hex */
 const highlightBorderStyle = { borderColor: `${semantic.primary}33` };
 
-export function Card({ variant = 'default', children }: CardProps) {
+export function Card({ variant = 'default', interactive, children }: CardProps) {
   return (
     <div
-      className={clsx('rounded-lg p-4', variantClasses[variant])}
+      className={clsx(
+        'rounded-lg p-4',
+        variantClasses[variant],
+        interactive && interactiveClasses
+      )}
       style={variant === 'highlight' ? highlightBorderStyle : undefined}
     >
       {children}
