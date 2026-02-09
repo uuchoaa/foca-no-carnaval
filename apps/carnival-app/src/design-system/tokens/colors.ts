@@ -1,5 +1,5 @@
 /** Single source of truth for palette. Align with tailwind.config.js */
-export const carnival = {
+export const base = {
   yellow: '#FFD700',
   orange: '#FF8C00',
   purple: '#9370DB',
@@ -8,13 +8,13 @@ export const carnival = {
 } as const;
 
 export const semantic = {
-  primary: carnival.orange,
-  secondary: carnival.purple,
-  accent: carnival.yellow,
-  success: carnival.green,
+  primary: base.orange,
+  secondary: base.purple,
+  accent: base.yellow,
+  success: base.green,
 } as const;
 
 export const eventVariant = {
-  bloco: carnival.orange,
-  show: carnival.purple,
+  bloco: base.orange,
+  show: base.purple,
 } as const;
