@@ -1,6 +1,10 @@
 import type { ReactNode } from 'react';
 import { motion } from 'framer-motion';
-import { pageHeaderGradients, type PageHeaderGradient } from '../tokens/gradients';
+import {
+  pageHeaderGradients,
+  pageHeaderGradientBg,
+  type PageHeaderGradient,
+} from '../tokens/gradients';
 import { Show } from '../primitives/Show';
 import { LoadingSpinner } from '../compositions/LoadingSpinner';
 import { EmptyState } from '../compositions/EmptyState';
@@ -29,11 +33,11 @@ interface PageHeaderProps {
 }
 
 function PageHeader({ gradient, children }: PageHeaderProps) {
-  const gradientClass = pageHeaderGradients[gradient];
   return (
     <header
-      className={gradientClass}
+      className={pageHeaderGradients[gradient]}
       style={{
+        background: pageHeaderGradientBg[gradient],
         padding: '24px',
         boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1)',
         position: 'relative',

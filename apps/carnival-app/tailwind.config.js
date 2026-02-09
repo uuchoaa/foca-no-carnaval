@@ -4,6 +4,18 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  safelist: [
+    'bg-gradient-to-r',
+    'from-orange',
+    'to-yellow',
+    'from-purple',
+    'to-purple-600',
+    'from-red-500',
+    'to-pink-500',
+    'text-white',
+    'p-6',
+    'shadow-lg',
+  ],
   theme: {
     extend: {
       colors: {
