@@ -1,7 +1,7 @@
 import type { ReactNode } from 'react';
 import clsx from 'clsx';
 
-type Gap = 0 | 1 | 2 | 3 | 4 | 5 | 6;
+type Gap = 0 | 1 | 2 | 3 | 4 | 5 | 6 | 8 | 12 | 16 | 24 | 32;
 type Align = 'start' | 'center' | 'end' | 'stretch' | 'baseline';
 type Justify = 'start' | 'center' | 'end' | 'between' | 'around' | 'evenly';
 
@@ -13,6 +13,11 @@ const gapClass: Record<Gap, string> = {
   4: 'gap-4',
   5: 'gap-5',
   6: 'gap-6',
+  8: 'gap-8',
+  12: 'gap-12',
+  16: 'gap-16',
+  24: 'gap-24',
+  32: 'gap-32',
 };
 
 const alignClass: Record<Align, string> = {

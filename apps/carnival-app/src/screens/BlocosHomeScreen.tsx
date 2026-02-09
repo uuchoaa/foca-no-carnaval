@@ -2,7 +2,7 @@ import { useMemo } from 'react';
 import { useEvents } from '../contexts/EventsContext';
 import type { Bloco } from '../types/events';
 import { groupByDate, formatDate } from '../utils/dateHelpers';
-import { Page, Text, Card, CardGrid, Badge, VStack, SectionHeading } from '../design-system';
+import { Page, Text, Card, CardGrid, Badge, VStack, SectionHeading, Divider } from '../design-system';
 
 export default function BlocosHomeScreen() {
   const { getBlocos, loading } = useEvents();
@@ -16,10 +16,10 @@ export default function BlocosHomeScreen() {
         <Text variant="subtitle" color="inverse">{blocos.length} blocos encontrados</Text>
       </Page.Header>
       <Page.Content isLoading={loading} isEmpty={blocos.length === 0}>
-        <VStack gap={6} align="stretch">
+        <VStack gap={16} align="stretch">
           {groupedByDate.map(({ date, dayOfWeek, events }) => (
             <section key={date}>
-              <VStack gap={3} align="stretch">
+              <VStack gap={4} align="stretch">
                 <SectionHeading
                   title={formatDate(date)}
                   subtitle={dayOfWeek}
@@ -37,7 +37,8 @@ export default function BlocosHomeScreen() {
                     </VStack>
                   </Card>
                 ))}
-              </CardGrid>
+                </CardGrid>
+                <Divider />
               </VStack>
             </section>
           ))}

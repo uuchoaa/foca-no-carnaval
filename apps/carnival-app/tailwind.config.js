@@ -5,6 +5,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   safelist: [
+    'font-hero',
     'font-display',
     'font-sans',
     'bg-gradient-to-r',
@@ -21,7 +22,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        display: ['Fredoka', 'sans-serif'],
+        display: ['Plus Jakarta Sans', 'sans-serif'],
+        hero: ['Fredoka', 'sans-serif'],
         sans: ['Nunito', 'sans-serif'],
       },
       colors: {
