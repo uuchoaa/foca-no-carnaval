@@ -57,14 +57,28 @@ function PageHeader({ gradient, children }: PageHeaderProps) {
   );
 }
 
+type PageContentGap = 0 | 2 | 4 | 8 | 12 | 16 | 24 | 32;
+
 interface PageContentProps {
   children: ReactNode;
   center?: boolean;
   isLoading?: boolean;
   isEmpty?: boolean;
+  gap?: PageContentGap;
 }
 
-function PageContent({ children, center, isLoading, isEmpty }: PageContentProps) {
+const gapClass: Record<PageContentGap, string> = {
+  0: 'gap-0',
+  2: 'gap-2',
+  4: 'gap-4',
+  8: 'gap-8',
+  12: 'gap-12',
+  16: 'gap-16',
+  24: 'gap-24',
+  32: 'gap-32',
+};
+
+function PageContent({ children, center, isLoading, isEmpty, gap }: PageContentProps) {
   const { emptyTitle, emptyDescription } = useWiseAppCopy();
   const showEmpty = Boolean(isEmpty && !isLoading);
   return (
@@ -93,7 +107,11 @@ function PageContent({ children, center, isLoading, isEmpty }: PageContentProps)
         />
       </Show>
       <Show condition={!isLoading && !showEmpty} fallback={null}>
-        {children}
+        {gap != null ? (
+          <div className={`flex flex-col ${gapClass[gap]}`}>{children}</div>
+        ) : (
+          children
+        )}
       </Show>
     </div>
   );

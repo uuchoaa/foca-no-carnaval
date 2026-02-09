@@ -4,7 +4,7 @@ import { useEvents } from '../contexts/EventsContext';
 import { useFavorites } from '../contexts/FavoritesContext';
 import type { Bloco } from '../types/events';
 import { groupByDate, formatDate, formatDateChip } from '../utils/dateHelpers';
-import { Page, Text, Card, CardGrid, Badge, VStack, HStack, SectionHeading, Divider, IconLabel, FavButton, DateChipRow, SearchBarWithIcon, FilterPanel, ChipGroup, CheckboxField } from '../design-system';
+import { Page, Text, Card, CardGrid, Badge, VStack, HStack, SectionHeading, Divider, IconLabel, FavButton, DateChipRow, SearchBarWithIcon, FilterPanel, ChipGroup, CheckboxField, Show } from '../design-system';
 
 export default function BlocosHomeScreen() {
   const { getBlocos, getBlocoTags, loading } = useEvents();
@@ -76,9 +76,9 @@ export default function BlocosHomeScreen() {
         <Text variant="hero" color="inverse">Blocos</Text>
         <Text variant="subtitle" color="inverse">{blocos.length} blocos encontrados</Text>
       </Page.Header>
-      <Page.Content isLoading={loading} isEmpty={blocos.length === 0}>
-        <VStack gap={2} align="stretch">
-          <SearchBarWithIcon
+      <Page.Content isLoading={loading} isEmpty={blocos.length === 0} gap={16}>
+        <VStack gap={4}>
+        <SearchBarWithIcon
             icon={Search}
             clearIcon={X}
             value={search}
@@ -103,14 +103,14 @@ export default function BlocosHomeScreen() {
               selectedIds={selectedCities}
               onToggle={toggleCity}
             />
-            {tagOptions.length > 0 ? (
+            <Show condition={tagOptions.length > 0}>
               <ChipGroup
                 label="Tags"
                 options={tagOptions}
                 selectedIds={selectedTags}
                 onToggle={toggleTag}
               />
-            ) : null}
+            </Show>
             <CheckboxField
               label="Apenas com artista"
               checked={hasArtist}
@@ -122,49 +122,52 @@ export default function BlocosHomeScreen() {
               onChange={setFavoritesOnly}
             />
           </FilterPanel>
-          {groupedByDate.map(({ date, dayOfWeek, events }) => (
-            <section key={date}>
-              <VStack gap={4} align="stretch">
-                <SectionHeading
-                  title={formatDate(date)}
-                  subtitle={dayOfWeek}
-                />
-                <CardGrid>
-                {(events as Bloco[]).map((bloco) => (
-                  <Card key={bloco.id} interactive>
-                    <VStack gap={2} align="start">
-                      <HStack justify="between" align="center" gap={2} className="w-full min-w-0">
-                        <div className="min-w-0 flex-1">
-                          <Text variant="title">{bloco.name}</Text>
-                        </div>
-                        <div className="self-center flex-shrink-0">
-                          <FavButton
-                            icon={Heart}
-                            isActive={isFavorite(bloco.id)}
-                            onToggle={() => toggleFavorite(bloco.id)}
-                            iconSize={20}
-                          />
-                        </div>
-                        
-                      </HStack>
-                      <Badge color="blue">{bloco.city}</Badge>
-                      <IconLabel icon={Clock} iconColor="primary">
-                        <Text variant="small">
-                          {bloco.concentration.time} / {bloco.departure.time}
-                        </Text>
-                      </IconLabel>
-                      <IconLabel icon={MapPin} iconColor="muted">
-                        <Text variant="caption">{bloco.location.raw}</Text>
-                      </IconLabel>
-                    </VStack>
-                  </Card>
-                ))}
-                </CardGrid>
-                <Divider />
-              </VStack>
-            </section>
-          ))}
+
         </VStack>
+        
+        
+        {groupedByDate.map(({ date, dayOfWeek, events }) => (
+          <section key={date}>
+            <VStack gap={4}>
+              <SectionHeading
+                title={formatDate(date)}
+                subtitle={dayOfWeek}
+              />
+              <CardGrid>
+              {(events as Bloco[]).map((bloco) => (
+                <Card key={bloco.id} interactive>
+                  <VStack gap={2} align="start">
+                    <HStack justify="between" align="center" gap={2} className="w-full min-w-0">
+                      <div className="min-w-0 flex-1">
+                        <Text variant="title">{bloco.name}</Text>
+                      </div>
+                      <div className="self-center flex-shrink-0">
+                        <FavButton
+                          icon={Heart}
+                          isActive={isFavorite(bloco.id)}
+                          onToggle={() => toggleFavorite(bloco.id)}
+                          iconSize={20}
+                        />
+                      </div>
+                      
+                    </HStack>
+                    <Badge color="blue">{bloco.city}</Badge>
+                    <IconLabel icon={Clock} iconColor="primary">
+                      <Text variant="small">
+                        {bloco.concentration.time} / {bloco.departure.time}
+                      </Text>
+                    </IconLabel>
+                    <IconLabel icon={MapPin} iconColor="muted">
+                      <Text variant="caption">{bloco.location.raw}</Text>
+                    </IconLabel>
+                  </VStack>
+                </Card>
+              ))}
+              </CardGrid>
+              <Divider />
+            </VStack>
+          </section>
+        ))}
       </Page.Content>
     </Page>
   );
