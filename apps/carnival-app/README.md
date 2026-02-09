@@ -33,7 +33,6 @@ src/
 │   ├── BlocosHomeScreen.jsx
 │   ├── ShowsHomeScreen.jsx
 │   ├── EventDetailScreen.jsx # Adaptive layout
-│   ├── MapScreen.jsx
 │   └── FavoritesScreen.jsx
 ├── components/
 │   ├── BlocoCard.jsx
@@ -109,5 +108,4 @@ Open http://localhost:5173
 - 🏠 **Blocos** - Street carnival blocks
 - 🎤 **Shows** - Stage performances  
 - 📅 **Agenda** - Calendar view (unified)
-- 🗺️ **Mapa** - Map view (placeholder)
 - ❤️ **Favoritos** - Saved events (unified)

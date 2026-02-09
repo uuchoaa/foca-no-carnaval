@@ -40,7 +40,6 @@ export {
   HeaderBadges,
   ArtistInfo,
   AnimatedContainer,
-  MapButton,
   ShareButton,
   ErrorMessage,
   EventTitle,

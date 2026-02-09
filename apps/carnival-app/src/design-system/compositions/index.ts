@@ -18,7 +18,6 @@ export { SourceList } from './SourceList';
 export { HeaderBadges } from './HeaderBadges';
 export { ArtistInfo } from './ArtistInfo';
 export { AnimatedContainer } from './AnimatedContainer';
-export { MapButton } from './MapButton';
 export { ShareButton } from './ShareButton';
 export { ErrorMessage } from './ErrorMessage';
 export { EventTitle } from './EventTitle';
