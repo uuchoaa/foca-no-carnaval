@@ -2,6 +2,7 @@ import type { ReactNode } from 'react';
 import type { LucideIcon } from 'lucide-react';
 import { Card } from '../primitives/Card';
 import clsx from 'clsx';
+import { useWiseAppCopy } from '../contexts/WiseAppContext';
 
 interface FilterPanelProps {
   icon: LucideIcon;
@@ -18,6 +19,7 @@ export function FilterPanel({
   activeCount = 0,
   children,
 }: FilterPanelProps) {
+  const { filtros } = useWiseAppCopy();
   return (
     <Card variant="muted">
       <button
@@ -27,7 +29,7 @@ export function FilterPanel({
       >
         <div className="flex items-center gap-2">
           <Icon size={20} className="text-orange" />
-          <span className="font-medium text-gray-900">Filtros</span>
+          <span className="font-medium text-gray-900">{filtros}</span>
           {activeCount > 0 ? (
             <span className="bg-orange text-white text-xs px-2 py-0.5 rounded-full font-medium">
               {activeCount}

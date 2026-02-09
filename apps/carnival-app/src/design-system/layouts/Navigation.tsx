@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import clsx from 'clsx';
 import type { LucideIcon } from 'lucide-react';
-import { useActiveNav } from '../contexts/ActiveNavContext';
+import { useWiseAppNav } from '../contexts/WiseAppContext';
 
 export interface NavItem {
   path: string;
@@ -23,7 +23,7 @@ interface NavigationProps {
 const layoutIds = { sidebar: 'nav-indicator-sidebar', bottom: 'nav-indicator-bottom' } as const;
 
 export function Navigation({ items, variant }: NavigationProps) {
-  const { isActive } = useActiveNav();
+  const { isActive } = useWiseAppNav();
   const isBottom = variant === 'bottom';
 
   const wrapperClass = isBottom

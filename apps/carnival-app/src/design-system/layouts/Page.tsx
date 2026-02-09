@@ -8,6 +8,7 @@ import {
 import { Show } from '../primitives/Show';
 import { LoadingSpinner } from '../compositions/LoadingSpinner';
 import { EmptyState } from '../compositions/EmptyState';
+import { useWiseAppCopy } from '../contexts/WiseAppContext';
 
 interface PageProps {
   children: ReactNode;
@@ -56,10 +57,6 @@ function PageHeader({ gradient, children }: PageHeaderProps) {
   );
 }
 
-// TODO: create a context for translations
-const DEFAULT_EMPTY_TITLE = 'Nenhum item';
-const DEFAULT_EMPTY_DESCRIPTION = 'Tente ajustar os filtros';
-
 interface PageContentProps {
   children: ReactNode;
   center?: boolean;
@@ -68,6 +65,7 @@ interface PageContentProps {
 }
 
 function PageContent({ children, center, isLoading, isEmpty }: PageContentProps) {
+  const { emptyTitle, emptyDescription } = useWiseAppCopy();
   const showEmpty = Boolean(isEmpty && !isLoading);
   return (
     <div
@@ -90,8 +88,8 @@ function PageContent({ children, center, isLoading, isEmpty }: PageContentProps)
       </Show>
       <Show condition={!isLoading && showEmpty} fallback={null}>
         <PageEmptyState
-          title={DEFAULT_EMPTY_TITLE}
-          description={DEFAULT_EMPTY_DESCRIPTION}
+          title={emptyTitle}
+          description={emptyDescription}
         />
       </Show>
       <Show condition={!isLoading && !showEmpty} fallback={null}>

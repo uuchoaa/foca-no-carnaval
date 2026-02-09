@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import { ActiveNavProvider } from './contexts/ActiveNavContext';
+import { WiseAppProvider } from './contexts/WiseAppProvider';
 import { EventsProvider } from './contexts/EventsContext';
 import { FavoritesProvider } from './contexts/FavoritesContext';
 import Navigation from './components/Navigation';
@@ -9,7 +9,7 @@ import ShowsHomeScreen from './screens/ShowsHomeScreen';
 export default function App() {
   return (
     <BrowserRouter>
-      <ActiveNavProvider>
+      <WiseAppProvider>
         <EventsProvider>
           <FavoritesProvider>
             <Navigation>
@@ -21,7 +21,7 @@ export default function App() {
             </Navigation>
           </FavoritesProvider>
         </EventsProvider>
-      </ActiveNavProvider>
+      </WiseAppProvider>
     </BrowserRouter>
   );
 }

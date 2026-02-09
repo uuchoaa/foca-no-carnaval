@@ -2,7 +2,15 @@ export { semantic, textColor, type TextColor } from './tokens/colors';
 export { spacing } from './tokens/spacing';
 export { typography } from './tokens/typography';
 export { pageHeaderGradients, type PageHeaderGradient } from './tokens/gradients';
-export { ActiveNavContext, useActiveNav, type ActiveNavContextValue } from './contexts/ActiveNavContext';
+export {
+  WiseAppContext,
+  useWiseAppNav,
+  useWiseAppCopy,
+  useWiseApp,
+  type WiseAppContextValue,
+  type WiseAppNav,
+  type WiseAppCopy,
+} from './contexts/WiseAppContext';
 export {
   Page,
   FilterBar,

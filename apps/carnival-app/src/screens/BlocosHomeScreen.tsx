@@ -77,7 +77,7 @@ export default function BlocosHomeScreen() {
         <Text variant="subtitle" color="inverse">{blocos.length} blocos encontrados</Text>
       </Page.Header>
       <Page.Content isLoading={loading} isEmpty={blocos.length === 0}>
-        <VStack gap={16} align="stretch">
+        <VStack gap={2} align="stretch">
           <SearchBarWithIcon
             icon={Search}
             clearIcon={X}
