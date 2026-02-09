@@ -1,11 +1,11 @@
 import { Page } from '../design-system';
 
-export default function BlocosHomeScreen() {
+export default function ShowsHomeScreen() {
   return (
     <Page>
       <Page.Header
-        gradient="sunny"
-        title="Blocos"
+        gradient="haze"
+        title="Shows"
         subtitle="Tela mockada — navegação"
       />
       <Page.Content>Conteúdo em breve.</Page.Content>

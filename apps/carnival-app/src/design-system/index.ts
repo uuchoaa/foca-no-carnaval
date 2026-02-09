@@ -2,6 +2,7 @@ export { semantic } from './tokens/colors';
 export { spacing } from './tokens/spacing';
 export { typography } from './tokens/typography';
 export { pageHeaderGradients, type PageHeaderGradient } from './tokens/gradients';
+export { ActiveNavContext, useActiveNav, type ActiveNavContextValue } from './contexts/ActiveNavContext';
 export {
   Page,
   FilterBar,

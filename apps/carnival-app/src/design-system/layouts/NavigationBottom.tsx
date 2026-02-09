@@ -1,7 +1,8 @@
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import clsx from 'clsx';
 import type { LucideIcon } from 'lucide-react';
+import { useActiveNav } from '../contexts/ActiveNavContext';
 
 export interface NavItem {
   path: string;
@@ -17,22 +18,20 @@ interface NavigationBottomProps {
 }
 
 export function NavigationBottom({ items }: NavigationBottomProps) {
-  const location = useLocation();
+  const { isActive } = useActiveNav();
 
   return (
     <nav className="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 shadow-[0_-4px_12px_2px_rgba(0,0,0,0.08)] z-50 md:hidden safe-area-inset-bottom">
       <div className="flex justify-around items-center h-16 max-w-screen-xl mx-auto px-safe relative">
         {items.map(({ path, label, icon: Icon, badge, activeClass, activeBg }) => {
-          const isActive =
-            location.pathname === path ||
-            (location.pathname.startsWith('/event/') && location.state?.from === path);
+          const active = isActive(path);
           return (
             <Link
               key={path}
               to={path}
               className="flex flex-col items-center justify-center flex-1 min-w-0 h-full relative transition-colors"
             >
-              {isActive ? (
+              {active ? (
                 <motion.div
                   layoutId="navbar-indicator"
                   className={clsx(
@@ -46,16 +45,16 @@ export function NavigationBottom({ items }: NavigationBottomProps) {
               <motion.div
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
-                animate={isActive ? { y: [0, -4, 0] } : {}}
+                animate={active ? { y: [0, -4, 0] } : {}}
                 transition={{ duration: 0.3 }}
                 className="relative flex flex-col items-center"
               >
                 <Icon
                   size={24}
                   className={clsx(
-                    isActive && activeClass,
-                    isActive && 'stroke-2',
-                    !isActive && 'text-gray-500'
+                    active && activeClass,
+                    active && 'stroke-2',
+                    !active && 'text-gray-500'
                   )}
                 />
                 {badge != null && badge > 0 ? (
@@ -78,9 +77,9 @@ export function NavigationBottom({ items }: NavigationBottomProps) {
               <span
                 className={clsx(
                   'text-xs mt-1 text-center',
-                  isActive && activeClass,
-                  isActive && 'font-semibold',
-                  !isActive && 'text-gray-500'
+                  active && activeClass,
+                  active && 'font-semibold',
+                  !active && 'text-gray-500'
                 )}
               >
                 {label}

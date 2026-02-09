@@ -1,7 +1,8 @@
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import clsx from 'clsx';
 import type { LucideIcon } from 'lucide-react';
+import { useActiveNav } from '../contexts/ActiveNavContext';
 
 export interface NavItem {
   path: string;
@@ -17,27 +18,25 @@ interface NavigationSidebarProps {
 }
 
 export function NavigationSidebar({ items }: NavigationSidebarProps) {
-  const location = useLocation();
+  const { isActive } = useActiveNav();
 
   return (
     <aside className="hidden md:flex flex-col fixed left-0 top-0 bottom-0 w-20 bg-gray-900 z-40 shadow-xl">
       <div className="flex flex-col items-center pt-6 pb-4 gap-1 flex-1">
-        {items.map(({ path, label, icon: Icon, badge, activeClass, activeBg }) => {
-          const isActive =
-            location.pathname === path ||
-            (location.pathname.startsWith('/event/') && location.state?.from === path);
+        {items.map(({ path, label, icon: Icon, badge, activeBg }) => {
+          const active = isActive(path);
           return (
             <Link
               key={path}
               to={path}
               className={clsx(
                 'flex flex-col items-center justify-center w-full py-3 px-2 relative transition-colors rounded-r-lg',
-                isActive
+                active
                   ? 'bg-gray-800/80 text-white'
                   : 'text-gray-400 hover:text-gray-200 hover:bg-gray-800/50'
               )}
             >
-              {isActive ? (
+              {active ? (
                 <motion.div
                   layoutId="sidebar-indicator"
                   className={clsx(
@@ -50,7 +49,7 @@ export function NavigationSidebar({ items }: NavigationSidebarProps) {
               <div className="relative">
                 <Icon
                   size={22}
-                  className={clsx(isActive && 'stroke-2')}
+                  className={clsx(active && 'stroke-2')}
                 />
                 {badge != null && badge > 0 ? (
                   <span className="absolute -top-1.5 -right-1.5 bg-carnival-pink text-white text-[10px] rounded-full min-w-[16px] h-4 px-1 flex items-center justify-center font-bold">

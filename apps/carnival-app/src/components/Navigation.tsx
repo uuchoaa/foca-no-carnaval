@@ -20,14 +20,6 @@ export default function Navigation({ children }: { children: React.ReactNode }) 
       activeClass: 'text-carnival-purple',
       activeBg: 'bg-carnival-purple',
     },
-    {
-      path: '/favorites',
-      label: 'Favoritos',
-      icon: Heart,
-      badge: count,
-      activeClass: 'text-red-500',
-      activeBg: 'bg-red-500',
-    },
   ];
 
   return <AppLayout navItems={navItems}>{children}</AppLayout>;
