@@ -1,6 +1,5 @@
 import type { ButtonHTMLAttributes, ReactNode } from 'react';
 import clsx from 'clsx';
-import { semantic } from '../tokens/colors';
 
 type ButtonVariant = 'primary' | 'secondary' | 'ghost';
 type ButtonSize = 'sm' | 'md' | 'lg';
@@ -13,8 +12,8 @@ interface ButtonProps extends Omit<ButtonHTMLAttributes<HTMLButtonElement>, 'cla
 }
 
 const variantClasses: Record<ButtonVariant, string> = {
-  primary: clsx(semantic.primary, 'text-white hover:opacity-90'),
-  secondary: clsx(semantic.secondary, 'text-gray-800 hover:bg-gray-300'),
+  primary: 'bg-carnival-orange text-white hover:opacity-90',
+  secondary: 'bg-carnival-purple text-gray-800 hover:bg-gray-300',
   ghost: 'bg-transparent text-gray-700 hover:bg-gray-100',
 };
 

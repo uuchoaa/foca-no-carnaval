@@ -1,10 +1,25 @@
-# Design System
+# WiseUi
 
 Shared UI primitives, compositions, layouts, and tokens for the app. Domain-agnostic: no event/bloco/show concepts—use these building blocks in app screens and components.
 
+## Using in other apps
+
+1. **Dependency** (monorepo): add `"wise-ui": "*"` to the app’s `package.json` (root must list this repo’s `packages/*` in `workspaces`). Run `npm install` from the repo root.
+
+2. **Tailwind**: In the app’s `tailwind.config.js`, include the package in `content` so classes used by WiseUi are generated. Prefer a path to the package source (workspace packages are often hoisted to root):
+   ```js
+   content: [
+     "./src/**/*.{js,ts,jsx,tsx}",
+     path.join(__dirname, "../../packages/wise-ui/src/**/*.{js,ts,jsx,tsx}"),
+   ],
+   ```
+   Extend `theme` with the same fonts and `carnival` colors (see carnival-app’s `tailwind.config.js`) so tokens and primitives look correct.
+
+3. **Peer deps**: The app must have `react`, `react-dom`, `clsx`, `framer-motion`, `lucide-react`, and `react-router-dom` installed (they are peer dependencies of the package).
+
 ## Usage
 
-Import from the design-system barrel:
+Import from the WiseUi barrel:
 
 ```ts
 import {
@@ -15,7 +30,7 @@ import {
   SearchBarWithIcon,
   DateChipRow,
   pageHeaderGradients,
-} from '../design-system';
+} from 'wise-ui';
 ```
 
 ### Defining a Page
@@ -23,7 +38,7 @@ import {
 Use `Page` as the screen wrapper, then `Page.Header` and `Page.Content`. When the list is empty, pass `isEmpty` and `Page.Content` shows the default empty state (PT: "Nenhum item" / "Tente ajustar os filtros"):
 
 ```tsx
-import { Page, Text, SectionHeading } from '../design-system';
+import { Page, Text, SectionHeading } from 'wise-ui';
 
 function MyScreen() {
   const items = []; // your data
@@ -67,6 +82,6 @@ function MyScreen() {
 
 ## Conventions
 
-- Prefer design-system components over custom markup so styling and behavior stay consistent.
+- Prefer WiseUi components over custom markup so styling and behavior stay consistent.
 - For colors with opacity in Tailwind, use Tailwind classes (e.g. `border-carnival-orange/20`). When using token hex values, apply opacity via inline style (e.g. `${semantic.primary}33` for 20% alpha).
 - App-specific UI (e.g. event title, source list, header badges) lives in `src/components`, not here.

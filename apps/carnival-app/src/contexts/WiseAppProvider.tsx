@@ -1,6 +1,6 @@
 import { useMemo, type ReactNode } from 'react';
 import { useLocation } from 'react-router-dom';
-import { WiseAppContext } from '../design-system';
+import { WiseAppContext } from 'wise-ui';
 
 const copy = {
   filtros: 'Filtros',

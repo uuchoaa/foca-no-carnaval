@@ -1,5 +1,5 @@
 import { Home, Mic2, Sparkles } from 'lucide-react';
-import { AppLayout, type NavItem } from '../design-system';
+import { AppLayout, type NavItem } from 'wise-ui';
 
 export default function Navigation({ children }: { children: React.ReactNode }) {
   const navItems: NavItem[] = [

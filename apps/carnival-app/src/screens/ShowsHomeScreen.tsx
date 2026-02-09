@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, Share2 } from 'lucide-react';
-import { Page, Text, BackButton, HStack, VStack } from '../design-system';
+import { Page, Text, BackButton, HStack, VStack } from 'wise-ui';
 
 export default function ShowsHomeScreen() {
   const navigate = useNavigate();

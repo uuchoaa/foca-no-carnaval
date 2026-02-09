@@ -23,7 +23,7 @@ import {
   TagList,
   SectionHeading,
   AnimatedContainer,
-} from '../design-system';
+} from 'wise-ui';
 
 const TABS = [
   { id: 'blocos', label: 'Blocos', selectedStyle: 'orange' as const },

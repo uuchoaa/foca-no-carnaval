@@ -4,7 +4,7 @@ import { useEvents } from '../contexts/EventsContext';
 import { useFavorites } from '../contexts/FavoritesContext';
 import type { Bloco } from '../types/events';
 import { groupByDate, formatDate, formatDateChip } from '../utils/dateHelpers';
-import { Page, Text, Card, CardGrid, Badge, VStack, HStack, SectionHeading, Divider, IconLabel, FavButton, DateChipRow, SearchBarWithIcon, FilterPanel, ChipGroup, CheckboxField, Show } from '../design-system';
+import { Page, Text, Card, CardGrid, Badge, VStack, HStack, SectionHeading, Divider, IconLabel, FavButton, DateChipRow, SearchBarWithIcon, FilterPanel, ChipGroup, CheckboxField, Show } from 'wise-ui';
 
 export default function BlocosHomeScreen() {
   const { getBlocos, getBlocoTags, loading } = useEvents();
