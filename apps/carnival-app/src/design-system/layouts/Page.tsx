@@ -57,26 +57,6 @@ function PageHeader({ gradient, children }: PageHeaderProps) {
   );
 }
 
-function PageHeaderActions({ children }: { children: ReactNode }) {
-  return (
-    <div
-      style={{
-        position: 'absolute',
-        top: 0,
-        left: 0,
-        right: 0,
-        display: 'flex',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-      }}
-    >
-      {children}
-    </div>
-  );
-}
-
-PageHeader.Actions = PageHeaderActions;
-
 // TODO: create a context for translations
 const DEFAULT_EMPTY_TITLE = 'Nenhum item';
 const DEFAULT_EMPTY_DESCRIPTION = 'Tente ajustar os filtros';

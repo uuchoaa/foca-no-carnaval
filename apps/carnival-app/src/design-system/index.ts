@@ -9,6 +9,8 @@ export {
   CardGrid,
   AppLayout,
   Navigation,
+  HStack,
+  VStack,
   type NavItem,
 } from './layouts';
 export { Button } from './primitives/Button';
