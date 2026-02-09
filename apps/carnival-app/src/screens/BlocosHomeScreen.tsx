@@ -1,12 +1,14 @@
 import { useMemo } from 'react';
 import { Clock, Heart, MapPin } from 'lucide-react';
 import { useEvents } from '../contexts/EventsContext';
+import { useFavorites } from '../contexts/FavoritesContext';
 import type { Bloco } from '../types/events';
 import { groupByDate, formatDate } from '../utils/dateHelpers';
-import { Page, Text, Card, CardGrid, Badge, VStack, HStack, SectionHeading, Divider, IconLabel } from '../design-system';
+import { Page, Text, Card, CardGrid, Badge, VStack, HStack, SectionHeading, Divider, IconLabel, FavButton } from '../design-system';
 
 export default function BlocosHomeScreen() {
   const { getBlocos, loading } = useEvents();
+  const { isFavorite, toggleFavorite } = useFavorites();
   const blocos = getBlocos({});
   const groupedByDate = useMemo(() => groupByDate(blocos), [blocos]);
 
@@ -34,9 +36,12 @@ export default function BlocosHomeScreen() {
                           <Text variant="title">{bloco.name}</Text>
                         </div>
                         <div className="self-center flex-shrink-0">
-                        <IconLabel icon={Heart} iconColor="primary" iconSize={20}>
-                          <></>
-                        </IconLabel>
+                          <FavButton
+                            icon={Heart}
+                            isActive={isFavorite(bloco.id)}
+                            onToggle={() => toggleFavorite(bloco.id)}
+                            iconSize={20}
+                          />
                         </div>
                         
                       </HStack>

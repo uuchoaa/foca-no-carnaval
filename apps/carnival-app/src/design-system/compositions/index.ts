@@ -10,6 +10,7 @@ export { EmptyState } from './EmptyState';
 export { LoadingSpinner } from './LoadingSpinner';
 export { SectionHeading } from './SectionHeading';
 export { BackButton } from './BackButton';
+export { FavButton } from './FavButton';
 export { InfoCard } from './InfoCard';
 export { TimeInfo } from './TimeInfo';
 export { AnimatedContainer } from './AnimatedContainer';
