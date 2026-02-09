@@ -40,6 +40,7 @@ export default function BlocosHomeScreen() {
   const groupedBlocos = groupByDate(blocos as Event[]);
 
   return (
+    // TODO: move this motion.div to the Page component
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
@@ -63,14 +64,18 @@ export default function BlocosHomeScreen() {
         </FilterBar>
         <Page.Content>
           {loading ? (
+            // TODO: move this LoadingSpinner to the Page component
             <LoadingSpinner variant="orange" />
           ) : groupedBlocos.length === 0 ? (
+            // TODO: move this to the EmptyState component
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.3 }}
               className="py-12"
             >
+
+              {/* TODO: move this to the Page.EmptyState  component */}
               <EmptyState
                 title="Nenhum bloco encontrado"
                 description="Tente ajustar os filtros ou busca"

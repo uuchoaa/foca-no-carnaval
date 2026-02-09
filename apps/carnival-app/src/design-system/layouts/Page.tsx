@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react';
 import { pageHeaderGradients, type PageHeaderGradient } from '../tokens/gradients';
+import { Text } from '../primitives/Text';
 
 interface PageProps {
   children: ReactNode;
@@ -16,10 +17,10 @@ export function Page({ children }: PageProps) {
 interface PageHeaderProps {
   gradient: PageHeaderGradient;
   title: string;
-  children: ReactNode;
+  subtitle: string;
 }
 
-function PageHeader({ gradient, children }: PageHeaderProps) {
+function PageHeader({ gradient, title, subtitle }: PageHeaderProps) {
   const gradientClass = pageHeaderGradients[gradient];
   return (
     <div
@@ -39,8 +40,12 @@ function PageHeader({ gradient, children }: PageHeaderProps) {
           padding: '0 16px',
         }}
       >
-        AQUI!
-        {children}
+        <Text variant="heading1">
+          {title}
+        </Text>
+        <p className="text-sm mt-1 opacity-90">
+          {subtitle}
+        </p>
       </div>
     </div>
   );
