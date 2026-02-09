@@ -6,4 +6,5 @@ export const typography = {
   caption: 'text-xs',
   title: 'text-xl font-bold',
   subtitle: 'text-gray-500 capitalize block',
+  cardTitle: 'text-xl font-bold text-gray-900 block'
 } as const;

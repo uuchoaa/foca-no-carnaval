@@ -25,6 +25,9 @@ export default function BlocoCard({ bloco, index = 0 }: BlocoCardProps) {
     toggleFavorite(bloco.id);
   };
 
+  const isOlinda = bloco.city === 'olinda'
+  const badgeColor = isOlinda ? 'blue' : 'green'
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -38,13 +41,9 @@ export default function BlocoCard({ bloco, index = 0 }: BlocoCardProps) {
       >
         <div className="flex justify-between items-start mb-2">
           <div className="flex-1 min-h-[2.75em]">
-            <Text variant="heading2" className="text-gray-900 block">
-              {bloco.name}
-            </Text>
+            <Text variant="cardTitle">{bloco.name}</Text>
             <div className="flex items-center gap-2 mt-1">
-              <Badge color={bloco.city === 'recife' ? 'blue' : 'green'}>
-                {bloco.city === 'recife' ? 'Recife' : 'Olinda'}
-              </Badge>
+              <Badge color={badgeColor}>{bloco.city}</Badge>
             </div>
           </div>
           <Button
@@ -63,14 +62,14 @@ export default function BlocoCard({ bloco, index = 0 }: BlocoCardProps) {
         <div className="space-y-2 mt-3">
           <div className="flex items-center gap-2">
             <Clock size={16} className="text-carnival-orange" />
-            <div>
-              <Text variant="body" className="text-lg font-semibold text-carnival-orange">
-                {bloco.concentration.time}
-              </Text>
-              <Text variant="small" className="text-gray-600 ml-2">
-                Saída: {bloco.departure.time}
+
+            <div className="flex flex-col">
+              <Text variant="body" color="show">
+                {bloco.concentration.time}&nbsp;
+                <Text variant='small'>/ {bloco.departure.time}</Text>
               </Text>
             </div>
+
           </div>
 
           <div className="flex items-start gap-2">
