@@ -1,10 +1,10 @@
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { MapPin, Clock, Heart, Mic2 } from 'lucide-react';
 import { useFavorites } from '../contexts/FavoritesContext';
 import { motion } from 'framer-motion';
 import clsx from 'clsx';
 import type { Show } from '../types/events';
-import { Card, Badge } from '../design-system';
+import { Card, Badge, Text, Button } from '../design-system';
 
 interface ShowCardProps {
   show: Show;
@@ -13,10 +13,12 @@ interface ShowCardProps {
 
 export default function ShowCard({ show, index = 0 }: ShowCardProps) {
   const navigate = useNavigate();
+  const location = useLocation();
   const { isFavorite, toggleFavorite } = useFavorites();
   const isFav = isFavorite(show.id);
 
-  const handleClick = () => navigate(`/event/${show.id}`);
+  const handleClick = () =>
+    navigate(`/event/${show.id}`, { state: { from: location.pathname } });
 
   const handleFavoriteClick = (e: React.MouseEvent) => {
     e.stopPropagation();
@@ -35,12 +37,16 @@ export default function ShowCard({ show, index = 0 }: ShowCardProps) {
         className="cursor-pointer hover:shadow-lg transition-shadow"
       >
         <div className="flex justify-between items-start mb-2">
-          <div className="flex-1">
+          <div className="flex-1 min-h-[2.75em]">
             <div className="flex items-center gap-2 mb-1">
               <Mic2 size={18} className="text-carnival-purple" />
-              <h3 className="font-bold text-lg text-gray-900">{show.artist}</h3>
+              <Text variant="heading2" className="text-gray-900">
+                {show.artist}
+              </Text>
             </div>
-            <p className="text-sm text-gray-600">{show.name}</p>
+            <Text variant="small" className="text-gray-600 block">
+              {show.name}
+            </Text>
             <div className="flex items-center gap-2 mt-2">
               <Badge color={show.city === 'recife' ? 'blue' : 'green'}>
                 {show.city === 'recife' ? 'Recife' : 'Olinda'}
@@ -48,40 +54,37 @@ export default function ShowCard({ show, index = 0 }: ShowCardProps) {
               <Badge color="gray">{show.artistOrigin}</Badge>
             </div>
           </div>
-          <motion.button
-            type="button"
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.8 }}
-            animate={
-              isFav
-                ? { scale: [1, 1.3, 1], rotate: [0, -10, 10, 0] }
-                : {}
-            }
-            transition={{ duration: 0.3 }}
+          <Button
+            variant="ghost"
+            size="sm"
             onClick={handleFavoriteClick}
-            className="p-2 hover:bg-gray-100 rounded-full transition-colors"
+            className="p-2 min-w-0"
           >
             <Heart
               size={20}
               className={clsx(isFav ? 'fill-red-500 text-red-500' : 'text-gray-400')}
             />
-          </motion.button>
+          </Button>
         </div>
 
         <div className="space-y-2 mt-3 border-t pt-3">
           <div className="flex items-center gap-2">
             <Clock size={16} className="text-carnival-purple" />
-            <span className="text-lg font-semibold text-carnival-purple">
+            <Text variant="body" className="text-lg font-semibold text-carnival-purple">
               {show.showTime}
-            </span>
+            </Text>
           </div>
 
           <div className="flex items-start gap-2">
             <MapPin size={16} className="text-gray-500 mt-0.5" />
             <div>
-              <p className="text-sm font-medium text-gray-900">{show.pole}</p>
+              <Text variant="small" className="font-medium text-gray-900 block">
+                {show.pole}
+              </Text>
               {show.location.venue ? (
-                <p className="text-xs text-gray-600">{show.location.venue}</p>
+                <Text variant="caption" className="text-gray-600 block">
+                  {show.location.venue}
+                </Text>
               ) : null}
             </div>
           </div>

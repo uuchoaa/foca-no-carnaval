@@ -1,244 +1,102 @@
-import { Filter, X } from 'lucide-react';
 import { useState } from 'react';
 import { useEvents } from '../contexts/EventsContext';
-import { motion, AnimatePresence } from 'framer-motion';
-import clsx from 'clsx';
 import type { ShowFilters } from '../types/events';
-import { Card } from '../design-system';
+import {
+  FilterPanel,
+  ChipGroup,
+  CheckboxField,
+  Button,
+  type ChipOption,
+} from '../design-system';
 
 interface ShowFilterPanelProps {
   filters: ShowFilters;
   onFilterChange: (filters: ShowFilters) => void;
 }
 
+const cityOptions: ChipOption[] = [
+  { id: 'recife', label: 'Recife', color: 'blue' },
+  { id: 'olinda', label: 'Olinda', color: 'green' },
+];
+
 export default function ShowFilterPanel({ filters, onFilterChange }: ShowFilterPanelProps) {
   const [isOpen, setIsOpen] = useState(false);
   const { getPoles, getArtistOrigins, getShowTags } = useEvents();
-  const poles = getPoles();
-  const artistOrigins = getArtistOrigins();
-  const availableTags = getShowTags();
+  const poles: ChipOption[] = getPoles().map((p) => ({ id: p, label: p, color: 'purple' }));
+  const origins: ChipOption[] = getArtistOrigins().map((o) => ({
+    id: o,
+    label: o,
+    color: 'purple',
+  }));
+  const tagOptions: ChipOption[] = getShowTags().map((t) => ({
+    id: t,
+    label: t,
+    color: 'purple',
+  }));
 
-  const handleCityToggle = (city: 'recife' | 'olinda') => {
-    const current = filters.city ?? [];
-    const updated = current.includes(city)
-      ? current.filter((c) => c !== city)
-      : [...current, city];
-    onFilterChange({ ...filters, city: updated });
-  };
-
-  const handlePoleToggle = (pole: string) => {
-    const current = filters.pole ?? [];
-    const updated = current.includes(pole)
-      ? current.filter((p) => p !== pole)
-      : [...current, pole];
-    onFilterChange({ ...filters, pole: updated });
-  };
-
-  const handleOriginToggle = (origin: string) => {
-    const current = filters.artistOrigin ?? [];
-    const updated = current.includes(origin)
-      ? current.filter((o) => o !== origin)
-      : [...current, origin];
-    onFilterChange({ ...filters, artistOrigin: updated });
-  };
-
-  const handleTagToggle = (tag: string) => {
-    const current = filters.tags ?? [];
-    const updated = current.includes(tag)
-      ? current.filter((t) => t !== tag)
-      : [...current, tag];
-    onFilterChange({ ...filters, tags: updated });
-  };
-
-  const handleFavoritesOnlyToggle = () => {
-    onFilterChange({ ...filters, favoritesOnly: !filters.favoritesOnly });
-  };
-
-  const clearFilters = () => onFilterChange({});
-
-  const activeFilterCount =
+  const activeCount =
     (filters.city?.length ?? 0) +
     (filters.pole?.length ?? 0) +
     (filters.artistOrigin?.length ?? 0) +
     (filters.tags?.length ?? 0) +
     (filters.favoritesOnly ? 1 : 0);
 
+  const toggleArray = (
+    key: keyof ShowFilters,
+    id: string,
+    current: string[] | undefined
+  ) => {
+    const arr = current ?? [];
+    const updated = arr.includes(id) ? arr.filter((x) => x !== id) : [...arr, id];
+    onFilterChange({ ...filters, [key]: updated });
+  };
+
   return (
-    <Card variant="muted" className="!p-0 !shadow-sm border border-gray-200">
-      <button
-        type="button"
-        onClick={() => setIsOpen(!isOpen)}
-        className="w-full px-4 py-3 flex items-center justify-between"
-      >
-        <div className="flex items-center gap-2">
-          <Filter size={20} className="text-carnival-purple" />
-          <span className="font-medium text-gray-900">Filtros</span>
-          {activeFilterCount > 0 ? (
-            <motion.span
-              key={activeFilterCount}
-              initial={{ scale: 0 }}
-              animate={{ scale: 1 }}
-              className="bg-carnival-purple text-white text-xs px-2 py-0.5 rounded-full font-medium"
-            >
-              {activeFilterCount}
-            </motion.span>
-          ) : null}
-        </div>
-        <motion.div
-          animate={{ rotate: isOpen ? 180 : 0 }}
-          transition={{ duration: 0.3 }}
-          className="text-gray-500"
-        >
-          ▼
-        </motion.div>
-      </button>
-
-      <AnimatePresence>
-        {isOpen ? (
-          <motion.div
-            initial={{ height: 0, opacity: 0 }}
-            animate={{ height: 'auto', opacity: 1 }}
-            exit={{ height: 0, opacity: 0 }}
-            transition={{ duration: 0.3, ease: 'easeInOut' }}
-            className="overflow-hidden"
-          >
-            <div className="px-4 pb-4 border-t border-gray-200 space-y-4 pt-4">
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Cidade
-                </label>
-                <div className="flex gap-2">
-                  <motion.button
-                    type="button"
-                    whileTap={{ scale: 0.95 }}
-                    onClick={() => handleCityToggle('recife')}
-                    className={clsx(
-                      'px-3 py-1.5 rounded-full text-sm font-medium transition-colors',
-                      (filters.city ?? []).includes('recife')
-                        ? 'bg-blue-500 text-white'
-                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                    )}
-                  >
-                    Recife
-                  </motion.button>
-                  <motion.button
-                    type="button"
-                    whileTap={{ scale: 0.95 }}
-                    onClick={() => handleCityToggle('olinda')}
-                    className={clsx(
-                      'px-3 py-1.5 rounded-full text-sm font-medium transition-colors',
-                      (filters.city ?? []).includes('olinda')
-                        ? 'bg-green-500 text-white'
-                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                    )}
-                  >
-                    Olinda
-                  </motion.button>
-                </div>
-              </div>
-
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Polo / Palco
-                </label>
-                <div className="flex flex-wrap gap-2">
-                  {poles.map((pole) => (
-                    <motion.button
-                      key={pole}
-                      type="button"
-                      whileTap={{ scale: 0.95 }}
-                      onClick={() => handlePoleToggle(pole)}
-                      className={clsx(
-                        'px-3 py-1.5 rounded-full text-xs font-medium transition-colors',
-                        (filters.pole ?? []).includes(pole)
-                          ? 'bg-carnival-purple text-white'
-                          : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                      )}
-                    >
-                      {pole}
-                    </motion.button>
-                  ))}
-                </div>
-              </div>
-
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Origem do Artista
-                </label>
-                <div className="flex flex-wrap gap-2">
-                  {artistOrigins.map((origin) => (
-                    <motion.button
-                      key={origin}
-                      type="button"
-                      whileTap={{ scale: 0.95 }}
-                      onClick={() => handleOriginToggle(origin)}
-                      className={clsx(
-                        'px-3 py-1.5 rounded-full text-xs font-medium transition-colors',
-                        (filters.artistOrigin ?? []).includes(origin)
-                          ? 'bg-purple-500 text-white'
-                          : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                      )}
-                    >
-                      {origin}
-                    </motion.button>
-                  ))}
-                </div>
-              </div>
-
-              {availableTags.length > 0 ? (
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Tipo / Tags
-                  </label>
-                  <div className="flex flex-wrap gap-2">
-                    {availableTags.map((tag) => (
-                      <motion.button
-                        key={tag}
-                        type="button"
-                        whileTap={{ scale: 0.95 }}
-                        onClick={() => handleTagToggle(tag)}
-                        className={clsx(
-                          'px-3 py-1.5 rounded-full text-xs font-medium transition-colors capitalize',
-                          (filters.tags ?? []).includes(tag)
-                            ? 'bg-carnival-purple text-white'
-                            : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                        )}
-                      >
-                        {tag}
-                      </motion.button>
-                    ))}
-                  </div>
-                </div>
-              ) : null}
-
-              <div>
-                <label className="flex items-center gap-2 cursor-pointer">
-                  <input
-                    type="checkbox"
-                    checked={filters.favoritesOnly ?? false}
-                    onChange={handleFavoritesOnlyToggle}
-                    className="w-4 h-4 text-carnival-purple focus:ring-carnival-purple rounded"
-                  />
-                  <span className="text-sm text-gray-700">Só favoritos</span>
-                </label>
-              </div>
-
-              {activeFilterCount > 0 ? (
-                <motion.button
-                  type="button"
-                  initial={{ opacity: 0, y: -10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  onClick={clearFilters}
-                  className="w-full px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-lg flex items-center justify-center gap-2 transition-colors"
-                >
-                  <X size={16} />
-                  Limpar filtros
-                </motion.button>
-              ) : null}
-            </div>
-          </motion.div>
-        ) : null}
-      </AnimatePresence>
-    </Card>
+    <FilterPanel
+      isOpen={isOpen}
+      onToggle={() => setIsOpen(!isOpen)}
+      activeCount={activeCount}
+    >
+      <ChipGroup
+        label="Cidade"
+        options={cityOptions}
+        selectedIds={filters.city ?? []}
+        onToggle={(id) => toggleArray('city', id, filters.city)}
+      />
+      {poles.length > 0 ? (
+        <ChipGroup
+          label="Polo / Palco"
+          options={poles}
+          selectedIds={filters.pole ?? []}
+          onToggle={(id) => toggleArray('pole', id, filters.pole)}
+        />
+      ) : null}
+      {origins.length > 0 ? (
+        <ChipGroup
+          label="Origem do Artista"
+          options={origins}
+          selectedIds={filters.artistOrigin ?? []}
+          onToggle={(id) => toggleArray('artistOrigin', id, filters.artistOrigin)}
+        />
+      ) : null}
+      {tagOptions.length > 0 ? (
+        <ChipGroup
+          label="Tipo / Tags"
+          options={tagOptions}
+          selectedIds={filters.tags ?? []}
+          onToggle={(id) => toggleArray('tags', id, filters.tags)}
+        />
+      ) : null}
+      <CheckboxField
+        label="Só favoritos"
+        checked={filters.favoritesOnly ?? false}
+        onChange={(checked) => onFilterChange({ ...filters, favoritesOnly: checked })}
+      />
+      {activeCount > 0 ? (
+        <Button variant="secondary" className="w-full" onClick={() => onFilterChange({})}>
+          Limpar filtros
+        </Button>
+      ) : null}
+    </FilterPanel>
   );
 }

@@ -15,9 +15,9 @@ export function SearchBarWithIcon({
   const handleClear = () => onChange('');
 
   return (
-    <div className="relative">
+    <div className="relative h-fit">
       <Search
-        className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none"
+        className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none z-10"
         size={20}
       />
       <div className="[&_input]:pl-10 [&_input]:pr-10 [&_input]:py-3">
@@ -28,7 +28,7 @@ export function SearchBarWithIcon({
           type="button"
           onClick={handleClear}
           aria-label="Limpar"
-          className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600"
+          className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600 z-10"
         >
           <X size={20} />
         </button>

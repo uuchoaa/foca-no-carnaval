@@ -19,7 +19,7 @@ export function FilterPanel({
   className,
 }: FilterPanelProps) {
   return (
-    <Card variant="muted" className={clsx('!p-0 !shadow-sm border border-gray-200', className)}>
+    <Card variant="muted" className={clsx('!p-0 !shadow-sm border border-gray-200 h-fit', className)}>
       <button
         type="button"
         onClick={onToggle}
