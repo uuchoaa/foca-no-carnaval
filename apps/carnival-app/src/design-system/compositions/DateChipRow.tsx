@@ -1,5 +1,6 @@
 import clsx from 'clsx';
 import { Text } from '../primitives/Text';
+import { Show } from '../primitives/Show';
 
 export interface DateChipItem {
   id: string | null;
@@ -27,9 +28,7 @@ export function DateChipRow({
 
   return (
     <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-4 flex flex-col h-fit">
-      <Text variant="small" className="block text-gray-700 mb-3 font-medium">
-        {label}
-      </Text>
+      <Text variant="chip">{label}</Text>
       <div className="flex gap-2 overflow-x-auto scrollbar-hide -mx-1 px-1">
         {items.map((item) => {
           const isSelected = selectedId === item.id;
@@ -43,16 +42,16 @@ export function DateChipRow({
                 isSelected ? selectedStyle : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
               )}
             >
-              {item.sublabel ? (
+              <Show condition={!!item.sublabel} fallback={
+                <span className="text-sm font-medium">{item.label}</span>}
+              >
                 <>
                   <span className="text-xs uppercase font-medium opacity-80">
                     {item.sublabel}
                   </span>
                   <span className="text-lg font-bold">{item.label}</span>
                 </>
-              ) : (
-                <span className="text-sm font-medium">{item.label}</span>
-              )}
+              </Show>
             </button>
           );
         })}
