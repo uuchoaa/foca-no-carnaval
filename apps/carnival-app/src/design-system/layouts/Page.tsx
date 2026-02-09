@@ -50,12 +50,12 @@ function PageHeader({ gradient, title, subtitle }: PageHeaderProps) {
           padding: '0 16px',
         }}
       >
-        <Text variant="heading1">
+        <Text variant="title">
           {title}
         </Text>
-        <p className="text-sm mt-1 opacity-90">
+        <Text variant="subtitle">
           {subtitle}
-        </p>
+        </Text>
       </div>
     </div>
   );
@@ -81,16 +81,19 @@ function PageHeaderActions({ children }: { children: ReactNode }) {
 
 PageHeader.Actions = PageHeaderActions;
 
-type LoadingVariant = 'orange' | 'purple';
+// TODO: create a context for translations
+const DEFAULT_EMPTY_TITLE = 'Nenhum item';
+const DEFAULT_EMPTY_DESCRIPTION = 'Tente ajustar os filtros';
 
 interface PageContentProps {
   children: ReactNode;
   center?: boolean;
   isLoading?: boolean;
-  loadingVariant?: LoadingVariant;
+  isEmpty?: boolean;
 }
 
-function PageContent({ children, center, isLoading, loadingVariant = 'orange' }: PageContentProps) {
+function PageContent({ children, center, isLoading, isEmpty }: PageContentProps) {
+  const showEmpty = Boolean(isEmpty && !isLoading);
   return (
     <div
       style={{
@@ -106,8 +109,17 @@ function PageContent({ children, center, isLoading, loadingVariant = 'orange' }:
         }),
       }}
     >
-      <Show condition={!!isLoading} fallback={children}>
-        <LoadingSpinner variant={loadingVariant} />
+      <Show condition={!!isLoading} fallback={null}>
+        <LoadingSpinner />
+      </Show>
+      <Show condition={!isLoading && showEmpty} fallback={null}>
+        <PageEmptyState
+          title={DEFAULT_EMPTY_TITLE}
+          description={DEFAULT_EMPTY_DESCRIPTION}
+        />
+      </Show>
+      <Show condition={!isLoading && !showEmpty} fallback={null}>
+        {children}
       </Show>
     </div>
   );

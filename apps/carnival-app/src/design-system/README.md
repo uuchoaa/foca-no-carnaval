@@ -18,6 +18,40 @@ import {
 } from '../design-system';
 ```
 
+### Defining a Page
+
+Use `Page` as the screen wrapper, then `Page.Header` and `Page.Content`. When the list is empty, pass `isEmpty` and `Page.Content` shows the default empty state (PT: "Nenhum item" / "Tente ajustar os filtros"):
+
+```tsx
+import { Page, SectionHeading } from '../design-system';
+
+function MyScreen() {
+  const items = []; // your data
+  const isLoading = false;
+  const isEmpty = items.length === 0;
+
+  return (
+    <Page>
+      <Page.Header
+        gradient="blocos"
+        title="The Best Movies of All Times"
+        subtitle={`${items.length} items found`}
+      />
+      <Page.Content isLoading={isLoading} isEmpty={isEmpty}>
+        {items.map((item) => (
+          <div key={item.id}>
+            <SectionHeading title={item.name} />
+            {/* ... */}
+          </div>
+        ))}
+      </Page.Content>
+    </Page>
+  );
+}
+```
+
+`Page.Header` accepts `gradient` (e.g. `"blocos"`, `"shows"`, `"favorites"`), `title`, and `subtitle`. `Page.Content` accepts `isLoading`, `isEmpty`, and `center` for centered content.
+
 ## Structure
 
 | Layer | Role |

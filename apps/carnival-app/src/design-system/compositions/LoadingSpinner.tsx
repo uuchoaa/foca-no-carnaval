@@ -1,28 +1,24 @@
 import clsx from 'clsx';
 import { Text } from '../primitives/Text';
+import { semantic } from '../tokens/colors';
 
-type SpinnerVariant = 'orange' | 'purple';
+type SpinnerVariant = keyof typeof semantic;
 
 interface LoadingSpinnerProps {
   message?: string;
   variant?: SpinnerVariant;
 }
 
-const variantBorder: Record<SpinnerVariant, string> = {
-  orange: 'border-orange',
-  purple: 'border-purple',
-};
-
 export function LoadingSpinner({
   message = 'Carregando...',
-  variant = 'orange',
+  variant = 'primary',
 }: LoadingSpinnerProps) {
   return (
     <div className="text-center py-12" role="status" aria-label={message}>
       <div
         className={clsx(
           'animate-spin rounded-full h-12 w-12 border-b-2 mx-auto',
-          variantBorder[variant]
+          semantic[variant]
         )}
       />
       <Text variant="body">
