@@ -71,6 +71,7 @@ function PageContent({ children, center, isLoading, isEmpty }: PageContentProps)
   const showEmpty = Boolean(isEmpty && !isLoading);
   return (
     <div
+      data-testid="page-content-container"
       style={{
         padding: '32px 24px 32px',
         maxWidth: '1280px',

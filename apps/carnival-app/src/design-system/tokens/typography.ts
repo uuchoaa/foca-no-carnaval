@@ -1,10 +1,10 @@
-/** Typography variants: size + weight. No color—use Text color prop. */
+/** Typography variants: size + weight + font role. No color—use Text color prop. */
 export const typography = {
-  hero: 'text-3xl font-bold',
-  body: 'text-base',
-  small: 'text-sm',
-  chip: 'text-sm block mb-3 font-medium',
-  caption: 'text-xs',
-  title: 'text-xl font-bold',
-  subtitle: 'capitalize',
+  hero: 'text-3xl font-bold font-display',
+  title: 'text-xl font-bold font-display',
+  body: 'text-base font-sans',
+  small: 'text-sm font-sans',
+  chip: 'text-sm block mb-3 font-medium font-sans',
+  caption: 'text-xs font-sans',
+  subtitle: 'capitalize font-sans',
 } as const;

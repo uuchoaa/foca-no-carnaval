@@ -5,6 +5,8 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   safelist: [
+    'font-display',
+    'font-sans',
     'bg-gradient-to-r',
     'from-orange',
     'to-yellow',
@@ -18,6 +20,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        display: ['Fredoka', 'sans-serif'],
+        sans: ['Nunito', 'sans-serif'],
+      },
       colors: {
         carnival: {
           yellow: '#FFD700',
