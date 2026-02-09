@@ -1,12 +1,6 @@
-import clsx from 'clsx';
-
-interface DividerProps {
-  className?: string;
-}
-
-export function Divider({ className }: DividerProps) {
+export function Divider() {
   return (
-    <div className={clsx('relative h-8 flex items-center justify-center my-6', className)}>
+    <div className="relative h-8 flex items-center justify-center my-6">
       <div className="absolute inset-0 flex items-center justify-center gap-1">
         <div className="w-1 h-1 rounded-full bg-gray-300" />
         <div className="w-1 h-1 rounded-full bg-gray-300 opacity-80" />

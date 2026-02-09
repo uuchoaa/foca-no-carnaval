@@ -6,7 +6,6 @@ type CardVariant = 'default' | 'highlight' | 'muted';
 interface CardProps {
   variant?: CardVariant;
   children: ReactNode;
-  className?: string;
 }
 
 const variantClasses: Record<CardVariant, string> = {
@@ -15,9 +14,9 @@ const variantClasses: Record<CardVariant, string> = {
   muted: 'bg-gray-50 shadow-sm',
 };
 
-export function Card({ variant = 'default', children, className }: CardProps) {
+export function Card({ variant = 'default', children }: CardProps) {
   return (
-    <div className={clsx('rounded-lg p-4', variantClasses[variant], className)}>
+    <div className={clsx('rounded-lg p-4', variantClasses[variant])}>
       {children}
     </div>
   );

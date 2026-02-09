@@ -8,7 +8,6 @@ interface FilterPanelProps {
   onToggle: () => void;
   activeCount?: number;
   children: ReactNode;
-  className?: string;
 }
 
 export function FilterPanel({
@@ -16,10 +15,9 @@ export function FilterPanel({
   onToggle,
   activeCount = 0,
   children,
-  className,
 }: FilterPanelProps) {
   return (
-    <Card variant="muted" className={clsx('!p-0 !shadow-sm border border-gray-200 h-fit', className)}>
+    <Card variant="muted" className="!p-0 !shadow-sm border border-gray-200 h-fit">
       <button
         type="button"
         onClick={onToggle}

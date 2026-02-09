@@ -12,12 +12,11 @@ interface TabGroupProps {
   options: TabOption[];
   selectedId: string;
   onSelect: (id: string) => void;
-  className?: string;
 }
 
-export function TabGroup({ options, selectedId, onSelect, className }: TabGroupProps) {
+export function TabGroup({ options, selectedId, onSelect }: TabGroupProps) {
   return (
-    <div className={clsx('p-4 md:px-6 bg-white border-b border-gray-100 shadow-sm', className)}>
+    <div className="p-4 md:px-6 bg-white border-b border-gray-100 shadow-sm">
       <div className="flex gap-2 max-w-screen-xl mx-auto">
         {options.map((opt) => {
           const isSelected = selectedId === opt.id;
