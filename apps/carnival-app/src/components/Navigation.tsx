@@ -1,4 +1,4 @@
-import { Home, Mic2 } from 'lucide-react';
+import { Home, Mic2, Sparkles } from 'lucide-react';
 import { AppLayout, type NavItem } from '../design-system';
 
 export default function Navigation({ children }: { children: React.ReactNode }) {
@@ -14,6 +14,12 @@ export default function Navigation({ children }: { children: React.ReactNode }) 
       label: 'Shows',
       icon: Mic2,
       indicatorColor: 'bg-carnival-purple',
+    },
+    {
+      path: '/explorar',
+      label: 'Explorar',
+      icon: Sparkles,
+      indicatorColor: 'bg-purple-500',
     },
   ];
 
