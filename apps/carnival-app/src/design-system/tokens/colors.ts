@@ -13,8 +13,3 @@ export const semantic = {
   accent: base.yellow,
   success: base.green,
 } as const;
-
-export const eventVariant = {
-  bloco: base.orange,
-  show: base.purple,
-} as const;
