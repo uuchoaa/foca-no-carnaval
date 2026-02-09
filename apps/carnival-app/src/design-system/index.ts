@@ -52,4 +52,3 @@ export {
   type ChipOption,
   type TabOption,
 } from './compositions';
-export { setNavigationHandler, useNavigation } from './hooks/useNavigation';

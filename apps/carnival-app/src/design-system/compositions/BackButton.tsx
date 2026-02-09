@@ -1,12 +1,13 @@
 import { ArrowLeft } from 'lucide-react';
-import { useNavigation } from '../hooks/useNavigation';
 
-export function BackButton() {
-  const { goBack } = useNavigation();
+interface BackButtonProps {
+  onGoBack: () => void;
+}
 
+export function BackButton({ onGoBack }: BackButtonProps) {
   return (
     <button
-      onClick={goBack}
+      onClick={onGoBack}
       style={{
         padding: '8px',
         backgroundColor: 'rgba(255, 255, 255, 0.2)',

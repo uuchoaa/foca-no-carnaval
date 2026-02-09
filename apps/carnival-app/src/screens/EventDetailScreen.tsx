@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import { MapPin, Mic2, Calendar } from 'lucide-react';
 import { useEvents } from '../contexts/EventsContext';
 import { useFavorites } from '../contexts/FavoritesContext';
@@ -27,10 +27,12 @@ import {
 
 export default function EventDetailScreen() {
   const { id } = useParams<{ id: string }>();
+  const navigate = useNavigate();
   const { getEventById } = useEvents();
   const { isFavorite, toggleFavorite } = useFavorites();
 
   const event = id ? getEventById(id) : undefined;
+  const goBack = () => navigate(-1);
 
   return (
     <Show
@@ -39,7 +41,7 @@ export default function EventDetailScreen() {
         <Page>
           <Page.Content center>
             <ErrorMessage message="Evento não encontrado" />
-            <BackButton />
+            <BackButton onGoBack={goBack} />
           </Page.Content>
         </Page>
       }
@@ -48,6 +50,7 @@ export default function EventDetailScreen() {
         event={event!}
         isFavorite={isFavorite(event?.id || '')}
         onToggleFavorite={() => toggleFavorite(event?.id || '')}
+        onGoBack={goBack}
       />
     </Show>
   );
@@ -57,9 +60,10 @@ interface EventDetailContentProps {
   event: Bloco | ShowType;
   isFavorite: boolean;
   onToggleFavorite: () => void;
+  onGoBack: () => void;
 }
 
-function EventDetailContent({ event, isFavorite, onToggleFavorite }: EventDetailContentProps) {
+function EventDetailContent({ event, isFavorite, onToggleFavorite, onGoBack }: EventDetailContentProps) {
   const isBloco = event.eventType === 'bloco';
   const gradient = isBloco ? 'event-bloco' : 'event-show';
 
@@ -68,7 +72,7 @@ function EventDetailContent({ event, isFavorite, onToggleFavorite }: EventDetail
       <Page>
         <Page.Header gradient={gradient}>
           <Page.Header.Actions>
-            <BackButton />
+            <BackButton onGoBack={onGoBack} />
             <FavButton isFavorite={isFavorite} onToggle={onToggleFavorite} />
           </Page.Header.Actions>
 
