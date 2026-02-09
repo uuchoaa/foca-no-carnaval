@@ -1,11 +1,6 @@
 import { ExternalLink } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { Show } from '../primitives/Show';
-
-interface Source {
-  id: string;
-  url?: string;
-}
+import type { Source } from '../types/events';
 
 interface SourceListProps {
   sources: Source[];
@@ -16,7 +11,7 @@ export function SourceList({ sources }: SourceListProps) {
     <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
       {sources.map((source, idx) => (
         <motion.div
-          key={idx}
+          key={source.id}
           initial={{ opacity: 0, x: -10 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay: idx * 0.05 }}
@@ -27,7 +22,7 @@ export function SourceList({ sources }: SourceListProps) {
           }}
         >
           <span style={{ fontSize: '14px', color: '#374151' }}>{source.id}</span>
-          <Show condition={!!source.url}>
+          {source.url ? (
             <a
               href={source.url}
               target="_blank"
@@ -42,7 +37,7 @@ export function SourceList({ sources }: SourceListProps) {
             >
               <ExternalLink size={16} />
             </a>
-          </Show>
+          ) : null}
         </motion.div>
       ))}
     </div>

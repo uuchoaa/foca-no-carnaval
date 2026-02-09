@@ -14,7 +14,7 @@ export function HeaderBadges({ eventType, city }: HeaderBadgesProps) {
     padding: '4px 12px',
     borderRadius: '9999px',
     fontSize: '12px',
-    display: 'inline-block',
+    display: 'inline-block' as const,
   };
 
   return (
