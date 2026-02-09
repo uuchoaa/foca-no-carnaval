@@ -1,11 +1,37 @@
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const dirname = typeof __dirname !== 'undefined' ? __dirname : path.dirname(fileURLToPath(import.meta.url));
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,jsx}",
+    "./src/**/*.{js,ts,jsx,tsx}",
+    path.join(dirname, "../../packages/wise-ui/src/**/*.{js,ts,jsx,tsx}"),
+  ],
+  safelist: [
+    'font-hero',
+    'font-display',
+    'font-sans',
+    'bg-gradient-to-r',
+    'from-orange',
+    'to-yellow',
+    'from-purple',
+    'to-purple-600',
+    'from-red-500',
+    'to-pink-500',
+    'text-white',
+    'p-6',
+    'shadow-lg',
   ],
   theme: {
     extend: {
+      fontFamily: {
+        display: ['Plus Jakarta Sans', 'sans-serif'],
+        hero: ['Fredoka', 'sans-serif'],
+        sans: ['Nunito', 'sans-serif'],
+      },
       colors: {
         carnival: {
           yellow: '#FFD700',

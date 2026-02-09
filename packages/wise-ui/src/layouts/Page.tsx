@@ -1,0 +1,150 @@
+import type { ReactNode } from 'react';
+import { motion } from 'framer-motion';
+import {
+  pageHeaderGradients,
+  pageHeaderGradientBg,
+  type PageHeaderGradient,
+} from '../tokens/gradients';
+import { Show } from '../primitives/Show';
+import { LoadingSpinner } from '../compositions/LoadingSpinner';
+import { EmptyState } from '../compositions/EmptyState';
+import { useWiseAppCopy } from '../contexts/WiseAppContext';
+
+interface PageProps {
+  children: ReactNode;
+}
+
+export function Page({ children }: PageProps) {
+  return (
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.2 }}
+      style={{ minHeight: '100vh', backgroundColor: '#f9fafb' }}
+    >
+      {children}
+    </motion.div>
+  );
+}
+
+interface PageHeaderProps {
+  gradient: PageHeaderGradient;
+  children: ReactNode;
+}
+
+function PageHeader({ gradient, children }: PageHeaderProps) {
+  return (
+    <header
+      className={pageHeaderGradients[gradient]}
+      style={{
+        background: pageHeaderGradientBg[gradient],
+        padding: '24px',
+        boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1)',
+        position: 'relative',
+      }}
+    >
+      <div
+        style={{
+          maxWidth: '1280px',
+          margin: '0 auto',
+          position: 'relative',
+        }}
+      >
+        {children}
+      </div>
+    </header>
+  );
+}
+
+type PageContentGap = 0 | 2 | 4 | 8 | 12 | 16 | 24 | 32;
+
+interface PageContentProps {
+  children: ReactNode;
+  center?: boolean;
+  isLoading?: boolean;
+  isEmpty?: boolean;
+  gap?: PageContentGap;
+}
+
+const gapClass: Record<PageContentGap, string> = {
+  0: 'gap-0',
+  2: 'gap-2',
+  4: 'gap-4',
+  8: 'gap-8',
+  12: 'gap-12',
+  16: 'gap-16',
+  24: 'gap-24',
+  32: 'gap-32',
+};
+
+function PageContent({ children, center, isLoading, isEmpty, gap }: PageContentProps) {
+  const { emptyTitle, emptyDescription } = useWiseAppCopy();
+  const showEmpty = Boolean(isEmpty && !isLoading);
+  return (
+    <div
+      data-testid="page-content-container"
+      style={{
+        padding: '32px 24px 32px',
+        maxWidth: '1280px',
+        margin: '0 auto',
+        ...(center && {
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          justifyContent: 'center',
+          minHeight: '60vh',
+        }),
+      }}
+    >
+      <Show condition={!!isLoading} fallback={null}>
+        <LoadingSpinner />
+      </Show>
+      <Show condition={!isLoading && showEmpty} fallback={null}>
+        <PageEmptyState
+          title={emptyTitle}
+          description={emptyDescription}
+        />
+      </Show>
+      <Show condition={!isLoading && !showEmpty} fallback={null}>
+        {gap != null ? (
+          <div className={`flex flex-col ${gapClass[gap]}`}>{children}</div>
+        ) : (
+          children
+        )}
+      </Show>
+    </div>
+  );
+}
+
+interface PageFooterProps {
+  children: ReactNode;
+}
+
+function PageFooter({ children }: PageFooterProps) {
+  return <footer>{children}</footer>;
+}
+
+interface PageEmptyStateProps {
+  icon?: ReactNode;
+  title: string;
+  description?: string;
+}
+
+function PageEmptyState({ icon, title, description }: PageEmptyStateProps) {
+  return (
+    <motion.div
+      initial={{ opacity: 0, scale: 0.9 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.3 }}
+      className="py-12"
+    >
+      <EmptyState icon={icon} title={title} description={description} />
+    </motion.div>
+  );
+}
+
+Page.Header = PageHeader;
+Page.Content = PageContent;
+Page.Footer = PageFooter;
+Page.EmptyState = PageEmptyState;

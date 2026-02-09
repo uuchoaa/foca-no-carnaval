@@ -7,8 +7,6 @@ A fully functional React prototype for browsing carnival events in Recife and Ol
 - **Blocos Home**: Browse and search carnival blocks with filters
 - **Shows Home**: Browse and search stage performances with filters
 - **Event Details**: Adaptive detailed view for both blocos and shows
-- **Calendar**: Unified calendar view with event type filtering
-- **Map**: Placeholder map view (coming soon)
 - **Favorites**: Save and organize your favorite events
 
 ## Tech Stack
@@ -35,8 +33,6 @@ src/
 │   ├── BlocosHomeScreen.jsx
 │   ├── ShowsHomeScreen.jsx
 │   ├── EventDetailScreen.jsx # Adaptive layout
-│   ├── CalendarScreen.jsx
-│   ├── MapScreen.jsx
 │   └── FavoritesScreen.jsx
 ├── components/
 │   ├── BlocoCard.jsx
@@ -112,5 +108,4 @@ Open http://localhost:5173
 - 🏠 **Blocos** - Street carnival blocks
 - 🎤 **Shows** - Stage performances  
 - 📅 **Agenda** - Calendar view (unified)
-- 🗺️ **Mapa** - Map view (placeholder)
 - ❤️ **Favoritos** - Saved events (unified)
