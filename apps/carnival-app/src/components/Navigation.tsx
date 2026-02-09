@@ -21,13 +21,6 @@ export default function Navigation({ children }: { children: React.ReactNode }) 
       activeBg: 'bg-carnival-purple',
     },
     {
-      path: '/map',
-      label: 'Mapa',
-      icon: Map,
-      activeClass: 'text-blue-500',
-      activeBg: 'bg-blue-500',
-    },
-    {
       path: '/favorites',
       label: 'Favoritos',
       icon: Heart,
