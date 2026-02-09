@@ -1,5 +1,5 @@
 import { useEvents } from '../contexts/EventsContext';
-import { Page, Text, Card, CardGrid } from '../design-system';
+import { Page, Text, Card, CardGrid, Badge, VStack } from '../design-system';
 
 export default function BlocosHomeScreen() {
   const { getBlocos, loading } = useEvents();
@@ -15,7 +15,14 @@ export default function BlocosHomeScreen() {
         <CardGrid>
           {blocos.map((bloco) => (
             <Card key={bloco.id}>
-              <Text variant="title">{bloco.name}</Text>
+              <VStack gap={2} align="start">
+                <Text variant="title">{bloco.name}</Text>
+                <Badge color="blue">{bloco.city}</Badge>
+                <Text variant="small">
+                  {bloco.concentration.time} / {bloco.departure.time}
+                </Text>
+                <Text variant="caption">{bloco.location.raw}</Text>
+              </VStack>
             </Card>
           ))}
         </CardGrid>
