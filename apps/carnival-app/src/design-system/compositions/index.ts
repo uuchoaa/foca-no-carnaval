@@ -16,6 +16,7 @@ export { TimeInfo } from './TimeInfo';
 export { AnimatedContainer } from './AnimatedContainer';
 export { ShareButton } from './ShareButton';
 export { ErrorMessage } from './ErrorMessage';
+export { IconLabel } from './IconLabel';
 export { LocationText } from './LocationText';
 export { DescriptionText } from './DescriptionText';
 export { HeaderContent } from './HeaderContent';

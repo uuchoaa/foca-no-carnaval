@@ -40,6 +40,7 @@ export {
   AnimatedContainer,
   ShareButton,
   ErrorMessage,
+  IconLabel,
   LocationText,
   DescriptionText,
   HeaderContent,
