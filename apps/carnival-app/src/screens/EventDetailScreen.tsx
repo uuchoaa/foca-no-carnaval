@@ -86,35 +86,6 @@ function EventDetailContent({ event, isFavorite, onToggleFavorite }: EventDetail
         </Page.Header>
 
         <AnimatedContainer>
-          <InfoCard icon={Calendar} title="Data e Horário">
-            <EventDate>{formatDate(event.date)}</EventDate>
-            <Show condition={isBloco}>
-              <TimeInfo
-                time={(event as Bloco).concentration.time}
-                label="Concentração"
-                variant="bloco"
-                emphasis
-              />
-              <TimeInfo time={(event as Bloco).departure.time} label="Saída" variant="bloco" />
-            </Show>
-            <Show condition={!isBloco}>
-              <TimeInfo time={(event as ShowType).showTime} variant="show" emphasis />
-            </Show>
-          </InfoCard>
-
-          <InfoCard icon={MapPin} title="Local">
-            <Show condition={!isBloco && 'pole' in event && !!event.pole}>
-              <LocationText variant="primary">{(event as ShowType).pole!}</LocationText>
-            </Show>
-            <Show condition={!!event.location.venue}>
-              <LocationText variant="secondary">{event.location.venue!}</LocationText>
-            </Show>
-            <Show condition={!!event.location.address}>
-              <LocationText variant="small">{event.location.address!}</LocationText>
-            </Show>
-            <MapButton />
-          </InfoCard>
-
           <Show condition={isBloco && !!(event as Bloco).artist}>
             <InfoCard icon={Mic2} title="Artista">
               <LocationText variant="primary">{(event as Bloco).artist!}</LocationText>
@@ -122,12 +93,14 @@ function EventDetailContent({ event, isFavorite, onToggleFavorite }: EventDetail
           </Show>
 
           <Show condition={!!event.description}>
+            {/* TODO: update icon, Calendar doesn't make sense */}
             <InfoCard icon={Calendar} title="Sobre">
               <DescriptionText>{event.description!}</DescriptionText>
             </InfoCard>
           </Show>
 
           <Show condition={!!event.tags && event.tags!.length > 0}>
+            {/* TODO: update icon, Calendar doesn't make sense */}
             <InfoCard icon={Calendar} title="Tags">
               <TagList
                 tags={event.tags!.map((tag) => ({
@@ -139,11 +112,13 @@ function EventDetailContent({ event, isFavorite, onToggleFavorite }: EventDetail
           </Show>
 
           <Show condition={!!event.sources && event.sources!.length > 0}>
-            <InfoCard icon={Calendar} title="Fontes">
+            {/* TODO: update icon, Calendar doesn't make sense */}
+            <InfoCard icon={Calendar} title="Fontes"> 
               <SourceList sources={event.sources!} />
             </InfoCard>
           </Show>
 
+          {/* TODO: remove it.  */}
           <ShareButton />
         </AnimatedContainer>
       </Page>
