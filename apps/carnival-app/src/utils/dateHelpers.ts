@@ -34,6 +34,17 @@ export function getDayOfWeek(dateString: string): string {
   }
 }
 
+export function formatDateChip(dateString: string): { short: string; day: string } {
+  try {
+    const date = parseISO(dateString);
+    const short = format(date, 'EEE', { locale: ptBR }).slice(0, 3).toUpperCase();
+    const day = format(date, 'd');
+    return { short, day };
+  } catch {
+    return { short: '', day: dateString };
+  }
+}
+
 export function groupByDate(events: Event[]): GroupedByDate[] {
   const grouped: Record<string, Event[]> = {};
 

@@ -1,15 +1,33 @@
-import { useMemo } from 'react';
+import { useState, useMemo } from 'react';
 import { Clock, Heart, MapPin } from 'lucide-react';
 import { useEvents } from '../contexts/EventsContext';
 import { useFavorites } from '../contexts/FavoritesContext';
 import type { Bloco } from '../types/events';
-import { groupByDate, formatDate } from '../utils/dateHelpers';
-import { Page, Text, Card, CardGrid, Badge, VStack, HStack, SectionHeading, Divider, IconLabel, FavButton } from '../design-system';
+import { groupByDate, formatDate, formatDateChip } from '../utils/dateHelpers';
+import { Page, Text, Card, CardGrid, Badge, VStack, HStack, SectionHeading, Divider, IconLabel, FavButton, DateChipRow } from '../design-system';
 
 export default function BlocosHomeScreen() {
   const { getBlocos, loading } = useEvents();
   const { isFavorite, toggleFavorite } = useFavorites();
-  const blocos = getBlocos({});
+  const [selectedDate, setSelectedDate] = useState<string | null>(null);
+
+  const allBlocos = getBlocos({});
+  const dateFilters = selectedDate ? { dateFrom: selectedDate, dateTo: selectedDate } : {};
+  const blocos = getBlocos(dateFilters);
+
+  const dateChipItems = useMemo(() => {
+    const dates = [...new Set(allBlocos.map((b) => b.date))].sort(
+      (a, b) => new Date(a).getTime() - new Date(b).getTime()
+    );
+    return [
+      { id: null as string | null, label: 'Todos' },
+      ...dates.map((d) => {
+        const { short, day } = formatDateChip(d);
+        return { id: d, label: day, sublabel: short };
+      }),
+    ];
+  }, [allBlocos]);
+
   const groupedByDate = useMemo(() => groupByDate(blocos), [blocos]);
 
   return (
@@ -20,6 +38,12 @@ export default function BlocosHomeScreen() {
       </Page.Header>
       <Page.Content isLoading={loading} isEmpty={blocos.length === 0}>
         <VStack gap={16} align="stretch">
+          <DateChipRow
+            label="Data"
+            items={dateChipItems}
+            selectedId={selectedDate}
+            onSelect={setSelectedDate}
+          />
           {groupedByDate.map(({ date, dayOfWeek, events }) => (
             <section key={date}>
               <VStack gap={4} align="stretch">
