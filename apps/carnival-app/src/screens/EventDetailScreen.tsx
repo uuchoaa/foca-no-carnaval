@@ -4,6 +4,7 @@ import { useEvents } from '../contexts/EventsContext';
 import { useFavorites } from '../contexts/FavoritesContext';
 import { formatDate } from '../utils/dateHelpers';
 import type { Bloco, Show as ShowType } from '../types/events';
+import ArtistInfo from '../components/ArtistInfo';
 import {
   Page,
   TagList,
@@ -14,7 +15,6 @@ import {
   TimeInfo,
   SourceList,
   HeaderBadges,
-  ArtistInfo,
   AnimatedContainer,
   ShareButton,
   ErrorMessage,

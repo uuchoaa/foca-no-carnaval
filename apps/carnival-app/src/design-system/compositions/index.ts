@@ -16,7 +16,6 @@ export { InfoCard } from './InfoCard';
 export { TimeInfo } from './TimeInfo';
 export { SourceList } from './SourceList';
 export { HeaderBadges } from './HeaderBadges';
-export { ArtistInfo } from './ArtistInfo';
 export { AnimatedContainer } from './AnimatedContainer';
 export { ShareButton } from './ShareButton';
 export { ErrorMessage } from './ErrorMessage';

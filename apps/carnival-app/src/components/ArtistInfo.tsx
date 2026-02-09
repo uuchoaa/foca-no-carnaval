@@ -1,12 +1,12 @@
 import { Mic2 } from 'lucide-react';
-import { Show } from '../primitives/Show';
+import { Show } from '../design-system';
 
 interface ArtistInfoProps {
   artist: string;
   origin?: string;
 }
 
-export function ArtistInfo({ artist, origin }: ArtistInfoProps) {
+export default function ArtistInfo({ artist, origin }: ArtistInfoProps) {
   return (
     <div className="flex items-center gap-2 text-lg opacity-90">
       <Mic2 size={20} />

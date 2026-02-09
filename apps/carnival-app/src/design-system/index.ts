@@ -38,7 +38,6 @@ export {
   TimeInfo,
   SourceList,
   HeaderBadges,
-  ArtistInfo,
   AnimatedContainer,
   ShareButton,
   ErrorMessage,
