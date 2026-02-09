@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Filter } from 'lucide-react';
 import { useEvents } from '../contexts/EventsContext';
 import type { BlocoFilters } from '../types/events';
 import {
@@ -36,6 +37,7 @@ export default function BlocoFilterPanel({ filters, onFilterChange }: BlocoFilte
 
   return (
     <FilterPanel
+      icon={Filter}
       isOpen={isOpen}
       onToggle={() => setIsOpen(!isOpen)}
       activeCount={activeCount}

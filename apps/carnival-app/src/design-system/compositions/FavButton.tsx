@@ -1,12 +1,13 @@
-import { Heart } from 'lucide-react';
+import type { LucideIcon } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 interface FavButtonProps {
+  icon: LucideIcon;
   isFavorite: boolean;
   onToggle: () => void;
 }
 
-export function FavButton({ isFavorite, onToggle }: FavButtonProps) {
+export function FavButton({ icon: Icon, isFavorite, onToggle }: FavButtonProps) {
   return (
     <button
       onClick={onToggle}
@@ -32,7 +33,7 @@ export function FavButton({ isFavorite, onToggle }: FavButtonProps) {
         }}
         transition={{ duration: 0.3 }}
       >
-        <Heart
+        <Icon
           size={24}
           fill={isFavorite ? 'white' : 'none'}
           style={{ transition: 'fill 0.2s' }}

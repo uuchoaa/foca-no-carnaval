@@ -1,13 +1,17 @@
-import { Search, X } from 'lucide-react';
+import type { LucideIcon } from 'lucide-react';
 import { Input } from '../primitives/Input';
 
 interface SearchBarWithIconProps {
+  icon: LucideIcon;
+  clearIcon: LucideIcon;
   value: string;
   onChange: (value: string) => void;
   placeholder?: string;
 }
 
 export function SearchBarWithIcon({
+  icon: Icon,
+  clearIcon: ClearIcon,
   value,
   onChange,
   placeholder = 'Buscar blocos...',
@@ -16,7 +20,7 @@ export function SearchBarWithIcon({
 
   return (
     <div className="relative h-fit">
-      <Search
+      <Icon
         className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none z-10"
         size={20}
       />
@@ -30,7 +34,7 @@ export function SearchBarWithIcon({
           aria-label="Limpar"
           className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600 z-10"
         >
-          <X size={20} />
+          <ClearIcon size={20} />
         </button>
       ) : null}
     </div>

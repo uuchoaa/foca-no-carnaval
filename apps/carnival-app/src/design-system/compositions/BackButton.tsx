@@ -1,10 +1,11 @@
-import { ArrowLeft } from 'lucide-react';
+import type { LucideIcon } from 'lucide-react';
 
 interface BackButtonProps {
+  icon: LucideIcon;
   onGoBack: () => void;
 }
 
-export function BackButton({ onGoBack }: BackButtonProps) {
+export function BackButton({ icon: Icon, onGoBack }: BackButtonProps) {
   return (
     <button
       onClick={onGoBack}
@@ -24,7 +25,7 @@ export function BackButton({ onGoBack }: BackButtonProps) {
         e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.2)';
       }}
     >
-      <ArrowLeft size={24} />
+      <Icon size={24} />
     </button>
   );
 }

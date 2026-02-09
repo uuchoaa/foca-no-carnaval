@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import { Share2 } from 'lucide-react';
+import { ArrowLeft, Share2 } from 'lucide-react';
 import { Page, Text, BackButton, HStack, VStack } from '../design-system';
 
 export default function ShowsHomeScreen() {
@@ -10,7 +10,7 @@ export default function ShowsHomeScreen() {
       <Page.Header gradient="haze">
         <VStack gap={4}>
           <HStack justify="between" align="center">
-            <BackButton onGoBack={() => navigate(-1)} />
+            <BackButton icon={ArrowLeft} onGoBack={() => navigate(-1)} />
             <button
               type="button"
               className="p-2 rounded-lg bg-white/20 text-white hover:bg-white/30 transition-colors"

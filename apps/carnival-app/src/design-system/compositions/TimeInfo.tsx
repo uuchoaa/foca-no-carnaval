@@ -1,13 +1,14 @@
-import { Clock } from 'lucide-react';
+import type { LucideIcon } from 'lucide-react';
 
 interface TimeInfoProps {
+  icon: LucideIcon;
   time: string;
   label?: string;
   variant: 'bloco' | 'show';
   emphasis?: boolean;
 }
 
-export function TimeInfo({ time, label, variant, emphasis = false }: TimeInfoProps) {
+export function TimeInfo({ icon: Icon, time, label, variant, emphasis = false }: TimeInfoProps) {
   const color = variant === 'bloco' ? '#f97316' : '#9333ea';
 
   return (
@@ -19,7 +20,7 @@ export function TimeInfo({ time, label, variant, emphasis = false }: TimeInfoPro
         marginLeft: emphasis ? 0 : '28px',
       }}
     >
-      {emphasis && <Clock size={18} style={{ color }} />}
+      {emphasis && <Icon size={18} style={{ color }} />}
       <span
         style={{
           fontSize: emphasis ? '24px' : '18px',

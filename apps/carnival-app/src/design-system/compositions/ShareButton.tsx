@@ -1,6 +1,10 @@
-import { Share2 } from 'lucide-react';
+import type { LucideIcon } from 'lucide-react';
 
-export function ShareButton() {
+interface ShareButtonProps {
+  icon: LucideIcon;
+}
+
+export function ShareButton({ icon: Icon }: ShareButtonProps) {
   return (
     <button
       style={{
@@ -26,7 +30,7 @@ export function ShareButton() {
         e.currentTarget.style.backgroundColor = 'white';
       }}
     >
-      <Share2 size={20} />
+      <Icon size={20} />
       Compartilhar evento
     </button>
   );

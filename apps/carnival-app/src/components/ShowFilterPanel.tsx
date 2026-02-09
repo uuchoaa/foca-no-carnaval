@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Filter } from 'lucide-react';
 import { useEvents } from '../contexts/EventsContext';
 import type { ShowFilters } from '../types/events';
 import {
@@ -53,6 +54,7 @@ export default function ShowFilterPanel({ filters, onFilterChange }: ShowFilterP
 
   return (
     <FilterPanel
+      icon={Filter}
       isOpen={isOpen}
       onToggle={() => setIsOpen(!isOpen)}
       activeCount={activeCount}

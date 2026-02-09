@@ -1,9 +1,10 @@
 import type { ReactNode } from 'react';
-import { Filter } from 'lucide-react';
+import type { LucideIcon } from 'lucide-react';
 import { Card } from '../primitives/Card';
 import clsx from 'clsx';
 
 interface FilterPanelProps {
+  icon: LucideIcon;
   isOpen: boolean;
   onToggle: () => void;
   activeCount?: number;
@@ -11,20 +12,21 @@ interface FilterPanelProps {
 }
 
 export function FilterPanel({
+  icon: Icon,
   isOpen,
   onToggle,
   activeCount = 0,
   children,
 }: FilterPanelProps) {
   return (
-    <Card variant="muted" className="!p-0 !shadow-sm border border-gray-200 h-fit">
+    <Card variant="muted">
       <button
         type="button"
         onClick={onToggle}
         className="w-full px-4 py-3 flex items-center justify-between"
       >
         <div className="flex items-center gap-2">
-          <Filter size={20} className="text-orange" />
+          <Icon size={20} className="text-orange" />
           <span className="font-medium text-gray-900">Filtros</span>
           {activeCount > 0 ? (
             <span className="bg-orange text-white text-xs px-2 py-0.5 rounded-full font-medium">
