@@ -1,7 +1,6 @@
 import type { ReactNode } from 'react';
 import { motion } from 'framer-motion';
 import { pageHeaderGradients, type PageHeaderGradient } from '../tokens/gradients';
-import { Text } from '../primitives/Text';
 import { Show } from '../primitives/Show';
 import { LoadingSpinner } from '../compositions/LoadingSpinner';
 import { EmptyState } from '../compositions/EmptyState';
@@ -26,17 +25,15 @@ export function Page({ children }: PageProps) {
 
 interface PageHeaderProps {
   gradient: PageHeaderGradient;
-  title: string;
-  subtitle: string;
+  children: ReactNode;
 }
 
-function PageHeader({ gradient, title, subtitle }: PageHeaderProps) {
+function PageHeader({ gradient, children }: PageHeaderProps) {
   const gradientClass = pageHeaderGradients[gradient];
   return (
-    <div
+    <header
       className={gradientClass}
       style={{
-        color: 'white',
         padding: '24px',
         boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1)',
         position: 'relative',
@@ -50,14 +47,9 @@ function PageHeader({ gradient, title, subtitle }: PageHeaderProps) {
           padding: '0 16px',
         }}
       >
-        <Text variant="title">
-          {title}
-        </Text>
-        <Text variant="subtitle">
-          {subtitle}
-        </Text>
+        {children}
       </div>
-    </div>
+    </header>
   );
 }
 

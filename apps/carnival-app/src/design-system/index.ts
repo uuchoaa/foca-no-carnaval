@@ -8,8 +8,7 @@ export {
   FilterBar,
   CardGrid,
   AppLayout,
-  NavigationSidebar,
-  NavigationBottom,
+  Navigation,
   type NavItem,
 } from './layouts';
 export { Button } from './primitives/Button';

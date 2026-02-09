@@ -23,7 +23,7 @@ import {
 Use `Page` as the screen wrapper, then `Page.Header` and `Page.Content`. When the list is empty, pass `isEmpty` and `Page.Content` shows the default empty state (PT: "Nenhum item" / "Tente ajustar os filtros"):
 
 ```tsx
-import { Page, SectionHeading } from '../design-system';
+import { Page, Text, SectionHeading } from '../design-system';
 
 function MyScreen() {
   const items = []; // your data
@@ -32,11 +32,10 @@ function MyScreen() {
 
   return (
     <Page>
-      <Page.Header
-        gradient="blocos"
-        title="The Best Movies of All Times"
-        subtitle={`${items.length} items found`}
-      />
+      <Page.Header gradient="sunny">
+        <Text variant="title">The Best Movies of All Times</Text>
+        <Text variant="subtitle">{items.length} items found</Text>
+      </Page.Header>
       <Page.Content isLoading={isLoading} isEmpty={isEmpty}>
         {items.map((item) => (
           <div key={item.id}>
@@ -50,7 +49,7 @@ function MyScreen() {
 }
 ```
 
-`Page.Header` accepts `gradient` (e.g. `"blocos"`, `"shows"`, `"favorites"`), `title`, and `subtitle`. `Page.Content` accepts `isLoading`, `isEmpty`, and `center` for centered content.
+`Page.Header` is a container: it accepts `gradient` (e.g. `"sunny"`, `"haze"`, `"love"`) and `children`—compose title, subtitle, search, or actions with primitives like `Text`. `Page.Content` accepts `isLoading`, `isEmpty`, and `center` for centered content.
 
 ## Structure
 
@@ -59,7 +58,7 @@ function MyScreen() {
 | **tokens/** | Colors, spacing, typography, gradients. Single source of truth; keep in sync with `tailwind.config.js` where Tailwind classes are used. |
 | **primitives/** | Low-level components: Button, Card, Badge, Input, Text, Checkbox, Divider, Show. Minimal props, no app logic. |
 | **compositions/** | Combinations of primitives and tokens: SearchBarWithIcon, DateChipRow, ChipGroup, FilterPanel, TagList, SectionHeading, EmptyState, etc. |
-| **layouts/** | Page (header/content/footer/empty), FilterBar, CardGrid, AppLayout, NavigationBottom, NavigationSidebar. |
+| **layouts/** | Page (header/content/footer/empty), FilterBar, CardGrid, AppLayout, Navigation. |
 
 ## Tokens
 
