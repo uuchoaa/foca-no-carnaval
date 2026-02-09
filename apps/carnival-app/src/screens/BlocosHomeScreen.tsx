@@ -1,9 +1,9 @@
 import { useMemo } from 'react';
-import { Clock, MapPin } from 'lucide-react';
+import { Clock, Heart, MapPin } from 'lucide-react';
 import { useEvents } from '../contexts/EventsContext';
 import type { Bloco } from '../types/events';
 import { groupByDate, formatDate } from '../utils/dateHelpers';
-import { Page, Text, Card, CardGrid, Badge, VStack, SectionHeading, Divider, IconLabel } from '../design-system';
+import { Page, Text, Card, CardGrid, Badge, VStack, HStack, SectionHeading, Divider, IconLabel } from '../design-system';
 
 export default function BlocosHomeScreen() {
   const { getBlocos, loading } = useEvents();
@@ -29,7 +29,17 @@ export default function BlocosHomeScreen() {
                 {(events as Bloco[]).map((bloco) => (
                   <Card key={bloco.id} interactive>
                     <VStack gap={2} align="start">
-                      <Text variant="title">{bloco.name}</Text>
+                      <HStack justify="between" align="center" gap={2} className="w-full min-w-0">
+                        <div className="min-w-0 flex-1">
+                          <Text variant="title">{bloco.name}</Text>
+                        </div>
+                        <div className="self-center flex-shrink-0">
+                        <IconLabel icon={Heart} iconColor="primary" iconSize={20}>
+                          <></>
+                        </IconLabel>
+                        </div>
+                        
+                      </HStack>
                       <Badge color="blue">{bloco.city}</Badge>
                       <IconLabel icon={Clock} iconColor="primary">
                         <Text variant="small">

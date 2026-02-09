@@ -34,7 +34,6 @@ export {
   LoadingSpinner,
   SectionHeading,
   BackButton,
-  FavButton,
   InfoCard,
   TimeInfo,
   AnimatedContainer,
