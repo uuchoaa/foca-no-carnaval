@@ -13,78 +13,6 @@ compositions/→ Combined primitives (SearchBarWithIcon, ChipGroup, FilterPanel,
 layouts/     → Page structure (Page, AppLayout, Navigation, CardGrid, etc.)
 contexts/    → Shared context (WiseAppContext for nav & i18n)
 ```
-
-## Installation
-
-### 1. Add Dependency
-
-In your app's `package.json`:
-
-```json
-{
-  "dependencies": {
-    "wise-ui": "*"
-  }
-}
-```
-
-Run `npm install` from monorepo root.
-
-### 2. Configure Tailwind
-
-In `tailwind.config.js`, include WiseUI source in content:
-
-```js
-const path = require('path');
-
-module.exports = {
-  content: [
-    './src/**/*.{js,ts,jsx,tsx}',
-    path.join(__dirname, '../../packages/wise-ui/src/**/*.{js,ts,jsx,tsx}'),
-  ],
-  theme: {
-    extend: {
-      colors: {
-        carnival: {
-          yellow: '#FFD700',
-          orange: '#FF8C00',
-          purple: '#9370DB',
-          pink: '#FF69B4',
-          green: '#32CD32',
-        },
-      },
-      fontFamily: {
-        hero: ['Pacifico', 'cursive'],
-        display: ['Poppins', 'sans-serif'],
-        sans: ['Inter', 'sans-serif'],
-      },
-    },
-  },
-};
-```
-
-### 3. Install Peer Dependencies
-
-```bash
-npm install react react-dom clsx framer-motion lucide-react react-router-dom
-```
-
-## Usage
-
-### Basic Import
-
-```tsx
-import {
-  Page,
-  Button,
-  Card,
-  Text,
-  SearchBarWithIcon,
-  DateChipRow,
-  pageHeaderGradients,
-} from 'wise-ui';
-```
-
 ### Page Structure
 
 Use `Page` as the root wrapper with `Page.Header` and `Page.Content`:
@@ -854,28 +782,3 @@ refactor[wise-ui]: simplify card variants
    <Text variant="title" color="primary">Heading</Text>
    ```
 
-## Troubleshooting
-
-### Tailwind Classes Not Applied
-
-Ensure WiseUI source is in `tailwind.config.js` content array and carnival colors are defined in theme.
-
-### Context Errors
-
-Wrap app with `WiseAppContext.Provider` before using any WiseUI components.
-
-### Icons Not Rendering
-
-Install `lucide-react`: `npm install lucide-react`.
-
-### Type Errors
-
-Ensure `typescript` and `@types/react` versions are compatible with React 18+.
-
-## Examples
-
-See `/apps/carnival-app` for complete implementation examples.
-
-## License
-
-Private package for internal use.
